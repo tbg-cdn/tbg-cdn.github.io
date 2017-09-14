@@ -1,0 +1,72 @@
+/*
+  Theme Name: Rehub child theme - Recash
+  Theme URI: http://recash.wpsoul.net/
+  Description: A Hybrid magazine/shop/review/news Wordpress Theme
+  Author: Wpsoul
+  Author URI: https://wpsoul.com/
+  Version: 6.9.4
+  Template: rehub
+  Text Domain: rehubchild
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+body { background: none #f2f2f2; }
+.main-nav { background: #ededed; background: -moz-linear-gradient(top, #fff 0%, #f6f6f6 47%, #ededed 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(47%, #f6f6f6), color-stop(100%, #ededed)); background: -webkit-linear-gradient(top, #fff 0%, #f6f6f6 47%, #ededed 100%); background: -o-linear-gradient(top, #fff 0%, #f6f6f6 47%, #ededed 100%); background: -ms-linear-gradient(top, #fff 0%, #f6f6f6 47%, #ededed 100%); background: linear-gradient(to bottom, #fff 0%, #f6f6f6 47%, #ededed 100%);  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+ border-bottom: none !important; }
+.main-nav.dark_style{background-color: #3171C9; background: -webkit-linear-gradient(top, #3171C9, #2156A0);background: linear-gradient(to bottom, #3171C9, #2156A0);background: -moz-linear-gradient(top, #3171C9, #2156A0);background: -ms-linear-gradient(top, #3171C9, #2156A0);background: -o-linear-gradient(top, #3171C9, #2156A0);}
+nav.top_menu > ul > li > a  {padding: 8px 16px 12px 16px; }
+nav.top_menu > ul > li > a:hover, nav.top_menu > ul > li.current-menu-item a{border-top-color:#fff;}
+.category .wpsm-title.middle-size-title h5, .tag .wpsm-title.middle-size-title h5{padding: 0}
+
+@media screen and (min-width: 1225px) {
+.mediad_layout_enabled .carouselhor-item .l-part-car{width: 120px}
+.mediad_layout_enabled .carouselhor-item figure{ width: 120px; height: 90px}
+.mediad_layout_enabled .carouselhor-item .r-part-car{margin: 0 0 0 135px;}
+}
+
+.widget.tabs > ul{border: none;}
+.widget.better_menu .bordered_menu_widget, .sidebar .widget.tabs, .widget.outer_widget{border: none; padding: 0; background-color: transparent; box-shadow: none;}
+.postNavigation a{ background-color: #868686}
+
+.showmefulln{position: absolute;bottom: 20px;right: 20px; margin-top: 5px; line-height: 12px; font-size: 12px; font-weight: normal !important;}
+.showmefulln:after{ font-family: FontAwesome; content: "\f107"; margin: 0 3px; display: inline-block; }
+.showmefulln.compress:after{content: "\f106";}
+.newscom_content_ajax .post_carousel_block, .newscom_content_ajax .countdown_dashboard, .newscom_content_ajax .post_slider{display: none !important}
+.newscom_content_ajax .single_price_count{max-width: 1000px; font-size: 24px; margin-top:25px;}
+
+.rate_bar_wrap{background-color: transparent;padding: 30px}
+.re-line-badge.re-line-table-badge{padding: 5px 8px 5px 20px;font: normal 13px/15px Arial;}
+.re-line-badge span:before, .re-line-badge span:after{display: none;}
+.newscom_btn_block{display: block; padding: 0; width: auto;}
+.featured_newscom_left .grid_onsale{bottom: 0; top: auto;}
+   
+@media screen and (max-width: 700px){
+	.carousel-style-3 .controls.prev { left: 10px;  }
+	.carousel-style-3 .controls.next { right: 10px; }	
+}
+.feat_part_f_width{width: 100%; padding: 20px 0;border-bottom: 1px solid #ddd; background-color: #fff; margin: 0 0 20px 0 }
+.feat_part_f_width .post_carousel_block{margin: 0; }
+.feat_part_f_width .carousel-style-deal .deal-item-wrap .deal-detail{width: 150px; margin: 10px auto 0 auto}
+
+.sidebar .wpsm_recent_posts_list .item-small-news {border-bottom: 1px solid #E4E4E4;padding: 10px 0;background: radial-gradient(ellipse at top, rgba(255,255,255,0.75), rgba(255,255,255,0) 75%);}
+.table_cell_hot.fullwidth_cell{opacity: 0}
+.single_priced_block .time_offer{text-align: center;margin: 10px 0 0 0}
+
+@media screen and (max-width: 768px){
+.mobile_compact_list{padding: 14px}
+.mobile_compact_list .featured_newscom_left{float: left; margin: 0 20px 8px 0}
+.mobile_compact_list .featured_newscom_left, .mobile_compact_list .featured_newscom_left > div{width: 120px}
+.mobile_compact_list .featured_newscom_left figure{width: 120px; height: 120px; }
+.mobile_compact_list .newscom_detail{width: calc(100% - 140px); float: left;}
+.mobile_compact_list .btn_block_part .btn_offer_block{display: block;padding: 10px;}
+.mobile_compact_list .info_in_dealgrid{overflow: hidden;}
+}
+
+@media screen and (max-width: 500px){
+.mobile_compact_list .rh-expired-notice{display: block;float: none; margin-bottom: 5px}
+.mobile_compact_list .newscom_detail h3{font-size: 18px; line-height: 20px; word-wrap: break-word}
+.mobile_compact_list .wpsm_update, .mobile_compact_list .newscom_detail p{display: none;}
+.mobile_compact_list .post-meta span{margin-bottom: 8px}
+}

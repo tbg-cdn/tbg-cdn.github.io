@@ -1,0 +1,131 @@
+/* RTL Theme CSS */
+
+p.terms {
+	margin-left: auto;
+	margin-right: 40px;
+	margin-left: 15px;
+	text-indent: -25px;
+	position: relative;
+	font-size: 90%;
+	text-align: left;
+	margin-top: 20px;
+}
+	p.terms input {
+		display: inline-block;
+	}
+
+.product-carousel h2 {
+	padding-right: 12px;
+}
+
+#content .woocommerce-tabs .panel th, #content .woocommerce-tabs .panel td {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.gridlist-toggle {
+    display: none;
+}
+
+.recently-viewed li img {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+div.page-description {
+    display: none;
+}
+
+#content .page-title {
+	display: block;
+}
+
+#menu-right  {
+	text-align: left;
+}
+
+.price {
+	margin-right: 12px;
+}
+
+.product td.value:after {
+	right: inherit;
+	left: 10px;
+}
+
+.sort-filter-buttons button {
+	padding: 4px 6px 4px 18px;
+	position: relative;
+}
+	.sort-filter-buttons button i.wptouch-icon-arrow-combo {
+		left: 0px;
+		bottom: 3px;
+	}
+
+.woocommerce-ordering:after {
+	right: inherit;
+	left: 15px;
+}
+
+.woocommerce-cart .cart .variation {
+	padding: 0 50px 0 0;
+}
+
+.woocommerce-cart #content .cart li a.plus {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.woocommerce-cart #content .cart li .minus {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.woocommerce-cart .cart li div.quantity {
+    top: 50%;
+    right: 0;
+    font-size: 85%;
+    margin-top: -40px;
+    position: relative;
+}
+div.quantity.body-font{
+   text-align: left;
+}
+
+
+p.product-title.body-font, span.quantity.body-font{
+padding-right: 50px;
+}
+
+div#menu-right.cart ul.cart_list.product_list_widget{
+text-align: -webkit-left;
+}
+
+h3#order_review_heading.body-font.heading-font{
+text-align: -webkit-center;
+}
+
+td.product-name.body-font{
+text-align: -webkit-left;
+}
+
+div#order_review.table-parent.body-font{
+direction: ltr;
+}
+
+h2.post-title.heading-font{
+    text-align: -webkit-center;
+}
+
+p.form-row.terms.body-font{
+    text-align: center;
+}
+
+i.wptouch-icon-arrow-combo {
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    font: 14px/0 wptouch-icons;
+    direction: initial;
+}

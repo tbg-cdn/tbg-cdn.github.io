@@ -1,0 +1,14 @@
+/*
+  Theme Name: Rehub child theme - Recash
+  Theme URI: https://themeforest.net/item/rehub-directory-multi-vendor-shop-coupon-affiliate-theme/7646339
+  Description: A Hybrid magazine/shop/review/news Wordpress Theme
+  Author: Sizam
+  Author URI: https://wpsoul.com/
+  Version: 6.0
+  Template: rehub
+  Text Domain: rehubchild
+*/
+
+.featured_single_left{padding: 0 0 0 20px;}
+.single_top_corner{padding: 0 20px 0 0}
+.single_top_corner .wpsm-button{float: left;}

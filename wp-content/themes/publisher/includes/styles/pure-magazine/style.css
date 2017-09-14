@@ -1,0 +1,589 @@
+/*
+
+Publisher
+    |-> Pure Style
+        |-> Magazine Demo
+
+
+*** TABLE OF CONTENTS:
+    =>Colors
+    =>General Styles
+    =>Headers
+    =>Section and Widget
+    =>Blocks
+    =>Post Templates
+    =>Footer
+    =>Archive Title
+    =>Gallery Slider
+    =>bbPress
+    =>WooCommerce
+    =>Visual Composer
+    =>Attachment
+*/
+
+
+/**
+ * =>Colors
+ **/
+.main-bg-color,
+.btn,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+.btn:focus,
+.btn:hover,
+button:focus,
+button:hover,
+html input[type="button"]:focus,
+html input[type="button"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover,
+input[type="button"]:focus,
+input[type="button"]:hover,
+.main-menu.menu .sub-menu li.current-menu-item:hover > a:hover,
+.main-menu.menu .better-custom-badge,
+ul.sub-menu.bs-pretty-tabs-elements .mega-menu.mega-type-link .mega-links > li:hover > a,
+.widget.widget_nav_menu .menu .better-custom-badge,
+.widget.widget_nav_menu ul.menu li > a:hover,
+.widget.widget_nav_menu ul.menu li.current-menu-item > a,
+.responsive-header .menu-container .resp-menu .better-custom-badge,
+.bs-popular-categories .bs-popular-term-item:hover .term-count,
+.widget.widget_tag_cloud .tagcloud a:hover,
+span.dropcap.dropcap-square,
+span.dropcap.dropcap-circle,
+.bs-tab-shortcode .nav-tabs>li>a:focus,
+.bs-tab-shortcode .nav-tabs>li>a:hover,
+.bs-tab-shortcode .nav-tabs>li.active>a,
+.better-control-nav li a.better-active,
+.better-control-nav li:hover a,
+.main-menu.menu > li:hover > a:before,
+.main-menu.menu > li.current-menu-parent > a:before,
+.main-menu.menu > li.current-menu-item > a:before,
+.main-slider .better-control-nav li a.better-active,
+.main-slider .better-control-nav li:hover a,
+.site-footer.color-scheme-dark .footer-widgets .widget.widget_tag_cloud .tagcloud a:hover,
+.site-footer.color-scheme-dark .footer-widgets .widget.widget_nav_menu ul.menu li a:hover,
+.entry-terms.via a:hover,
+.entry-terms.source a:hover,
+.entry-terms.post-tags a:hover,
+.comment-respond #cancel-comment-reply-link,
+.better-newsticker .heading,
+.listing-item-text-1:hover .term-badges.floated .term-badge a,
+.term-badges.floated a,
+.archive-title .term-badges span.term-badge a:hover,
+.post-tp-1-header .term-badges a:hover,
+.archive-title .term-badges a:hover,
+.listing-item-tb-2:hover .term-badges.floated .term-badge a,
+.btn-bs-pagination:hover, .btn-bs-pagination.hover, .btn-bs-pagination.bs-pagination-in-loading,
+.bs-slider-dots .bs-slider-active > .bts-bs-dots-btn,
+.listing-item-classic:hover a.read-more,
+.bs-loading > div,
+.pagination.bs-links-pagination a:hover,
+.footer-widgets .bs-popular-categories .bs-popular-term-item:hover .term-count,
+.footer-widgets .widget .better-control-nav li a:hover,
+.footer-widgets .widget .better-control-nav li a.better-active,
+.bs-slider-2-item .content-container a.read-more:hover,
+.bs-slider-3-item .content-container a.read-more:hover,
+.main-menu.menu .sub-menu li.current-menu-item:hover > a,
+.main-menu.menu .sub-menu > li:hover > a,
+.bs-slider-2-item .term-badges.floated .term-badge a,
+.bs-slider-3-item .term-badges.floated .term-badge a,
+.listing-item-blog:hover a.read-more,
+.back-top,
+.site-header .shop-cart-container .cart-handler .cart-count,
+.site-header .shop-cart-container .cart-box:after,
+.single-attachment-content .return-to:hover .fa,
+.topbar .topbar-date,
+.ajax-search-results:after,
+.better-gallery .gallery-title .prev:hover,.better-gallery .gallery-title .next:hover{
+    background-color:#0080ce !important;
+}
+button{
+    background-color:#0080ce;
+}
+.main-color,
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus,
+.widget.widget_nav_menu .menu .better-custom-badge,
+.widget.widget_recent_comments a:hover,
+.bs-popular-categories .bs-popular-term-item,
+.main-menu.menu .sub-menu li.current-menu-item > a,
+.bs-about .about-link a,
+.comment-list .comment-footer .comment-reply-link:hover,
+.comment-list li.bypostauthor > article > .comment-meta .comment-author a,
+.comment-list li.bypostauthor > article > .comment-meta .comment-author,
+.comment-list .comment-footer .comment-edit-link:hover,
+.comment-respond #cancel-comment-reply-link,
+span.dropcap.dropcap-square-outline,
+span.dropcap.dropcap-circle-outline,
+ul.bs-shortcode-list li:before,
+a:hover,
+.post-meta a:hover,
+.site-header .top-menu.menu > li:hover > a,
+.site-header .top-menu.menu .sub-menu > li:hover > a,
+.mega-menu.mega-type-link-list .mega-links > li > a:hover,
+.mega-menu.mega-type-link-list .mega-links > li:hover > a,
+.listing-item .post-footer .post-share:hover .share-handler,
+.listing-item-classic .title a:hover,
+.single-post-content > .post-author .pre-head a:hover,
+.single-post-content a, .single-page-simple-content a,
+.site-header .search-container.open .search-handler,
+.site-header .search-container:hover .search-handler,
+.site-header .shop-cart-container.open .cart-handler,
+.site-header .shop-cart-container:hover .cart-handler,
+.site-footer .copy-2 a:hover,
+.site-footer .copy-1 a:hover,
+ul.menu.footer-menu li > a:hover,
+.responsive-header .menu-container .resp-menu li:hover > a,
+.listing-item-thumbnail:hover .title a,
+.listing-item-grid:hover .title a,
+.listing-item-blog:hover .title a,
+.listing-item-classic:hover .title a,
+.better-newsticker ul.news-list li a:hover,
+.better-newsticker .control-nav span:hover,
+.listing-item-text-1:hover .title a,
+.post-meta a:hover,
+.pagination.bs-numbered-pagination > span,
+.pagination.bs-numbered-pagination .wp-pagenavi a:hover,
+.pagination.bs-numbered-pagination .page-numbers:hover,
+.pagination.bs-numbered-pagination .wp-pagenavi .current,
+.pagination.bs-numbered-pagination .current,
+.listing-item-text-2:hover .title a,
+.section-heading a:hover,
+.bs-popular-categories .bs-popular-term-item:hover,
+.main-menu.menu > li:hover > a,
+.listing-mg-5-item:hover .title,
+.listing-item-tall:hover > .title,
+.bs-text a,
+.section-heading.multi-tab .main-link:hover .h-text{
+    color:#0080ce;
+}
+.footer-widgets .widget a:hover,
+.bs-listing-modern-grid-listing-5 .listing-mg-5-item:hover .title a:hover,
+.bs-listing-modern-grid-listing-5 .listing-mg-5-item:hover .title a,
+.tabbed-grid-posts .tabs-section .active a,
+.bs-accordion-shortcode .panel.open .panel-heading a,
+.bs-accordion-shortcode .panel .panel-heading a:hover,
+.section-heading .other-link:hover .h-text,
+.section-heading.multi-tab .active .h-text,
+.bs-pretty-tabs-container:hover .bs-pretty-tabs-more.other-link .h-text,
+.section-heading .bs-pretty-tabs-more.other-link:hover .h-text.h-text{
+    color:#0080ce !important;
+}
+textarea:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="color"]:focus,
+input[type="text"]:focus,
+.widget.widget_nav_menu .menu .better-custom-badge:after,
+.better-gallery .fotorama__thumb-border,
+span.dropcap.dropcap-square-outline,
+span.dropcap.dropcap-circle-outline,
+.bs-tab-shortcode .nav.nav-tabs,
+.bs-tab-shortcode .tab-content .tab-pane,
+.bs-accordion-shortcode .panel.open .panel-heading+.panel-collapse>.panel-body,
+.bs-accordion-shortcode .panel.open,
+.comment-respond textarea:focus,
+.better-newsticker .control-nav span:hover,
+.archive-title .term-badges a:hover,
+.listing-item-text-2 .item-inner,
+.btn-bs-pagination:hover, .btn-bs-pagination.hover, .btn-bs-pagination.bs-pagination-in-loading,
+.bs-slider-2-item .content-container a.read-more,
+.bs-slider-3-item .content-container a.read-more,
+.pagination.bs-links-pagination a:hover,
+body.active-top-line .main-wrap,
+.entry-content blockquote.bs-pullquote-left{
+    border-color:#0080ce;
+}
+.main-menu.menu .better-custom-badge:after{
+    border-top-color:#0080ce;
+}
+::selection{
+    background:#0080ce;
+}
+::-moz-selection{
+    background:#0080ce;
+}
+.term-badges.text-badges .term-badge a{
+    color: #0080ce !important;
+    background-color: transparent !important;
+}
+#bbpress-forums li.bbp-forum-info.single-forum-info .bbp-forum-title:before,
+#bbpress-forums .bbp-forums-list li:before,
+#bbpress-forums p.bbp-topic-meta .freshness_link a,
+#bbpress-forums .bbp-forums-list li a,
+.bbp-reply-content a{
+    color:#0080ce;
+}
+#bbpress-forums #bbp-search-form #bbp_search_submit,
+#bbpress-forums li.bbp-header:before,
+#bbpress-forums button.user-submit, .bbp-submit-wrapper button,
+#bbpress-forums li.bbp-header:before{
+    background-color:#0080ce;
+}
+.better-gcs-result .gsc-result .gs-title:hover *,
+.better-gcs-result .gsc-result .gs-title:hover,
+.better-gcs-result .gsc-results .gsc-cursor-box .gsc-cursor-current-page,
+.better-gcs-result .gsc-results .gsc-cursor-box .gsc-cursor-page:hover{
+    color:#0080ce;
+}
+.betterstudio-review .verdict .overall,
+.rating-bar span{
+    background-color:#0080ce;
+}
+.rating-stars span:before{
+    color:#0080ce;
+}
+.woocommerce  .woocommerce-Reviews .star-rating,
+.woocommerce div.product p.price,
+.woocommerce div.product span.price,
+.woocommerce div.product .woocommerce-product-rating,
+.woocommerce ul.products li.product .price,
+.woocommerce-MyAccount-navigation ul li.is-active a,
+.woocommerce-MyAccount-navigation ul li a:hover{
+    color:#0080ce !important;
+}
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce span.onsale,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button.added,
+.woocommerce a.button.loading,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range{
+    background-color:#0080ce !important;
+}
+.header-style-1.full-width .bs-pinning-block.pinned.main-menu-wrapper,
+.header-style-1.boxed .bs-pinning-block.pinned .main-menu-container,
+.header-style-2.full-width .bs-pinning-block.pinned.main-menu-wrapper,
+.header-style-2.boxed .bs-pinning-block.pinned .main-menu-container,
+.header-style-3.full-width .bs-pinning-block.pinned.main-menu-wrapper,
+.header-style-3.boxed .bs-pinning-block.pinned .main-menu-container,
+.header-style-4.full-width .bs-pinning-block.pinned.main-menu-wrapper,
+.header-style-4.boxed .bs-pinning-block.pinned .main-menu-container,
+.header-style-5.full-width .bspw-header-style-5 .bs-pinning-block.pinned,
+.header-style-5.boxed .bspw-header-style-5 .bs-pinning-block.pinned .header-inner,
+.header-style-6.full-width .bspw-header-style-6 .bs-pinning-block.pinned,
+.header-style-6.boxed .bspw-header-style-6 .bs-pinning-block.pinned .header-inner,
+.header-style-7.full-width .bs-pinning-block.pinned.main-menu-wrapper,
+.header-style-7.boxed .bs-pinning-block.pinned .main-menu-container,
+.header-style-8.full-width .bspw-header-style-8 .bs-pinning-block.pinned,
+.header-style-8.boxed .bspw-header-style-8 .bs-pinning-block.pinned .header-inner{
+    border-top:3px solid #0080ce;
+}
+.section-heading.multi-tab:after{
+    background-color:#0080ce;
+}
+.site-header.full-width .topbar{
+    background-color:#ffffff;
+}
+.site-header.boxed .topbar .topbar-inner{
+    background-color:#ffffff;;
+}
+.site-header.full-width .topbar,
+.site-header.boxed .topbar .topbar-inner{
+    border-color:#e6e6e6;
+}
+.topbar .better-social-counter.style-button .social-item:hover .item-icon{
+    color:#0080ce;
+}
+.site-header.header-style-1,
+.site-header.header-style-2,
+.site-header.header-style-3,
+.site-header.header-style-4,
+.site-header.header-style-5.full-width,
+.site-header.header-style-5.boxed > .content-wrap > .container,
+.site-header.header-style-5.boxed > .bs-pinning-wrapper > .bs-pinning-block,
+.site-header.header-style-6,
+.site-header.header-style-6 > .content-wrap > .bs-pinning-wrapper > .bs-pinning-block,
+.site-header.header-style-7,
+.site-header.header-style-8,
+.site-header.header-style-8 > .content-wrap > .bs-pinning-wrapper > .bs-pinning-block{
+    background-color:#ffffff;
+}
+ul.menu.footer-menu li > a,
+.site-footer .copy-2 a,
+.site-footer .copy-2,
+.site-footer .copy-1 a,
+.site-footer .copy-1{
+    color:#282e28;
+}
+.site-footer .copy-footer{
+    background-color:#ffffff;
+}
+.site-footer .footer-social-icons{
+    background-color:#ffffff;
+}
+.site-footer{
+    background-color:#ffffff;
+}
+.widget .widget-heading > .h-text{
+    color:#444444;
+}
+.section-heading .h-text{
+    color:#444444;
+}
+
+
+/**
+ * =>General style
+ **/
+a, a:focus, a:hover{
+    text-decoration: none;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+body.active-top-line .main-wrap {
+    border-top-width: 4px;
+}
+.term-badges.floated {
+    left: 0;
+}
+.rtl .term-badges.floated {
+    right: 0;
+    left: auto;
+}
+
+
+/**
+ * =>Headers
+ **/
+.site-header.full-width .main-menu-wrapper,
+.site-header.boxed .main-menu-wrapper .main-menu-container{
+    border-bottom-width: 1px;
+}
+ul.menu > li .sub-menu, .menu .mega-menu {
+    top: 102%;
+    top: calc(100% + 1px);
+}
+.main-menu > li > a {
+    padding: 0 9px;
+}
+.site-header.header-style-8.boxed .header-inner,
+.site-header.header-style-8.full-width,
+.site-header.boxed.header-style-7 .main-menu-wrapper .main-menu-container,
+.site-header.full-width.header-style-7 .main-menu-wrapper,
+.site-header.header-style-6.boxed .header-inner,
+.site-header.header-style-6.full-width,
+.site-header.header-style-5.boxed .header-inner,
+.site-header.header-style-5.full-width,
+.site-header.boxed.header-style-4 .main-menu-wrapper .main-menu-container,
+.site-header.full-width.header-style-4 .main-menu-wrapper,
+.site-header.boxed.header-style-3 .main-menu-wrapper .main-menu-container,
+.site-header.full-width.header-style-3 .main-menu-wrapper {
+    border-bottom-color: #dedede;
+}
+.rtl .main-menu.menu > li .sub-menu,
+.rtl .menu .mega-menu {
+    text-align: right;
+}
+.site-header.header-style-3 .header-inner {
+    padding: 22px 0;
+}
+.site-header .search-container .search-handler {
+    line-height: 25px;
+}
+.site-header.header-style-1 .main-menu.menu,
+.site-header.header-style-2 .main-menu.menu{
+    margin-bottom: -1px;
+}
+
+
+/**
+ * =>Section and Widget
+ **/
+.section-heading .h-text {
+    background: transparent;
+    padding: 4px 0;
+}
+.section-heading:after{
+    top: -4px;
+    height: 4px;
+}
+.section-heading:before{
+    content: '';
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #e2e2e2;
+    background: rgba(0, 0, 0, 0.10);
+}
+.rtl .section-heading:before {
+    right: 0;
+    left: auto;
+}
+.section-heading.multi-tab .main-link .h-text,
+.section-heading .other-link .h-text,
+.section-heading.multi-tab .main-link.active .h-text,
+.section-heading .active > .h-text{
+    background: transparent;
+}
+.bs-pretty-tabs .bs-pretty-tabs-container .bs-pretty-tabs-more.other-link .h-text,
+.bs-pretty-tabs .bs-pretty-tabs-container:hover .bs-pretty-tabs-more.other-link .h-text {
+    border: none;
+    padding-right: 0;
+}
+.rtl .bs-pretty-tabs .bs-pretty-tabs-container .bs-pretty-tabs-more.other-link .h-text,
+.rtl .bs-pretty-tabs .bs-pretty-tabs-container:hover .bs-pretty-tabs-more.other-link .h-text {
+    border: none;
+    padding-right: auto;
+    padding-left: 0;
+}
+.widget .widget-heading,
+.section-heading {
+    padding: 4px 0 0;
+}
+.section-heading.multi-tab:after,
+.section-heading:after,
+.widget .widget-heading:after {
+    top: 1px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    width: auto;
+    background: #444;
+}
+.widget .widget-heading > .h-text{
+    background: transparent;
+    padding: 4px 0;
+}
+.widget .widget-heading:before{
+    content: '';
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #e2e2e2;
+    background: rgba(0, 0, 0, 0.10);
+}
+.rtl .widget .widget-heading:before {
+    right: 0;
+    left: auto;
+}
+.section-heading.multi-tab .main-link.active .h-text,
+.section-heading .active > .h-text {
+    color: #444;
+}
+.section-heading.multi-tab .main-link:hover .h-text,
+.section-heading.multi-tab .main-link.active .h-text,
+.section-heading .active > .h-text,
+.section-heading .other-link:hover .h-text{
+    background-color: transparent;
+}
+.section-heading.multi-tab .main-link .h-text,
+.section-heading .other-link .h-text{
+    border: none;
+}
+.bs-pretty-tabs.bs-pretty-tabs-initialized .bs-pretty-tabs-container:hover .bs-pretty-tabs-more.other-link .h-text:after{
+    display: none;
+}
+.bs-pretty-tabs-container .bs-pretty-tabs-elements .h-text {
+    margin: 0;
+    line-height: 20px;
+}
+.bs-pretty-tabs-container .bs-pretty-tabs-elements {
+    right: -15px;
+    top: 105%;
+}
+.rtl .bs-pretty-tabs-container .bs-pretty-tabs-elements {
+    left: -15px;
+}
+.widget.widget_bs-subscribe-newsletter .widget-heading > .h-text{
+    background: transparent;
+}
+.post-related .section-heading.multi-tab:after {
+    height: 4px;
+}
+
+
+/**
+ * =>Blocks
+ **/
+.listing-item-tb-2 .term-badges.floated .term-badge a{
+    font-size: 83%;
+}
+.bs-slider-2-item .content-container,
+.bs-slider-3-item .content-container{
+    background: rgba(255, 255, 255, 0.93);
+}
+.better-social-counter.style-modern .social-item{
+    border-bottom-color: #f1f1f1;
+}
+.bs-popular-categories .bs-popular-terms-list {
+    padding: 0;
+}
+.widget.widget_bs-subscribe-newsletter {
+    background: transparent;
+    padding: 0 !important;
+}
+
+
+/**
+ * =>Post Templates
+ **/
+.post-related .section-heading{
+    margin-left: -21px;
+    margin-top: -20px;
+    margin-right: -21px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/**
+ * =>Footer
+ **/
+.site-footer .footer-social-icons,
+.site-footer .copy-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.footer-instagram-3 .simply-scroll-list li {
+    padding: 8px;
+    background: #fff;
+    border: 1px solid #dedede;
+}
+.footer-widgets.light-text .widget .widget-heading .h-text,
+.footer-widgets.dark-text .widget .widget-heading .h-text{
+    background: none;
+}
+.footer-widgets .widget .widget-heading:after {
+    top: 0;
+    height: 4px;
+}
+
+
+/**
+ * =>Archive Title
+ **/
+.archive-title .pre-title:after {
+    top: 0;
+    height: 4px;
+}
+.archive-title {
+    margin-top: -2px;
+}
+

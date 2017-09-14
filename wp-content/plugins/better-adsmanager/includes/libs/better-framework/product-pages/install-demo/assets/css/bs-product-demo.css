@@ -1,0 +1,184 @@
+/**
+    =>BS Product Import Style
+ **/
+
+
+/**
+* =>BS Product Import Style
+**/
+
+.bs-pages-demo-item {
+    width: 330px;
+    float: left;
+    background: rgb(252, 252, 252);
+    -webkit-box-shadow: 0 1px 1px -1px rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px -1px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+    height: 294px;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 15px;
+    color: #3b3b3b;
+    margin-right: 22px;
+    margin-bottom: 36px;
+    position: relative;
+    overflow: hidden;
+}
+.bs-pages-demo-item figure {
+    display: block;
+    margin: 0;
+    padding: 0;
+    min-height:232px;
+}
+.bs-pages-demo-item figure img {
+    width: 100%;
+    display: block;
+}
+.bs-pages-demo-item-footer {
+    background: #FCFCFC;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #fcfcfc;
+}
+.bs-pages-demo-name {
+    text-align: left;
+    color: #3b3b3b;
+    position: absolute;
+    font-weight: 600;
+    padding: 12px 0 12px 12px;
+    font-size: 15px;
+    line-height: 28px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bs-pages-buttons {
+    display: block;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+.bs-pages-buttons a {
+    margin: 0 0 0 12px;
+    white-space: nowrap;
+}
+
+.bs-pages-buttons a:last-child{
+    margin-right: 0;
+}
+.bs-pages-demo-item-footer .highlight-section {
+    z-index: 69;
+    max-width:100%;
+    background: rgba(244,244,244,.7);
+    border-left: 1px solid rgba(0,0,0,.05);
+}
+.installed .bs-pages-buttons>span:not(.uninstall-demo) {
+    display: none;
+}
+.installed .bs-pages-buttons .uninstall-demo {
+    display: block;
+}
+.bs-pages-buttons>span {
+    float: right;
+    position: relative;
+    z-index: 99;
+    padding: 12px;
+    height: 52px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bs-pages-buttons>span:last-child {
+    margin-left: 0;
+}
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.bs-pages-secondary-btn {
+    background: #fbfbfb;
+    color: #757575;
+    border-color: #e3e3e3;
+}
+.bs-pages-buttons .uninstall-demo {
+    display: none;
+}
+.installed .bs-pages-buttons .uninstall-demo {
+    display: block;
+}
+.bs-pages-buttons .uninstall-demo .bs-pages-secondary-btn {
+    color: #e74a4a;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+
+
+.installed .bs-pages-progressbar .bs-pages-progress {
+    background-color: #de3030;
+}
+.bs-pages-demo-item-footer .messages {
+    float: right;
+}
+.bs-pages-demo-item-footer .messages .fa {
+    margin-right: 4px;
+    vertical-align: middle;
+}
+.bs-pages-demo-item-footer .messages>div {
+    display: none;
+    font-weight: 600;
+    vertical-align: middle;
+    padding: 15px 12px 15px;
+    font-size: 14px;
+}
+.bs-pages-demo-item-footer .messages>.installing {
+    color: #06bb51;
+}
+.bs-pages-demo-item-footer .messages>.uninstalling,
+.bs-pages-demo-item-footer .messages>.failed {
+    color: #e74a4a;
+}
+
+.bs-pages-demo-item-footer .messages>.installed,
+.bs-pages-demo-item-footer .messages>.uninstalled {
+    color: #06bb51;
+}
+.bs-pages-ribbon-wrapper {
+    position: relative;
+    overflow: visible;
+    opacity: 0;
+
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+.installed .bs-pages-ribbon-wrapper {
+    opacity: 1;
+}
+.bs-pages-ribbon-wrapper .bs-pages-ribbon {
+    border-right: 62px solid transparent;
+    border-top: 62px solid #06bb51;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+.bs-pages-ribbon-label {
+    position: absolute;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    top: 5px;
+    left: 10px;
+}
+.bs-pages-demo-item.demo-disabled .bs-pages-overlay {
+    display: block;
+}
+.bs-pages-demo-item.demo-disabled {
+    opacity:0.5;
+}

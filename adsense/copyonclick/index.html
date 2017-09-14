@@ -1,0 +1,15 @@
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+</script>
+<p id="p1">Hello, I'm TEXT 1</p>
+<p id="p2">Hi, I'm the 2nd TEXT</p><br/>
+<button onclick="copyToClipboard('#p1')">Copy TEXT 1</button>
+<button onclick="copyToClipboard('#p2')">Copy TEXT 2</button>

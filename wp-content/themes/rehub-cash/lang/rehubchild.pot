@@ -1,0 +1,801 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rehub_translation_child\n"
+"POT-Creation-Date: 2016-12-31 14:39+0200\n"
+"PO-Revision-Date: 2016-12-31 14:39+0200\n"
+"Last-Translator: Sizam themes <sizamtheme@gmail.com>\n"
+"Language-Team: Sizam Design <sizamtheme@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n_noop:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/admin.php:24 ../admin/admin.php:25 ../admin/option/option.php:3
+msgid "Theme Options"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:5
+msgid "Post Type"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:12
+msgid "Choose Type of Post"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:17
+msgid "Regular"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:22
+msgid "Video"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:27
+msgid "Gallery"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:32
+msgid "Review"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:37
+msgid "Music"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:51
+msgid "Video Post"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:61
+msgid "Insert youtube or vimeo link on page with video"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:62 ../admin/metabox/post_type.php:139
+#: ../admin/metabox/post_type.php:199
+msgid "Video Url"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:67
+msgid "Auto thumbnail"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:68
+msgid "Enable auto featured image from video (will not work on some servers)"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:73
+msgid "Enable schema.org for video?"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:74
+msgid "Check this box if you want to enable videoobject schema"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:79
+msgid "Title"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:80
+msgid "Set title of video block or leave blank to use post title"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:90
+msgid "Description"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:91
+msgid "Set description of video block or leave blank to use post excerpt"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:106
+msgid "Gallery Post"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:116 ../admin/metabox/post_type.php:166
+msgid "Disable height resize for slider"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:117 ../admin/metabox/post_type.php:167
+msgid ""
+"This option disable resize of photo. By default, photos are resized for 400 "
+"px height"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:123
+msgid "Image"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:128 ../admin/metabox/post_type.php:183
+msgid "Add Image"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:133 ../admin/metabox/post_type.php:188
+msgid "Caption"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:138 ../admin/metabox/post_type.php:198
+msgid ""
+"Insert youtube link of page with video. If you set this field, image and "
+"caption will be ignored for this slide"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:160
+msgid "Add slider of images to top of review page?"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:178
+msgid "Images"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:193
+msgid "Url for image"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:211
+msgid "Important"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:212
+msgid ""
+"You can add main offer to post in Post Offer Section in bottom of page. "
+"Also, if you need to add woocommerce offer, woocommerce lists to post - use "
+"shortcode generator and woobox, woolist shortcodes. Also, you can use our "
+"plugins <a href=\"http://rehub.wpsoul.com/documentation/docs.html#cegg\" "
+"target=\"_blank\">Content Egg</a>, <a href=\"http://rehub.wpsoul.com/"
+"documentation/docs.html#aegg\" target=\"_blank\">Affiliate Egg</a> for more "
+"easy working with affiliate systems. Also, if you need to add offers from "
+"any xml, csv feed - use our extensions for Wp All import plugin. You can "
+"download them in Rehub - Plugins tab in admin panel (required registration "
+"of theme license)."
+msgstr ""
+
+#: ../admin/metabox/post_type.php:219
+msgid "Note"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:220
+msgid ""
+"You can add countdown before offer with shortcode. Example - [wpsm_countdown "
+"year=\"2015\" month=\"04\" day=\"03\" hour=\"14\"]"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:227
+msgid "Review Heading"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:228
+msgid "Short review heading (e.g. Excellent!)"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:233
+msgid "Summary Text"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:238
+msgid "PROS. Place each from separate line (optional)"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:243
+msgid "CONS. Place each from separate line (optional)"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:248
+msgid "Enable shortcode inserting"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:249
+msgid ""
+"If enable you can insert review box in any place of content with shortcode "
+"[review]. If disable - it will be after content."
+msgstr ""
+
+#: ../admin/metabox/post_type.php:255
+msgid "Set overall score"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:256
+msgid ""
+"Enter overall score of review or leave blank to auto calculation based on "
+"criterias score"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:267
+msgid "Review Criterias"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:272
+msgid "Name"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:277
+msgid "Score"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:293
+msgid "Music Post"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:302
+msgid "Music Source"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:306
+msgid "Music from Soundcloud"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:310
+msgid "Music from Spotify"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:318
+msgid "Insert full Soundcloud embed code."
+msgstr ""
+
+#: ../admin/metabox/post_type.php:319
+msgid "Soundcloud embed code"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:328
+msgid ""
+"To get the Spotify Song URI go to <strong>Spotify</strong> > Right click on "
+"the song you want to embed > Click <strong>Copy Spotify URI</strong> > Paste "
+"code in this field.)"
+msgstr ""
+
+#: ../admin/metabox/post_type.php:329
+msgid "Spotify Song URI"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:6
+msgid "Post settings"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:15
+msgid "Read More custom text"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:16
+msgid "Will be used in some blocks instead of default read more text"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:22 ../admin/option/option.php:112
+msgid "Post layout"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:36
+msgid "Post w/ sidebar or Full width"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:37
+msgid "Note, normal post width - 765px, full width - 1130px"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:42
+msgid "Post w/ Sidebar"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:46
+msgid "Full Width Post"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:56
+msgid "Disable Featured Image, Video or Gallery in top part on post page"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:62
+msgid "Branded area"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:63
+msgid "Set any custom code or link to image for branded banner after header "
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:69
+msgid "Disable CTA block?"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:70
+msgid ""
+"Check this box if you want to disable block with offer button and thumb "
+"counter"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:76
+msgid "Disable parts?"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:77
+msgid ""
+"Check this box if you want to disable tags, breadcrumbs, author box, share "
+"buttons in post"
+msgstr ""
+
+#: ../admin/metabox/post_type_side.php:83
+msgid "Disable global ads after post"
+msgstr ""
+
+#: ../admin/option/option.php:8 ../admin/option/option.php:14
+msgid "General Options"
+msgstr ""
+
+#: ../admin/option/option.php:20
+msgid "Select Blog Layout"
+msgstr ""
+
+#: ../admin/option/option.php:21
+msgid ""
+"Select what kind of post string layout you want to use for blog, archives"
+msgstr ""
+
+#: ../admin/option/option.php:25 ../admin/option/option.php:48
+#: ../admin/option/option.php:71
+msgid "List Layout with left thumbnails"
+msgstr ""
+
+#: ../admin/option/option.php:29 ../admin/option/option.php:52
+#: ../admin/option/option.php:75
+msgid "Grid layout"
+msgstr ""
+
+#: ../admin/option/option.php:33 ../admin/option/option.php:56
+#: ../admin/option/option.php:79
+msgid "Full width Grid layout"
+msgstr ""
+
+#: ../admin/option/option.php:43
+msgid "Select Category Layout"
+msgstr ""
+
+#: ../admin/option/option.php:44
+msgid "Select what kind of post string layout you want to use for categories"
+msgstr ""
+
+#: ../admin/option/option.php:66
+msgid "Select Search Layout"
+msgstr ""
+
+#: ../admin/option/option.php:67
+msgid "Select what kind of post string layout you want to use for search pages"
+msgstr ""
+
+#: ../admin/option/option.php:89
+msgid "Select pagination type for categories"
+msgstr ""
+
+#: ../admin/option/option.php:90
+msgid ""
+"Choose number of posts per page in Settings - Reading settings. Recommended "
+"number - 12"
+msgstr ""
+
+#: ../admin/option/option.php:94
+msgid "Simple Pagination"
+msgstr ""
+
+#: ../admin/option/option.php:98
+msgid "Infinite scroll"
+msgstr ""
+
+#: ../admin/option/option.php:102
+msgid "Next page button"
+msgstr ""
+
+#: ../admin/option/option.php:129
+msgid "Enable button in default grid layout?"
+msgstr ""
+
+#: ../admin/option/option.php:135
+msgid "Disable comment and thumbs actions in categories?"
+msgstr ""
+
+#: ../admin/option/option.php:141
+msgid "Show in default grid"
+msgstr ""
+
+#: ../admin/option/option.php:145
+msgid "User logo"
+msgstr ""
+
+#: ../admin/option/option.php:149
+msgid "Brand logo"
+msgstr ""
+
+#: ../admin/option/option.php:159
+msgid "Enable expand button in list layout?"
+msgstr ""
+
+#: ../admin/option/option.php:160
+msgid "Sometimes can be buggy"
+msgstr ""
+
+#: ../admin/option/option.php:166
+msgid "Enable home carousel after header?"
+msgstr ""
+
+#: ../admin/option/option.php:172
+msgid "Type category slug to show in carousel"
+msgstr ""
+
+#: ../admin/option/option.php:181
+msgid "Type tag slug to show in carousel"
+msgstr ""
+
+#: ../admin/option/option.php:190
+msgid "Hottest value"
+msgstr ""
+
+#: ../admin/option/option.php:191
+#, php-format
+msgid ""
+"After hot metter reach this value, scale will have hot image and 100% fill + "
+"will be used in hottest filter"
+msgstr ""
+
+#: ../admin/option/option.php:200
+msgid "Coldest value"
+msgstr ""
+
+#: ../admin/option/option.php:201
+#, php-format
+msgid ""
+"After hot metter reach this value, scale will have cold image and 100% fill "
+"of cold"
+msgstr ""
+
+#: ../admin/option/option.php:210
+msgid "Custom CSS"
+msgstr ""
+
+#: ../admin/option/option.php:211
+msgid "Write your custom CSS here"
+msgstr ""
+
+#: ../admin/option/option.php:218
+msgid "Js code for footer"
+msgstr ""
+
+#: ../admin/option/option.php:219
+msgid "Enter your Analytics code or any html, js code"
+msgstr ""
+
+#: ../admin/option/option.php:226
+msgid "Js code for header (analytics)"
+msgstr ""
+
+#: ../admin/option/option.php:231
+msgid "Enable frontend in visual composer?"
+msgstr ""
+
+#: ../admin/option/option.php:237
+msgid "Enable Extended full width layout?"
+msgstr ""
+
+#: ../admin/option/option.php:245
+msgid "Appearance/Color"
+msgstr ""
+
+#: ../admin/option/option.php:251
+msgid "Color schema of website"
+msgstr ""
+
+#: ../admin/option/option.php:256
+msgid "Choose color schema"
+msgstr ""
+
+#: ../admin/option/option.php:260
+msgid "Default - green"
+msgstr ""
+
+#: ../admin/option/option.php:264
+msgid "Blue"
+msgstr ""
+
+#: ../admin/option/option.php:268
+msgid "Orange"
+msgstr ""
+
+#: ../admin/option/option.php:272
+msgid "Violet"
+msgstr ""
+
+#: ../admin/option/option.php:276
+msgid "Yellow"
+msgstr ""
+
+#: ../admin/option/option.php:286
+msgid "Custom main color"
+msgstr ""
+
+#: ../admin/option/option.php:287
+msgid "Or you can set any main color (it will be used under white text)"
+msgstr ""
+
+#: ../admin/option/option.php:294
+msgid "Custom secondary color"
+msgstr ""
+
+#: ../admin/option/option.php:295
+msgid "Set secondary color (for search buttons, tabs, etc)."
+msgstr ""
+
+#: ../admin/option/option.php:303
+msgid "Set offer buttons color."
+msgstr ""
+
+#: ../admin/option/option.php:310
+msgid "Custom color for links inside posts"
+msgstr ""
+
+#: ../admin/option/option.php:317
+msgid "Layout settings"
+msgstr ""
+
+#: ../admin/option/option.php:322
+msgid "Set sidebar to left side?"
+msgstr ""
+
+#: ../admin/option/option.php:328
+msgid "Enable boxed version?"
+msgstr ""
+
+#: ../admin/option/option.php:334
+msgid "Disable box borders under content box?"
+msgstr ""
+
+#: ../admin/option/option.php:339
+msgid "Background Color"
+msgstr ""
+
+#: ../admin/option/option.php:346
+msgid "Background Image"
+msgstr ""
+
+#: ../admin/option/option.php:347
+msgid ""
+"Upload a background image. This field works only if you set also background "
+"color in field above"
+msgstr ""
+
+#: ../admin/option/option.php:353
+msgid "Background Repeat"
+msgstr ""
+
+#: ../admin/option/option.php:357
+msgid "Repeat"
+msgstr ""
+
+#: ../admin/option/option.php:361
+msgid "No Repeat"
+msgstr ""
+
+#: ../admin/option/option.php:365
+msgid "Repeat X"
+msgstr ""
+
+#: ../admin/option/option.php:369
+msgid "Repeat Y"
+msgstr ""
+
+#: ../admin/option/option.php:379
+msgid "Background Position"
+msgstr ""
+
+#: ../admin/option/option.php:398
+msgid "Set offset"
+msgstr ""
+
+#: ../admin/option/option.php:399
+msgid ""
+"Set offset from top for background (without px) for avoid header overlap"
+msgstr ""
+
+#: ../admin/option/option.php:405
+msgid "Fixed Background Image?"
+msgstr ""
+
+#: ../admin/option/option.php:406
+msgid "The background is fixed with regard to the viewport."
+msgstr ""
+
+#: ../admin/option/option.php:411
+msgid "Fit size?"
+msgstr ""
+
+#: ../admin/option/option.php:412
+msgid "Set background image width and height to fit the size of window"
+msgstr ""
+
+#: ../admin/option/option.php:417
+msgid "Url for branded background"
+msgstr ""
+
+#: ../admin/option/option.php:418
+msgid "Insert url that will be display on background"
+msgstr ""
+
+#: ../archive.php:29
+msgid "Tag:"
+msgstr ""
+
+#: ../archive.php:32
+msgid "Archive:"
+msgstr ""
+
+#: ../archive.php:34 ../archive.php:36
+msgid "Browsing Archive"
+msgstr ""
+
+#: ../archive.php:61 ../category.php:77 ../index.php:69 ../search.php:47
+msgid "Sorry. No posts in this category yet"
+msgstr ""
+
+#: ../category.php:73 ../index.php:66
+msgid "Show next"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:32
+msgid "Address Autocomplete"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:39
+msgid "Type an address for autocomplete"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:48
+msgid "Find your location on the map"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:64
+msgid "Auto-Locator"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:68
+msgid "Get Your Current Location"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:81
+msgid "Address Fields"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:89
+msgid "Street"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:100
+msgid "Apt/Suit"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:111
+msgid "City"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:121
+msgid "State"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:132
+msgid "State Long Name"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:143
+msgid "Zipcode"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:154
+msgid "Country"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:165
+msgid "Country Long Name"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:176
+msgid "address"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:187
+msgid "Formatted Address"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:198
+msgid "Street number"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:209
+msgid "Street name"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:217
+msgid "Latitude Longitude"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:225
+msgid "Latitude"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:236
+msgid "Longitude"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:412
+msgid "Your Map Location"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:413
+msgid "You haven't set a map location yet"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:414
+msgid "Edit Location"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:415
+msgid "Delete Location"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:416
+msgid "Enter your map location manually"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:417
+msgid "Address"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:418
+msgid "Latitude / Longitude"
+msgstr ""
+
+#: ../geo-my-wp/customform/gmw-fl-location-tab.php:419
+msgid "Save Map Location"
+msgstr ""
+
+#: ../geo-my-wp/friends/search-results/buddypress-users-3-col/results.php:95
+#: ../geo-my-wp/friends/search-results/buddypress-users/results.php:96
+msgid "Owner of shop:"
+msgstr ""
+
+#: ../geo-my-wp/friends/search-results/sellers/results.php:104
+msgid "Shop"
+msgstr ""
+
+#: ../geo-my-wp/groups/search-results/grid/results.php:78
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: ../geo-my-wp/posts/search-results/custom-table/results.php:17
+msgid "Product"
+msgstr ""
+
+#: ../inc/parts/affeggbuttonsingle.php:32
+msgid "Expired"
+msgstr ""
+
+#: ../inc/parts/affeggbuttonsingle.php:49
+msgid "Buy this item"
+msgstr ""
+
+#: ../inc/parts/query_type1.php:53
+msgid "Expand"
+msgstr ""
+
+#: ../inc/parts/simplepostlist.php:11
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../search.php:23
+msgid "Search results for:"
+msgstr ""
+
+#~ msgid ""
+#~ "This option panel is built using <a href=\"http://vafpress.com/vafpress-"
+#~ "framework\">Vafpress Framework %s</a> powered by <a href=\"http://"
+#~ "vafpress.com\">Vafpress</a>"
+#~ msgstr " "

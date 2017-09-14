@@ -1,0 +1,735 @@
+BUTTONS X - CHANGE LOG
+--------------------------------------------------------
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+##### PUBLIC RELEASE #####
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.56 [ February 23, 2016 ]
+1. Fixed: Button visibility for reveal animations.
+
+Files Changed
+1. assets/css/admin/admin.css
+2. assets/css/admin/admin.min.css
+3. assets/css/common/button.css
+4. assets/css/public/button.min.css
+5. btnsx.php
+6. readme.txt
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.55 [ January 2, 2016 ]
+1. Added: Wistia popover videos.
+2. Fixed: Google font weight for primary and secondary text.
+
+Files Changed
+1. btnsx.php
+2. includes/class.btnsx.php
+3. assets/js/admin/views.js
+4. assets/js/admin/views.min.js
+5. assets/js/public/btnsx.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.54 [ December 19, 2016 ]
+1. Fixed: Background hover image load delay.
+2. Fixed: Custom CSS field. Now "#btnsx-preview-btn" id should be used to add custom CSS.
+
+Files Changed
+1. btnsx.php
+2. includes/class.btnsx.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.53 [ December 7, 2016 ]
+1. Added: Text align option for Primary Text.
+2. Added: New link type option "URL Unescaped" so that encoded URL's can be used.
+3. Fixed: Custom menu links not showing in preview when switching between WordPress menu and Custom menu links.
+4. Fixed: Menu as dropdown option always visible.
+5. Fixed: Background image load delay on button hover.
+6. Fixed: Packs and Tags taxonomy.
+7. Fixed: Iframe not working.
+
+Files Changed
+1. btnsx.php
+2. includes/class.btnsx.php
+3. assets/js/admin/views.js
+4. assets/js/admin/views.min.js
+5. builders/composer/map/btnsx.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.52 [ November 6, 2016 ]
+1. Fixed: Dropdown menu not showing up after updating to v1.9.51.
+
+Files Changed
+1. btnsx.php
+2. includes/class.btnsx.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.51 [ October 30, 2016 ]
+1. Added: Custom button dropdown menu links.
+2. Fixed: Button link on woocommerce product page.
+3. Fixed: Compatibility with Ultimate Addons for Visual Composer.
+4. Fixed: Responsive primary text font size option for mobile.
+
+Files Changed
+1. includes/class.btnsx.php
+2. assets/css/admin/admin.css
+3. assets/css/admin/admin.min.css
+4. assets/css/common/button.css
+5. assets/css/public/button.min.css
+6. assets/js/admin/views.js
+7. assets/js/admin/views.min.js
+8. btnsx.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.50 [ July 27, 2016 ]
+1. Added: Beaver Builder support.
+2. Added: Formidable forms support.
+3. Added: Option to display button only on some particular posts/pages.
+4. Improved: More single button options for Visual Composer.
+5. Improved: Custom CSS field.
+6. Fixed: Custom CSS class override not working if override style option is not selected.
+7. Fixed: Font weight text values like 'bold' not working.
+8. Fixed: Activation error on older PHP.
+
+Files Changed
+1. btnsx.php
+2. builders/beaver-builder [NEW]
+3. builders/composer/map/btnsx.php
+4. includes/class.btnsx.form.php
+5. includes/class.btnsx.php
+6. assets/js/admin/views.js
+7. assets/js/admin/views.min.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.42 [ July 14, 2016 ]
+1. Added: Two new link options, previous post and next post.
+2. Fixed: ACF script conflict.
+
+Files Changed
+1. includes/class.btnsx.php
+2. btnsx.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.41 [ July 01, 2016 ]
+1. Fixed: Button not appearing in Visual Composer if Visual Composer is integrated into a theme.
+2. Fixed: Button dropdown container expanding to full width.
+3. Fixed: Morphing button closing automatically.
+
+Files Changed
+1. builders/composer/mappings.php
+2. assets/css/common/button.css
+3. assets/js/public/btnsx.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.4 [ June 29, 2016 ]
+1. Fixed: Text color not working for tablet and mobile view in preview.
+2. Fixed: Empty space in purchase code field by default.
+3. Fixed: Animation classes being added after button is imported from Buttons X lite to Buttons X.
+4. Fixed: URL escaping.
+5. Fixed: Secondary text font family not working.
+6. Fixed: Google fonts loaded multiple times.
+
+Files Changed
+1. assets/js/admin/views.js
+2. assets/js/admin/views.min.js
+3. includes/class.btnsx.php
+4. assets/js/public/btnsx.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.3 [ June 13, 2016 ]
+1. Added: Support for Optin Monster.
+2. Added: Override style for Jetpack Subscribe widget button.
+3. Added: Two new background options: Background Repeat and Background Position.
+4. Added: Now you can add buttons to WooCommerce archive/shop pages.
+5. Added: New link type "WooCommerce - Add To Cart - Auto ID" for automatically fetching the product ID. 
+6. Improvement: Override styles CSS improved.
+7. Fixed: Ninja Popup bug.
+8. Fixed: Preview background color overflowing from preview container.
+9. Fixed: GT ShortCodes scripts conflict.
+10. Fixed: Dropdown button remains open inside header when used with Layers Theme.
+11. Fixed: Javascript bug that prevented from loading the button edit screen on some installs.
+12. Fixed: Firefox not rendering buttons properly with some themes.
+13. Fixed: Icon animating only once on frontend.
+14. Fixed: Icon image hover not working.
+
+Files Changed
+1. includes/class.external.plugins.php
+2. includes/class.btnsx.php
+3. assets/css/common/button.css
+4. assets/css/public/button.min.css
+5. assets/js/admin/views.js
+6. assets/js/admin/views.min.js
+7. assets/js/admin/admin.js
+8. assets/js/admin/admin.min.js
+9. includes/class.woo.php
+10. assets/js/public/btnsx.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.1 [ May 4, 2016 ]
+1. Fixed: Select option fields not appearing.
+2. Fixed: System fonts not working.
+
+Files Changed
+1. assets/js/admin/admin.js
+2. assets/js/admin/admin.min.js
+3. assets/js/admin/views.js
+4. assets/js/admin/views.min.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.9.0 [ May 4, 2016 ]
+1. Added: Responsive style control.
+2. Added: Buffer app share link type.
+3. Added: Email button link.
+4. Added: Print button link.
+5. Added: Skype Call, Skype Chat and Skype Video Call button links.
+6. Added: SMS button link.
+7. Added: Telephone button link.
+8. Added: Whatsapp Share button link.
+9. Improvement: Font Awesome updated to v4.6.1.
+10. Fixed: Layered Popups popup list MYSQL query.
+11. Fixed: Secondary text font weight and style not working after saving button.
+12. Fixed: CSS font-weight property.
+13. Fixed: WP Video Lightbox Youtube related video not hiding when using &rel=0 with video ID.
+
+Files changed: 
+1. includes/class.btnsx.php
+2. includes/class.external.plugins.php
+3. assets/css/admin/admin.css
+4. assets/css/admin/admin.min.css
+5. assets/css/common/button.css
+6. assets/css/fonts/fontawesome-webfont.eot
+7. assets/css/fonts/fontawesome-webfont.svg
+8. assets/css/fonts/fontawesome-webfont.ttf
+9. assets/css/fonts/fontawesome-webfont.woff
+10. assets/css/fonts/fontawesome-webfont.woff2
+11. assets/css/fonts/FontAwesome.otf
+12. assets/css/public/button.min.css
+13. assets/js/admin/views.js
+14. assets/js/admin/views.min.js
+15. assets/js/public/btnsx.js
+16. btnsx.php
+17. changelog.txt
+18. includes/class.btnsx.counter.php
+19. includes/class.btnsx.form.design.php
+20. includes/class.btnsx.form.php
+21. includes/settings-page.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.8.50 [ April 9, 2016 ]
+1. Added: 10 new button link options - Google+ share, Reddit share, Delicious share, Digg share, StumbleUpon share, LinkedIn share, Tumblr share, Google Bookmarks share, Newsvine share & Evernote share.
+2. Fixed: "Edd straight to gateway" link option typo.
+3. Fixed: Tumblr social counter bug.
+4. Fixed: LinkedIn profile URL bug. Changed "User ID" to "User Profile URL" in LinkedIn social counter settings.
+5. Fixed: Iframe width and height options gets hidden when link type is changed.
+
+Files changed: 
+1. /includes/class.btnsx.php
+2. /includes/class.btnsx.counter.php
+3. /includes/settings-page.php
+4. /assets/admin/js/views.js
+5. /assets/admin/js/views.min.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.8.42 [ April 1, 2016 ]
+1. Fixed: Custom CSS not appearing when using inline CSS.
+2. Fixed: Divi 2.7 conflict.
+
+Files changed: 
+1. /includes/class.btnsx.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.8.41 [ March 26, 2016 ]
+1. Fixed: Social button bugs.
+
+Files changed: 
+1. /assets/js/admin/view-social.js
+2. /btnsx.php
+3. /includes/class.btnsx.social.php
+4. /assets/css/admin/admin.css
+5. /assets/css/admin/admin.min.css
+6. /assets/css/common/button.css
+7. /assets/css/public/button.min.css
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.8.4 [ March 21, 2016 ]
+1. Added: Custom width and height options for iframe window.
+2. Improvement: Performance improvements.
+3. Fixed: Links not opening in iframe.
+4. Fixed: Plugin update bug.
+5. Fixed: Can't use function return value in write context in ../includes/class.btnsx.counter.php on line 1286.
+6. Fixed: Dual button bugs.
+
+Files changed: 
+1. /includes/class.btnsx.php
+2. /plugin_update_check.php
+3. /includes/class.btnsx.counter.php
+4. /includes/class.ajax.php
+5. /includes/class.btnsx.dual.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.8.3 [ March 10, 2016 ]
+1. Fixed: Demo button's "undefined variable" error.
+2. Fixed: "Maximum execution time" error when generating external CSS.
+3. Fixed: "Class BtnsxDual does not exist" error when generating external CSS.
+
+Files changed: 
+1. /assets/buttons.json
+2. /includes/class.ajax.php
+3. /includes/class.btnsx.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.8.2 [ February 13, 2016 ]
+1. Added: Automatic plugin updates.
+2. Fixed: Icon image preview bug.
+3. Fixed: Icon image styling.
+4. Fixed: Icon hover image.
+5. Fixed: Layered Popup option not visible.
+6. Fixed: Layered Popup option causing PopupPress and Ninja Popups to not work properly.
+7. Fixed: Image upload while importing button.
+8. Improved: Moved 'Popup Maker' and 'WP Video Lightbox' to external plugins class.
+9. Improved: Font Awesome updated to version 4.5.0 (latest). 
+
+Files changed: 
+1. /plugin_update_check.php [NEW]
+2. /assets/js/admin/views.js
+3. /assets/js/admin/views.min.js
+4. /assets/css/admin/admin.css
+5. /assets/css/admin/admin.min.css
+6. /assets/css/common/button.css
+7. /assets/css/public/button.min.css
+8. /includes/class.external.plugins.php
+9. /assets/css/common/button.css
+10. /assets/css/fonts/fontawesome-webfont.eot
+11. /assets/css/fonts/fontawesome-webfont.svg
+12. /assets/css/fonts/fontawesome-webfont.ttf
+13. /assets/css/fonts/fontawesome-webfont.woff
+14. /assets/css/fonts/fontawesome-webfont.woff2
+15. /assets/css/fonts/fontawesome.otf
+16. /assets/css/public/button.min.css
+17. /assets/js/public/btnsx.js
+18. /includes/class.btnsx.form.php
+19. /includes/class.btnsx.php
+20. /assets/js/admin/admin.js
+21. /assets/js/admin/admin.min.js
+22. /includes/class.portation.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.8.1 [ February 03, 2016 ]
+1. Added: Native support for PopupPress plugin.
+2. Added: Native support for Ninja Popups plugin.
+3. Added: Native support for Layered Popups plugin.
+4. Added: New filters 'btnsx_link_tab_fields_filter', 'btnsx_link_options_filter', 'btnsx_output_button_link' & 'btnsx_output_button_link_relationship'.
+5. Improved: Button public styles now loads late to avoid font awesome icons being overriden by some other plugin.
+6. Fixed: Text shadow appearing even when 0 values are set for both horizontal and vertical fields.
+7. Fixed: Changing text shadow colour when creating button not changing text shadow colour in live preview.
+
+Files changed: 
+1. /includes/class.btnsx.php
+2. /includes/class.external.plugins.php [NEW]
+3. /assets/js/admin/views.js
+4. /assets/js/admin/views.min.js
+5. /assets/js/admin/admin.js
+6. /assets/js/admin/admin.min.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.8.0 [ January 24, 2016 ]
+1. Added: Buttons support in navigation menu.
+2. Added: Native support for WP Video Lightbox plugin.
+3. Added: Custom class option for single buttons in Visual Composer.
+4. Added: Social Counters in tinymce dropdown.
+5. Added: Button priorities for Content filter in settings.
+6. Improved: Link options for Visual Composer updated and layout section added.
+7. Fixed: Button export conflict with Caldera forms.
+8. Fixed: Preview modals not closing sometimes.
+9. Fixed: Social share link types not working if link target is not iframe.
+10. Fixed: Button full width not working in case fixed width is set.
+11. Fixed: Button wrap center not working in case fixed width is set.
+
+Files changed: 
+1. /includes/class.menu.php [New]
+2. /builders/composer/map/btnsx.php
+3. /assest/js/admin/mce.js
+4. /includes/class.portation.php
+5. /includes/class.btnsx.php
+6. /includes/class.btnsx.dual.php
+7. /assest/css/common/button.css
+8. /assest/css/public/button.min.css
+9. /assest/js/admin/views.js
+10. /assest/js/admin/views.min.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.7.9 [ January 13, 2016 ]
+1. Fixed: Share buttons appearing on layers slider slides and content widgets.
+
+Files changed: 
+1. /includes/class.btnsx.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.7.8 [ January 12, 2016 ]
+1. Added: 3 new link types - facebook share link, pinterest share link and twitter share link.
+2. Added: New settings tab 'Content Filter' under which you can choose which buttons to show after or before every post, page or custom post types.
+3. Fixed: Default social counters cache time for multisite blogs.
+4. Fixed: Buttons menu appearing for non-admin users.
+5. Fixed: Shadow appearing below buttons with no shadow on 2016 theme.
+6. Fixed: Multiple icons appearing in preview when "Extreme Right" alignment is selected.
+7. Improved: Google font selection.
+8. Improved: Now you can select the type of demo buttons you want to import.
+9. Improved: Button widgets list display order.
+10. Improved: Add-ons and packs data fetch mechanism.
+
+Files changed: 
+1. /btnsx.php
+2. /includes/class.btnsx.php
+3. /assets/js/admin/views.js
+4. /assets/js/admin/views.min.js
+5. /includes/class.btnsx.form.php
+6. /includes/class.portation.php
+7. /includes/import-page.php
+8. /includes/class.widget.php
+9. /includes/class.widget.dual.php
+10. /includes/class.widget.social.counters.php
+11. /includes/class.widget.social.php
+12. /includes/class.wapi.php
+13. /includes/settings-page.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.7.7 [ January 3, 2016 ]
+1. Added: Native support for Popup Maker.
+2. Added: Native support for Gravity Forms.
+3. Added: Override button style for Contact Form 7, Caldera Forms and Ninja Forms.
+4. Added: New filters 'btnsx_button_meta_boxes_advanced', 'btnsx_button_meta_boxes_normal' & 'btnsx_button_meta_boxes_side'.
+5. Fixed: Override style duplication. If multiple buttons are used for overriding styles then only the recently created button is considered among them.
+6. Fixed: Dynamic CSS being blocked on SSL enabled websites.
+7. Fixed: Form CPT option displaying only few results.
+8. Fixed: Buttons post type and taxonomies being indexed by search engines.
+9. Fixed: Taxonomies appearing on menu builder page.
+
+Files changed: 
+1. /includes/class.btnsx.php
+2. /includes/class.btnsx.dual.php
+3. /assets/js/public/btnsx.js
+4. /includes/class.ajax.php
+5. /includes/settings-page.php
+6. /includes/class.btnsx.form.php
+7. /includes/class.btnsx.counter.php
+8. /includes/class.btnsx.social.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.7.6 [ December 12, 2015 ]
+1. Fixed: LinkedIn social button not disabled even if unchecked.
+2. Fixed: Facebook URL field reverting back to default value when 'follow' button type is selected.
+3. Improved: Add-ons and pack pages are now cached and data is fetched only on these pages respectively.
+
+Files changed: 
+1. /assets/js/view-social.js
+2. /includes/class.wapi.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.7.5 [ November 28, 2015 ]
+1. Fixed: Visual Composer deprecated function calls.
+2. Fixed: Single buttons widget getting disabled when dual buttons are disabled.
+3. Fixed: Hover background when overriding WooCommerce button styles.
+4. Fixed: Button import issue on Windows.
+5. Added: Basic social counters support.
+
+Files changed: 
+1. /builders/composer/map/btnsx.php
+2. /btnsx.php
+3. /includes/class.btnsx.php
+4. /includes/class.portation.php
+5. /builders/composer/assets/vc_btnsx.css
+6. /includes/class.counters.php [NEW]
+7. /includes/class.widget.social.counters.php [NEW]
+8. /assets/css/common/social-counters.css [NEW]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.7.4 [ November 10, 2015 ]
+1. Added: Add-ons page.
+2. Added: Packs page.
+3. Fixed: Box shadow not appearing when horizontal and vertical fields are 0.
+
+Files changed: 
+1. /includes/class.wapi.php [NEW]
+2. /assets/js/admin/views.js
+3. /assets/js/admin/views.min.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.7.3 [ November 5, 2015 ]
+1. Added: 'CPT' select option for form elements.
+2. Added: Control over border sides.
+3. Added: Short code metabox on button edit screen.
+4. Fixed: Dual button meta boxes.
+5. Added: Link override option for dual buttons in visual composer.
+6. Added: New filter 'btnsx_dual_button_preview_args' for dual button preview.
+
+Files changed: 
+1. /btnsx.php
+2. /includes/class.btnsx.php
+3. /includes/class.btnsx.form.php
+4. /includes/class.btnsx.form.design.php
+5. /includes/class.btnsx.dual.php
+6. /includes/class.btnsx.social.php
+7. /assets/js/admin/views.js
+8. /assets/js/admin/views.min.js
+9. /assets/css/common/button.css
+10. /builders/composer/map/btnsx.php
+11. /includes/class.ajax.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.7.2 [ October 24, 2015 ]
+1. Fixed: Button 'post / page / custom post type' links.
+2. Fixed: Button text disappearing on small screens.
+
+Files changed: 
+1. /includes/class.btnsx.form.php
+2. /assets/css/common/button.css
+3. /assets/css/public/button.min.css
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.7.1 [ October 5, 2015 ]
+1. Fixed: Dual button 'Force Full Width' option.
+2. Fixed: Dual button border and border radius options.
+
+Files changed: 
+1. /assets/css/admin/admin.css
+2. /assets/css/admin/admin.min.css
+3. /assets/css/common/button.css
+4. /assets/css/public/button.min.css
+5. /includes/class.btnsx.dual.php
+6. /includes/class.ajax.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.7 [ October 4, 2015 ]
+1. Addition: Dual Buttons. Merge two buttons to easily create a dual button.
+2. Addition: Preview option tab now moved to it's own meta box with option to set custom background image and overlay.
+3. Addition: 'All Sides' field for margin, padding and border radius options. This makes it super easy to add same value to top, bottom, left & right fields.
+4. Addition: Support for short codes in text/html widgets.
+5. Improvement: Options navigation now grouped as 'Content', 'Style', 'Advanced' and 'Expert'.
+6. Improvement: Dual and Social buttons can be turned OFF from under 'Settings' > 'General' tab.
+7. Improvement: Cloned button title now suffixed with '[ Clone ]' text to avoid confusions.
+8. Improvement: Icon alignment option improved. Added 'extreme left' and 'extreme right' options.
+9. Improvement: Language files updated.
+10. Improvement: Button accuracy improved. You might need to adjust your buttons slightly.
+11. Improvement: WooCommerce settings now support social and dual buttons.
+12. Fixed: Social button short code generated through short code generator.
+13. Fixed: Button manual import on Firefox.
+
+Files changed: 
+1. /includes/class.btnsx.php
+2. /includes/class.btnsx.form.php
+3. /includes/class.btnsx.form.design.php
+4. /includes/class.portation.php
+5. /assets/js/admin/admin.js
+6. /assets/js/admin/admin.min.js
+7. /assets/js/admin/views.js
+8. /assets/js/admin/views.min.js
+9. /assets/css/admin/admin.css
+10. /assets/css/admin/admin.min.css
+11. /builders/composer/map/btnsx.php
+12. /builders/composer/assets/vc_btnsx.css
+13. /includes/class.clone.php
+14. /includes/class.portation.php
+15. /includes/class.bulk.actions.php
+16. /includes/class.widget.dual.php [NEW]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.6 [ September 17, 2015 ]
+1. Addition: Now it is super easy to copy values from normal state to hover state and vice-versa.
+2. Addition: Tinymce button to easily insert short codes on post, page and custom posts.
+3. Improvement: Selecting icon font now automatically hides icon image and vice-versa.
+4. Improvement: Now resetting a button require confirmation.
+5. Improvement: Moved some ajax functionality to a new file (class.ajax.php).
+6. Fixed: Error displayed on button edit page when WooCommerce is OFF.
+
+Files changed: 
+1. /includes/class.btnsx.php
+2. /includes/class.btnsx.form.php
+3. /includes/class.btnsx.form.design.php
+4. /assets/js/admin/views.js
+5. /assets/js/admin/views.min.js
+6. /includes/class.mce.php [NEW]
+7. /assets/js/admin/mce.js [NEW]
+8. /includes/class.ajax.php [NEW]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.5 [ September 12, 2015 ]
+1. Fixed: Analytics code escape.
+2. Fixed: Analytics extension version check.
+3. Fixed: Gradient and Box Shadow collapsibles not opening.
+4. Fixed: Gradient undefined variables error on button output.
+
+Files changed: 
+1. /includes/class.btnsx.php
+2. /assets/js/admin/admin.js
+3. /assets/js/admin/admin.min.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.4 [ September 11, 2015 ]
+1. Addition: Add buttons to WooCommerce single product page (5 different places).
+2. Addition: Change WooCommerce checkout page button (experimental feature use with caution).
+3. Addition: Change WooCommerce pay order page button (experimental feature use with caution).
+4. Addition: Link type 'Previous Page' added.
+5. Improvement: Menu icon changed.
+6. Fixed: Icon not appearing on icon selection.
+7. Fixed: Script tag appearing above button even if empty.
+8. Live Composer support dropped. Now Buttons X is Visual Composer exclusive.
+
+Files changed: 
+1. /assets/js/admin/admin.js
+2. /assets/js/admin/admin.min.js
+3. /includes/class.btnsx.php
+4. /includes/class.woo.php [NEW]
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.3 [ September 9, 2015 ]
+1. Addition: Override all WooCommerce button styles and custom class(es) using a single button.
+2. Addition: Meta tag added for SEO purposes.
+3. Improvement: Removed redundant code.
+4. Improvement: Styles priority increased so that they override other styles.
+5. Fixed: Google font script error when using system fonts on all fronts.
+6. Fixed: LinkedIn script loaded over http rather than https.
+
+Files changed: 
+1. /includes/class.btnsx.php
+2. /assets/js/admin/admin.js
+3. /assets/js/admin/admin.min.js
+4. /assets/js/admin/views.js
+5. /assets/js/admin/views.min.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.2 [ September 7, 2015 ]
+1. Addition: Custom JS option added.
+2. Addition: Menu display option has been added. Now you can select whether to display menu on button click or on button hover.
+3. Addition: Switch form field type.
+4. Improvement: Select2 script & style loaded by 'WooCommerce Product Faq Manager' plugin is dequeued on button related pages.
+5. Improvement: Now you can switch ON / OFF social buttons.
+6. Improvement: Tabs UI improved, active tabs are saved when a button or a setting is saved.
+7. Improvement: Button reset functionality improved.
+8. Fixed: Support link on settings page.
+9. Fixed: Google font script error when using system fonts.
+
+Files changed: 
+1. /includes/class.btnsx.php
+2. /assets/js/admin/admin.js
+3. /assets/js/admin/admin.min.js
+4. /assets/js/public/btnsx.js
+5. /assets/css/common/button.css
+6. /assets/css/public/button.min.css
+7. /includes/settings-page.php
+8. /btnsx.php
+9. /includes/class.btnsx.form.php
+10. /includes/class.btnsx.form.design.php
+11. /includes/settings-page.php
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.1 [ September 4, 2015 ]
+1. Addition: Added button link override options for visual composer.
+2. Addition: Added button text override option for visual composer.
+3. Improvement: Buttons X logo used in Visual Composer brick changed.
+4. Improvement: Latest buttons now appear on top in Visual Composer brick and Live Composer module.
+5. Fixed: WP Query to generate button options in Visual Composer.
+6. Fixed: 'Alternate' spelling on line 1776 in class.btnsx.php.
+7. Fixed: Button preview display when width is defined. Full width option modified accordingly.
+8. Fixed: Icon markup appearing even when icon not selected.
+9. Fixed: Option field ID printed to console when range input field is used.
+10. Fixed: Font Awesome stylesheet loaded by 'Multi-X Bar' plugin is dequeued on button related pages.
+11. Fixed: Gradient CSS generated even when not defined.
+12. Fixed: Box shadow CSS generated even when not defined.
+
+Files changed: 
+1. /builders/composer/map/btnsx.php
+2. /builders/composer/assets/logo.png
+3. /builders/live_composer/config.php
+4. /includes/class.btnsx.php
+5. /assets/js/admin/views.js
+6. /assets/js/admin/views.min.js
+7. /assets/js/admin/admin.js
+8. /assets/js/admin/admin.min.js
+9. /assets/js/public/btnsx.js
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v1.0 [ September 2, 2015 ]
+1. Let's rock!
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+##### BETA RELEASE #####
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v0.1 [ August 6, 2015 ]
+1. Let's begin!
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v0.2 [ August 11, 2015 ]
+1. Added: Cache flush for WP Cache, W3TC & WP Super Cache after CSS is generated.
+2. Improvement: Default settings now set on plugin activation if not already set/present.
+3. Improvement: CSS default option now set to 'inline'.
+4. Improvement: Multisite support. Each new site has it's dynamic CSS file.
+5. Improvement: Live preview now floats.
+6. Improvement: Updated admin metabox styles.
+7. Improvement: Renamed 'General' tab to 'Layout' tab. Moved 'Link', 'Margin', 'Padding' & 'CSS' tabs.
+7. Improvement: Buttons X logo now based on font icon.
+8. Fixed: Tooltips not working on social buttons & settings page respectively.
+9. Fixed: Reset settings not resetting to default values.
+10. Fixed: A major bug while importing buttons where button data was not imported completely.
+11. Fixed: 'Reset unsuccessful' when settings are already at default values.
+12. Fixed: Metabox style issues on Firefox.
+13. Fixed: Tab's text font.
+14. Fixed: Range slider alignment issue on Firefox.
+15. Fixed: Multiple opacity selector in color field when multiple gradients and shadows are added.
+16. Fixed: Firefox empty image / broken image.
+17. Fixed: Border hover not returning to initial / normal state when button is hovered during preview.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+v0.3 [ August 22, 2015 ]
+1. Added: Social buttons widget.
+2. Added: Buttons X now supports icon image positioning.
+3. Improvement: Social buttons meta box on edit post now consist of two select boxes for the two display areas - before content & after content.
+4. Improvement: Data validation and sanitization.
+5. Improvement: Button text now wraps when the space is limited.
+6. Improvement: Default options are now set for each multisite blog when plugin is network activated.
+7. Improvement: Default options are now set when new blog is created (multisite).
+8. Fixed: Error generated on line 62 of class.btnsx.social.php.
+9. Fixed: Existing button check while importing buttons.
+10. Fixed: Media uploader permission issue.
+11. Fixed: Border bottom right radius on hover.
+12. Fixed: Custom CSS box changing button id to preview button id.
+13. Fixed: Secondary text alignment CSS.
+14. Fixed: Removed duplicate secondary text color CSS.

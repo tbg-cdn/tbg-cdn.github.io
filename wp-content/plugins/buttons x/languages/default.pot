@@ -1,0 +1,5431 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Buttons X\n"
+"POT-Creation-Date: 2016-05-04 13:07+0530\n"
+"PO-Revision-Date: 2015-08-07 00:40+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: btnsx.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: btnsx.php:213
+#, php-format
+msgid ""
+"<strong>Buttons X %1$s</strong> adds responsive style options for single "
+"buttons. You can find these on button edit screen under Buttons X - Options "
+"Panel > Advanced > Responsive. Automatic responsive style used in earlier "
+"verions is turned off by default. You can re-enable them from the <a href="
+"\"%2$s\">settings page</a> under general settings. Read more about this new "
+"feature <a href=\"%3$s\">here</a>."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:64 builders/composer/map/btnsx.php:77
+#: builders/composer/map/btnsx.php:90 builders/composer/map/btnsx.php:103
+#: builders/composer/map/btnsx.php:112 builders/composer/map/btnsx.php:152
+#: builders/composer/map/btnsx.php:191 builders/composer/map/btnsx.php:329
+#: builders/composer/map/btnsx.php:383 builders/composer/map/btnsx.php:421
+#: builders/composer/map/btnsx.php:541 builders/composer/map/btnsx.php:579
+msgid "Default"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:122 builders/composer/map/btnsx.php:371
+#: builders/composer/map/btnsx.php:754 builders/composer/map/btnsx.php:783
+#: includes/class.btnsx.social.php:1022
+msgid "Button"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:125 builders/composer/map/btnsx.php:374
+#: builders/composer/map/btnsx.php:757 builders/composer/map/btnsx.php:786
+msgid "Select the desired button."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:131 includes/class.btnsx.dual.php:1030
+#: includes/class.btnsx.php:3271 includes/class.btnsx.php:3278
+#: includes/class.btnsx.php:3415 includes/class.btnsx.php:3421
+#: includes/class.btnsx.social.php:1116
+msgid "Text"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:134
+msgid "Override button text parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:140 includes/class.btnsx.php:2962
+#: includes/class.btnsx.php:2979
+msgid "Custom CSS"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:143
+msgid "Add custom class."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:149 builders/composer/map/btnsx.php:380
+#: builders/composer/map/btnsx.php:538
+msgid "Link Target"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:153 builders/composer/map/btnsx.php:384
+#: builders/composer/map/btnsx.php:542 includes/class.btnsx.dual.php:1265
+#: includes/class.btnsx.dual.php:1441 includes/class.btnsx.php:2376
+msgid "New Window"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:154 builders/composer/map/btnsx.php:385
+#: builders/composer/map/btnsx.php:543 includes/class.btnsx.dual.php:1266
+#: includes/class.btnsx.dual.php:1442 includes/class.btnsx.php:2377
+msgid "Same Window"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:155 includes/class.btnsx.php:2378
+msgid "Iframe"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:157 builders/composer/map/btnsx.php:387
+#: builders/composer/map/btnsx.php:454 builders/composer/map/btnsx.php:545
+#: builders/composer/map/btnsx.php:612
+msgid "Override button link target parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:158 builders/composer/map/btnsx.php:182
+#: builders/composer/map/btnsx.php:222 builders/composer/map/btnsx.php:231
+#: builders/composer/map/btnsx.php:247 builders/composer/map/btnsx.php:261
+#: builders/composer/map/btnsx.php:275 builders/composer/map/btnsx.php:289
+#: builders/composer/map/btnsx.php:303 builders/composer/map/btnsx.php:316
+#: builders/composer/map/btnsx.php:334 builders/composer/map/btnsx.php:418
+#: builders/composer/map/btnsx.php:576 includes/class.btnsx.dual.php:1219
+#: includes/class.btnsx.dual.php:1395 includes/class.btnsx.php:2903
+msgid "Link"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:164 builders/composer/map/btnsx.php:394
+#: builders/composer/map/btnsx.php:552
+msgid "Link Relationship"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:167 builders/composer/map/btnsx.php:192
+#: builders/composer/map/btnsx.php:397 builders/composer/map/btnsx.php:555
+#: includes/class.btnsx.dual.php:1230 includes/class.btnsx.dual.php:1278
+#: includes/class.btnsx.dual.php:1406 includes/class.btnsx.dual.php:1454
+#: includes/class.btnsx.form.php:1741 includes/class.btnsx.php:1634
+#: includes/class.btnsx.php:2304 includes/class.btnsx.php:2390
+#: includes/class.btnsx.php:3041 includes/class.btnsx.php:3222
+#: includes/class.btnsx.php:3290 includes/class.btnsx.php:3434
+#: includes/class.btnsx.social.php:1158 includes/class.btnsx.social.php:1243
+#: includes/class.btnsx.social.php:1280 includes/class.btnsx.social.php:1295
+#: includes/class.btnsx.social.php:1331 includes/class.widget.dual.php:109
+#: includes/class.widget.php:109 includes/class.widget.social.counters.php:109
+#: includes/class.widget.social.php:109 includes/class.woo.php:93
+msgid "None"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:168 builders/composer/map/btnsx.php:398
+#: builders/composer/map/btnsx.php:556 includes/class.btnsx.dual.php:1279
+#: includes/class.btnsx.dual.php:1455 includes/class.btnsx.php:2391
+msgid "Alternate"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:169 builders/composer/map/btnsx.php:399
+#: builders/composer/map/btnsx.php:557 includes/class.btnsx.dual.php:1280
+#: includes/class.btnsx.dual.php:1456 includes/class.btnsx.php:2392
+msgid "Author"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:170 builders/composer/map/btnsx.php:400
+#: builders/composer/map/btnsx.php:558 includes/class.btnsx.dual.php:1281
+#: includes/class.btnsx.dual.php:1457 includes/class.btnsx.php:2393
+msgid "Bookmark"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:171 builders/composer/map/btnsx.php:401
+#: builders/composer/map/btnsx.php:559 includes/class.btnsx.dual.php:1282
+#: includes/class.btnsx.dual.php:1458 includes/class.btnsx.php:2394
+msgid "Help"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:172 builders/composer/map/btnsx.php:402
+#: builders/composer/map/btnsx.php:560 includes/class.btnsx.dual.php:1283
+#: includes/class.btnsx.dual.php:1459 includes/class.btnsx.php:2395
+msgid "License"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:173 builders/composer/map/btnsx.php:403
+#: builders/composer/map/btnsx.php:561 includes/class.btnsx.dual.php:1284
+#: includes/class.btnsx.dual.php:1460 includes/class.btnsx.php:2396
+msgid "Next"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:174 builders/composer/map/btnsx.php:404
+#: builders/composer/map/btnsx.php:562 includes/class.btnsx.dual.php:1285
+#: includes/class.btnsx.dual.php:1461 includes/class.btnsx.php:2397
+msgid "Nofollow"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:175 builders/composer/map/btnsx.php:405
+#: builders/composer/map/btnsx.php:563 includes/class.btnsx.dual.php:1286
+#: includes/class.btnsx.dual.php:1462 includes/class.btnsx.php:2398
+msgid "No Referrer"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:176 builders/composer/map/btnsx.php:406
+#: builders/composer/map/btnsx.php:564 includes/class.btnsx.dual.php:1287
+#: includes/class.btnsx.dual.php:1463 includes/class.btnsx.php:2399
+msgid "Prefetch"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:177 builders/composer/map/btnsx.php:407
+#: builders/composer/map/btnsx.php:565 includes/class.btnsx.dual.php:1288
+#: includes/class.btnsx.dual.php:1464 includes/class.btnsx.php:2400
+msgid "Previous"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:178 builders/composer/map/btnsx.php:408
+#: builders/composer/map/btnsx.php:566 includes/class.btnsx.dual.php:1289
+#: includes/class.btnsx.dual.php:1465 includes/class.btnsx.php:2401
+msgid "Search"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:179 builders/composer/map/btnsx.php:409
+#: builders/composer/map/btnsx.php:567 includes/class.btnsx.dual.php:1290
+#: includes/class.btnsx.dual.php:1466 includes/class.btnsx.php:2402
+msgid "Tag"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:181 builders/composer/map/btnsx.php:411
+#: builders/composer/map/btnsx.php:569
+msgid "Override button link relationship parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:188
+msgid "Link Type"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:193 builders/composer/map/btnsx.php:422
+#: builders/composer/map/btnsx.php:580 includes/class.btnsx.dual.php:1231
+#: includes/class.btnsx.dual.php:1407 includes/class.btnsx.php:2305
+msgid "Admin Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:194 builders/composer/map/btnsx.php:423
+#: builders/composer/map/btnsx.php:581 includes/class.btnsx.dual.php:1232
+#: includes/class.btnsx.dual.php:1408 includes/class.btnsx.php:2306
+msgid "Back To Top"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:195 builders/composer/map/btnsx.php:424
+#: builders/composer/map/btnsx.php:582 includes/class.btnsx.dual.php:1233
+#: includes/class.btnsx.dual.php:1409 includes/class.btnsx.php:2310
+msgid "EDD - Checkout"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:196 builders/composer/map/btnsx.php:425
+#: builders/composer/map/btnsx.php:583 includes/class.btnsx.dual.php:1234
+#: includes/class.btnsx.dual.php:1410 includes/class.btnsx.php:2311
+msgid "EDD - Straight to Gateway"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:197 includes/class.btnsx.php:2313
+msgid "Facebook Share"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:198 builders/composer/map/btnsx.php:426
+#: builders/composer/map/btnsx.php:584 includes/class.btnsx.dual.php:1235
+#: includes/class.btnsx.dual.php:1411 includes/class.btnsx.php:2316
+msgid "Home Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:199 builders/composer/map/btnsx.php:427
+#: builders/composer/map/btnsx.php:585 includes/class.btnsx.dual.php:1236
+#: includes/class.btnsx.dual.php:1412 includes/class.btnsx.php:2318
+msgid "Login Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:200 builders/composer/map/btnsx.php:428
+#: builders/composer/map/btnsx.php:586 includes/class.btnsx.dual.php:1237
+#: includes/class.btnsx.dual.php:1413 includes/class.btnsx.php:2319
+msgid "Login - Redirect to Current Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:201 builders/composer/map/btnsx.php:429
+#: builders/composer/map/btnsx.php:587 includes/class.btnsx.dual.php:1238
+#: includes/class.btnsx.dual.php:1414 includes/class.btnsx.php:2320
+msgid "Login - Redirect to Home Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:202 builders/composer/map/btnsx.php:430
+#: builders/composer/map/btnsx.php:588 includes/class.btnsx.dual.php:1239
+#: includes/class.btnsx.dual.php:1415 includes/class.btnsx.php:2321
+msgid "Login - Redirect to Custom Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:203 builders/composer/map/btnsx.php:431
+#: builders/composer/map/btnsx.php:589 includes/class.btnsx.dual.php:1240
+#: includes/class.btnsx.dual.php:1416 includes/class.btnsx.php:2322
+msgid "Logout Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:204 builders/composer/map/btnsx.php:432
+#: builders/composer/map/btnsx.php:590 includes/class.btnsx.dual.php:1241
+#: includes/class.btnsx.dual.php:1417 includes/class.btnsx.php:2323
+msgid "Logout - Redirect to Current Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:205 builders/composer/map/btnsx.php:433
+#: builders/composer/map/btnsx.php:591 includes/class.btnsx.dual.php:1242
+#: includes/class.btnsx.dual.php:1418 includes/class.btnsx.php:2324
+msgid "Logout - Redirect to Home Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:206 builders/composer/map/btnsx.php:434
+#: builders/composer/map/btnsx.php:592 includes/class.btnsx.dual.php:1243
+#: includes/class.btnsx.dual.php:1419 includes/class.btnsx.php:2325
+msgid "Logout - Redirect to Custom Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:207 builders/composer/map/btnsx.php:435
+#: builders/composer/map/btnsx.php:593 includes/class.btnsx.dual.php:1244
+#: includes/class.btnsx.dual.php:1420 includes/class.btnsx.php:2326
+msgid "Lost Password Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:208 builders/composer/map/btnsx.php:436
+#: builders/composer/map/btnsx.php:594 includes/class.btnsx.dual.php:1245
+#: includes/class.btnsx.dual.php:1421 includes/class.btnsx.php:2327
+msgid "Lost Password - Redirect to Current Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:209 builders/composer/map/btnsx.php:437
+#: builders/composer/map/btnsx.php:595 includes/class.btnsx.dual.php:1246
+#: includes/class.btnsx.dual.php:1422 includes/class.btnsx.php:2328
+msgid "Lost Password - Redirect to Home Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:210 builders/composer/map/btnsx.php:438
+#: builders/composer/map/btnsx.php:596 includes/class.btnsx.dual.php:1247
+#: includes/class.btnsx.dual.php:1423 includes/class.btnsx.php:2329
+msgid "Lost Password - Redirect to Custom Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:211 builders/composer/map/btnsx.php:439
+#: builders/composer/map/btnsx.php:597 includes/class.btnsx.dual.php:1248
+#: includes/class.btnsx.dual.php:1424 includes/class.btnsx.php:2331
+msgid "Menu"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:212 includes/class.btnsx.php:2333
+msgid "Pinterest Share"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:213 builders/composer/map/btnsx.php:313
+#: includes/class.external.plugins.php:58
+msgid "Popup Maker"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:214 builders/composer/map/btnsx.php:228
+#: builders/composer/map/btnsx.php:440 builders/composer/map/btnsx.php:452
+#: builders/composer/map/btnsx.php:598 builders/composer/map/btnsx.php:610
+#: includes/class.btnsx.dual.php:1249 includes/class.btnsx.dual.php:1299
+#: includes/class.btnsx.dual.php:1425 includes/class.btnsx.dual.php:1475
+#: includes/class.btnsx.php:2334 includes/class.btnsx.php:2411
+msgid "Post/Page/CPT"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:215 includes/class.btnsx.dual.php:1250
+#: includes/class.btnsx.dual.php:1426 includes/class.btnsx.php:2335
+msgid "Previous Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:216 builders/composer/map/btnsx.php:441
+#: builders/composer/map/btnsx.php:599 includes/class.btnsx.dual.php:1251
+#: includes/class.btnsx.dual.php:1427 includes/class.btnsx.php:2338
+msgid "Registration Page"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:217 includes/class.btnsx.php:2347
+msgid "Twitter Share"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:218 builders/composer/map/btnsx.php:257
+#: builders/composer/map/btnsx.php:442 builders/composer/map/btnsx.php:481
+#: builders/composer/map/btnsx.php:600 builders/composer/map/btnsx.php:639
+#: includes/class.btnsx.dual.php:1252 includes/class.btnsx.dual.php:1330
+#: includes/class.btnsx.dual.php:1428 includes/class.btnsx.dual.php:1506
+#: includes/class.btnsx.php:2348 includes/class.btnsx.php:2442
+#: includes/class.btnsx.social.php:988 includes/class.btnsx.social.php:1107
+#: includes/class.btnsx.social.php:1213 includes/class.btnsx.social.php:1318
+msgid "URL"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:219 builders/composer/map/btnsx.php:443
+#: builders/composer/map/btnsx.php:601 includes/class.btnsx.dual.php:1253
+#: includes/class.btnsx.dual.php:1429 includes/class.btnsx.php:2350
+msgid "Woocommerce -  Add to Cart"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:221 builders/composer/map/btnsx.php:445
+#: builders/composer/map/btnsx.php:603
+msgid "Override button link parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:230
+msgid "Override button link post parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:241 builders/composer/map/btnsx.php:465
+#: builders/composer/map/btnsx.php:623 includes/class.btnsx.dual.php:1308
+#: includes/class.btnsx.dual.php:1484 includes/class.btnsx.php:2420
+msgid "Menu as Dropdown"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:246 builders/composer/map/btnsx.php:274
+#: builders/composer/map/btnsx.php:470 builders/composer/map/btnsx.php:498
+#: builders/composer/map/btnsx.php:628 builders/composer/map/btnsx.php:656
+msgid "Override button menu parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:260 builders/composer/map/btnsx.php:484
+#: builders/composer/map/btnsx.php:642
+msgid "Override button URL parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:271 builders/composer/map/btnsx.php:495
+#: builders/composer/map/btnsx.php:653 includes/class.btnsx.dual.php:1339
+#: includes/class.btnsx.dual.php:1515 includes/class.btnsx.php:2451
+msgid "EDD Download ID"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:285 builders/composer/map/btnsx.php:509
+#: builders/composer/map/btnsx.php:667 includes/class.btnsx.dual.php:1348
+#: includes/class.btnsx.dual.php:1524 includes/class.btnsx.php:2460
+msgid "Redirect URL"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:288 builders/composer/map/btnsx.php:512
+#: builders/composer/map/btnsx.php:670
+msgid "Override button redirect URL parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:299 builders/composer/map/btnsx.php:523
+#: builders/composer/map/btnsx.php:681 includes/class.btnsx.dual.php:1357
+#: includes/class.btnsx.dual.php:1533 includes/class.btnsx.php:2469
+msgid "WooCommerce Product ID"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:302 builders/composer/map/btnsx.php:526
+#: builders/composer/map/btnsx.php:684
+msgid "Override WooCommerce product id parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:315
+msgid "Override button link popup maker parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:326 includes/class.btnsx.dual.php:1317
+#: includes/class.btnsx.dual.php:1493 includes/class.btnsx.php:2429
+msgid "Menu Display"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:330 includes/class.btnsx.dual.php:1320
+#: includes/class.btnsx.dual.php:1496 includes/class.btnsx.php:2432
+#: includes/class.btnsx.php:3223
+msgid "On Click"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:331 includes/class.btnsx.dual.php:1321
+#: includes/class.btnsx.dual.php:1497 includes/class.btnsx.php:2433
+#: includes/class.btnsx.php:3224
+msgid "On Hover"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:333
+msgid "Override button link menu display parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:343 includes/class.btnsx.php:2876
+msgid "Full Width"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:346 builders/composer/map/btnsx.php:358
+msgid "No"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:347 builders/composer/map/btnsx.php:359
+msgid "Yes"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:349
+msgid "Override button full width parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:350 builders/composer/map/btnsx.php:362
+#: includes/class.btnsx.dual.php:1081 includes/class.btnsx.php:2810
+#: includes/class.btnsx.php:3606 includes/class.btnsx.php:3779
+#: includes/class.btnsx.social.php:1016
+msgid "Layout"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:355 includes/class.btnsx.dual.php:998
+#: includes/class.btnsx.php:2894 includes/settings-page.php:235
+#: includes/settings-page.php:299
+msgid "Wrap Center"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:361
+msgid "Override button wrap center parameter."
+msgstr ""
+
+#: builders/composer/map/btnsx.php:388 builders/composer/map/btnsx.php:412
+#: builders/composer/map/btnsx.php:446 builders/composer/map/btnsx.php:455
+#: builders/composer/map/btnsx.php:471 builders/composer/map/btnsx.php:485
+#: builders/composer/map/btnsx.php:499 builders/composer/map/btnsx.php:513
+#: builders/composer/map/btnsx.php:527 includes/class.btnsx.dual.php:970
+#: includes/class.btnsx.dual.php:1216
+msgid "First Button"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:546 builders/composer/map/btnsx.php:570
+#: builders/composer/map/btnsx.php:604 builders/composer/map/btnsx.php:613
+#: builders/composer/map/btnsx.php:629 builders/composer/map/btnsx.php:643
+#: builders/composer/map/btnsx.php:657 builders/composer/map/btnsx.php:671
+#: builders/composer/map/btnsx.php:685 includes/class.btnsx.dual.php:980
+#: includes/class.btnsx.dual.php:1392
+msgid "Second Button"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: builders/composer/map/btnsx.php:698 builders/composer/map/btnsx.php:705
+#: builders/composer/map/btnsx.php:725 builders/composer/map/btnsx.php:744
+#: builders/composer/map/btnsx.php:773 includes/class.widget.php:24
+#: includes/class.widget.php:63
+msgid "Buttons X"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:718 includes/class.widget.dual.php:24
+#: includes/class.widget.dual.php:63
+msgid "Buttons X Dual"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:737 includes/class.widget.social.php:24
+#: includes/class.widget.social.php:63
+msgid "Buttons X Social"
+msgstr ""
+
+#: builders/composer/map/btnsx.php:766
+msgid "Buttons X Counters"
+msgstr ""
+
+#: includes/class.ajax.php:208 includes/class.ajax.php:288
+#: includes/class.ajax.php:339 includes/class.ajax.php:396
+msgid "Authenticated, Please save settings!"
+msgstr ""
+
+#: includes/class.ajax.php:400
+msgid "Something went wrong! Please reload the page & try again."
+msgstr ""
+
+#: includes/class.ajax.php:1471 includes/class.ajax.php:1475
+#: includes/class.ajax.php:1607
+msgid "Reset Successful"
+msgstr ""
+
+#: includes/class.ajax.php:1478 includes/class.ajax.php:1609
+msgid "Setting fields are already at their default values. Reset not required."
+msgstr ""
+
+#: includes/class.ajax.php:1500
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/class.ajax.php:1588
+msgid "Settings Saved"
+msgstr ""
+
+#: includes/class.ajax.php:1590
+msgid "Settings Not Saved"
+msgstr ""
+
+#: includes/class.ajax.php:1593
+msgid "No change detected"
+msgstr ""
+
+#: includes/class.ajax.php:1629 includes/class.btnsx.social.php:239
+#: includes/settings-page.php:1072
+msgid "Reset"
+msgstr ""
+
+#: includes/class.ajax.php:1641 includes/class.ajax.php:1688
+#: includes/class.portation.php:634 includes/class.portation.php:665
+msgid "Not Authorized!"
+msgstr ""
+
+#: includes/class.ajax.php:1669 includes/settings-page.php:1069
+msgid "Save"
+msgstr ""
+
+#: includes/class.ajax.php:1673
+msgid "Generating External CSS.."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:72 includes/class.btnsx.dual.php:144
+#: includes/class.btnsx.php:819
+msgid "Reset Options"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:73 includes/class.btnsx.dual.php:145
+#: includes/class.btnsx.php:820
+msgid "Clone Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:86 includes/class.btnsx.counter.php:1455
+#: includes/class.btnsx.dual.php:72 includes/class.btnsx.dual.php:531
+#: includes/class.btnsx.dual.php:1928 includes/class.btnsx.php:605
+#: includes/class.btnsx.php:1110 includes/class.btnsx.php:1513
+#: includes/class.btnsx.social.php:69 includes/class.btnsx.social.php:314
+#: includes/class.btnsx.social.php:1516 includes/class.wapi.php:167
+msgid "Packs"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:87 includes/class.btnsx.counter.php:1479
+#: includes/class.btnsx.dual.php:73 includes/class.btnsx.dual.php:532
+#: includes/class.btnsx.dual.php:1953 includes/class.btnsx.php:606
+#: includes/class.btnsx.php:1111 includes/class.btnsx.php:1538
+#: includes/class.btnsx.social.php:70 includes/class.btnsx.social.php:315
+#: includes/class.btnsx.social.php:1540
+msgid "Tags"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:568
+msgid "Posts"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:570
+msgid "Comments"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:572
+msgid "Users"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:574 includes/settings-page.php:762
+msgid "RSS"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:673 includes/class.btnsx.dual.php:468
+#: includes/class.btnsx.dual.php:533 includes/class.btnsx.php:1034
+#: includes/class.btnsx.php:1112 includes/class.btnsx.social.php:264
+#: includes/class.btnsx.social.php:316
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:674 includes/class.btnsx.counter.php:852
+#: includes/class.btnsx.dual.php:469 includes/class.btnsx.dual.php:491
+#: includes/class.btnsx.dual.php:534 includes/class.btnsx.php:1035
+#: includes/class.btnsx.php:1057 includes/class.btnsx.php:1113
+#: includes/class.btnsx.social.php:265 includes/class.btnsx.social.php:283
+#: includes/class.btnsx.social.php:317
+msgid "Preview"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:706 includes/class.btnsx.counter.php:709
+msgid "Social counter updated."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:707 includes/class.btnsx.dual.php:1753
+#: includes/class.btnsx.php:1463 includes/class.btnsx.social.php:807
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:708 includes/class.btnsx.dual.php:1754
+#: includes/class.btnsx.php:1464 includes/class.btnsx.social.php:808
+msgid "Custom field deleted."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: includes/class.btnsx.counter.php:711
+#, php-format
+msgid "Social counter restored to revision from %s"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:712
+msgid "Social counter published."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:713
+msgid "Social counter saved."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:714
+msgid "Social counter submitted."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:716
+#, php-format
+msgid "Social counter scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#. translators: Publish box date format, see http://php.net/date
+#: includes/class.btnsx.counter.php:718 includes/class.btnsx.dual.php:1764
+#: includes/class.btnsx.php:1474 includes/class.btnsx.social.php:818
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:720
+msgid "Social counter draft updated."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:996 includes/class.btnsx.dual.php:962
+#: includes/class.btnsx.php:2817 includes/class.btnsx.social.php:924
+msgid "ID"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1004 includes/class.btnsx.social.php:931
+msgid "Enable Facebook Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1005 includes/class.btnsx.social.php:932
+msgid "Enables Facebook button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1013 includes/class.btnsx.social.php:940
+msgid "Enable Twitter Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1014 includes/class.btnsx.social.php:941
+msgid "Enables Twitter button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1022 includes/class.btnsx.social.php:949
+msgid "Enable Google+ Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1023 includes/class.btnsx.social.php:950
+msgid "Enables Google+ button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1031
+msgid "Enable StumbleUpon Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1032
+msgid "Enables stumbleUpon button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1040
+msgid "Enable Youtube Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1041
+msgid "Enables Youtube button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1049
+msgid "Enable Vimeo Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1050
+msgid "Enables Vimeo button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1058
+msgid "Enable Dribbble Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1059
+msgid "Enables Dribbble button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1067
+msgid "Enable Github Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1068
+msgid "Enables Github button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1076
+msgid "Enable Envato Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1077
+msgid "Enables envato button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1085
+msgid "Enable SoundCloud Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1086
+msgid "Enables SoundCloud Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1094
+msgid "Enable Behance Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1095
+msgid "Enables Behance Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1103
+msgid "Enable Delicious Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1104
+msgid "Enables Delicious Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1112
+msgid "Enable Instagram Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1113
+msgid "Enables Instagram Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1121
+msgid "Enable Linkedin Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1122
+msgid "Enables Linkedin Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1130
+msgid "Enable Pinterest Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1131
+msgid "Enables Pinterest Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1139
+msgid "Enable Vine Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1140
+msgid "Enables Vine Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1148
+msgid "Enable Spotify Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1149
+msgid "Enables Spotify Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1157
+msgid "Enable Mixcloud Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1158
+msgid "Enables Mixcloud Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1166
+msgid "Enable Twitch Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1167
+msgid "Enables Twitch Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1175
+msgid "Enable Steam Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1176
+msgid "Enables Steam Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1184
+msgid "Enable Goodreads Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1185
+msgid "Enables Goodreads Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1193
+msgid "Enable VK Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1194
+msgid "Enables VK Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1202
+msgid "Enable Tumblr Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1203
+msgid "Enables Tumblr Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1211
+msgid "Enable 500px Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1212
+msgid "Enables 500px Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1220
+msgid "Enable Mailchimp Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1221
+msgid "Enables Mailchimp Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1229
+msgid "Enable Posts Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1230
+msgid "Enables Posts Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1238
+msgid "Enable Comments Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1239
+msgid "Enables Comments Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1247
+msgid "Enable Users Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1248
+msgid "Enables Users Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1256
+msgid "Enable RSS Button"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1257
+msgid "Enables RSS Button."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1319
+msgid "Enable & Sort"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1324
+msgid "Theme"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1330
+msgid "Select counter theme"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1331
+msgid "Select theme for buttons."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1334
+msgid "Theme 1"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1335
+msgid "Theme 2"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1336
+msgid "Theme 3"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1337
+msgid "Theme 4"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1398 includes/class.btnsx.dual.php:1852
+#: includes/class.btnsx.php:1562 includes/class.btnsx.social.php:1448
+msgid "Live Preview"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1406 includes/class.btnsx.social.php:1456
+msgid "Buttons X Options Panel"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1414 includes/class.btnsx.dual.php:1876
+#: includes/class.btnsx.php:1594 includes/class.btnsx.social.php:1464
+msgid "Buttons X - Short Code"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1445 includes/class.btnsx.dual.php:1918
+#: includes/class.btnsx.php:1503 includes/class.btnsx.social.php:1506
+msgctxt "btnsx"
+msgid "Packs"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1446 includes/class.btnsx.dual.php:1919
+#: includes/class.btnsx.php:1504 includes/class.btnsx.social.php:1507
+msgctxt "btnsx"
+msgid "Pack"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1447 includes/class.btnsx.dual.php:1920
+#: includes/class.btnsx.php:1505 includes/class.btnsx.social.php:1508
+msgid "Search Pack"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1448 includes/class.btnsx.counter.php:1472
+#: includes/class.btnsx.dual.php:1921 includes/class.btnsx.dual.php:1946
+#: includes/class.btnsx.php:1506 includes/class.btnsx.php:1531
+#: includes/class.btnsx.social.php:1509 includes/class.btnsx.social.php:1533
+msgid "All"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1449 includes/class.btnsx.dual.php:1922
+#: includes/class.btnsx.php:1507 includes/class.btnsx.social.php:1510
+msgid "Parent Pack"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1450 includes/class.btnsx.dual.php:1923
+#: includes/class.btnsx.php:1508 includes/class.btnsx.social.php:1511
+msgid "Parent Pack:"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1451 includes/class.btnsx.dual.php:1924
+#: includes/class.btnsx.php:1509 includes/class.btnsx.social.php:1512
+msgid "Edit Pack"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1452 includes/class.btnsx.dual.php:1925
+#: includes/class.btnsx.php:1510 includes/class.btnsx.social.php:1513
+msgid "Update Pack"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1453 includes/class.btnsx.dual.php:1926
+#: includes/class.btnsx.php:1511 includes/class.btnsx.social.php:1514
+msgid "Add New Pack"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1454 includes/class.btnsx.dual.php:1927
+#: includes/class.btnsx.php:1512 includes/class.btnsx.social.php:1515
+msgid "New Pack Name"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1469 includes/class.btnsx.dual.php:1943
+#: includes/class.btnsx.php:1528 includes/class.btnsx.social.php:1530
+msgctxt "btnsx"
+msgid "Tags"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1470 includes/class.btnsx.dual.php:1944
+#: includes/class.btnsx.php:1529 includes/class.btnsx.social.php:1531
+msgctxt "btnsx"
+msgid "Tag"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1471 includes/class.btnsx.dual.php:1945
+#: includes/class.btnsx.php:1530 includes/class.btnsx.social.php:1532
+msgid "Search Tag"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1473 includes/class.btnsx.dual.php:1947
+#: includes/class.btnsx.php:1532 includes/class.btnsx.social.php:1534
+msgid "Parent Tag"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1474 includes/class.btnsx.dual.php:1948
+#: includes/class.btnsx.php:1533 includes/class.btnsx.social.php:1535
+msgid "Parent Tag:"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1475 includes/class.btnsx.dual.php:1949
+#: includes/class.btnsx.php:1534 includes/class.btnsx.social.php:1536
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1476 includes/class.btnsx.dual.php:1950
+#: includes/class.btnsx.php:1535 includes/class.btnsx.social.php:1537
+msgid "Update Tag"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1477 includes/class.btnsx.dual.php:1951
+#: includes/class.btnsx.php:1536 includes/class.btnsx.social.php:1538
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1478 includes/class.btnsx.dual.php:1952
+#: includes/class.btnsx.php:1537 includes/class.btnsx.social.php:1539
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1503 includes/class.btnsx.counter.php:1515
+#: includes/settings-page.php:154 includes/settings-page.php:374
+msgid "Social Counters"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1509 includes/class.btnsx.counter.php:1521
+msgid "Social Counter"
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1533 includes/class.btnsx.dual.php:2008
+#: includes/class.btnsx.php:1426 includes/class.btnsx.social.php:1594
+msgid "Add New "
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1534 includes/class.btnsx.dual.php:2009
+#: includes/class.btnsx.php:1427 includes/class.btnsx.social.php:1595
+msgid "New "
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1535 includes/class.btnsx.dual.php:2010
+#: includes/class.btnsx.php:1428 includes/class.btnsx.social.php:1596
+msgid "Edit "
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1536 includes/class.btnsx.dual.php:2011
+#: includes/class.btnsx.php:1429 includes/class.btnsx.social.php:1597
+msgid "View "
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1538 includes/class.btnsx.dual.php:2013
+#: includes/class.btnsx.php:1431 includes/class.btnsx.social.php:1599
+msgid "Search "
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1539 includes/class.btnsx.dual.php:2014
+#: includes/class.btnsx.php:1432 includes/class.btnsx.social.php:1600
+msgid "Parent "
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1540 includes/class.btnsx.counter.php:1541
+#: includes/class.btnsx.dual.php:2015 includes/class.btnsx.dual.php:2016
+#: includes/class.btnsx.php:1433 includes/class.btnsx.php:1434
+#: includes/class.btnsx.social.php:1601 includes/class.btnsx.social.php:1602
+msgid "No "
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1540 includes/class.btnsx.dual.php:2015
+#: includes/class.btnsx.php:1433 includes/class.btnsx.social.php:1601
+msgid " found."
+msgstr ""
+
+#: includes/class.btnsx.counter.php:1541 includes/class.btnsx.dual.php:2016
+#: includes/class.btnsx.php:1434 includes/class.btnsx.social.php:1602
+msgid " found in Trash."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:96 includes/class.btnsx.php:629
+msgid "Background Color"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:98 includes/class.btnsx.php:631
+msgid ""
+"Changing the color will change the preview background. If you intend to use "
+"this button on a coloured background then changing the preview background "
+"will give you exact look of the button over a color."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:106 includes/class.btnsx.form.php:1796
+#: includes/class.btnsx.php:639
+msgid "Background Image"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:108 includes/class.btnsx.php:641
+msgid "Select or upload button preview background image."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:110 includes/class.btnsx.php:643
+msgid "Set preview background image position."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:125 includes/class.btnsx.php:658
+msgid "Overlay"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:126 includes/class.btnsx.php:659
+msgid ""
+"Adjust background overlay opacity. You can change overlay colour by changing "
+"the background colour option above."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:157 includes/class.btnsx.php:5564
+msgid "Buttons X CSS Remove Error : "
+msgstr ""
+
+#: includes/class.btnsx.dual.php:157 includes/class.btnsx.php:5564
+msgid ""
+"Seems like you do not have file write access. Please contact your host to "
+"get write access to \"/wp-content/uploads/btnsx\" directory and files inside "
+"it OR \"/wp-content/uploads/sites/{site_id}/btnsx\"."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:220 includes/class.btnsx.php:5504
+msgid ""
+"Buttons X needs permission to write custom styles in css file. Please change "
+"directory permission at ( wp-content/uploads/btnsx OR wp-content/uploads/"
+"sites/{site_id}/btnsx  ) to 644 or higher."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:530 includes/class.btnsx.php:1109
+#: includes/class.btnsx.social.php:313
+msgid "Title"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:956 includes/settings-page.php:218
+#: includes/settings-page.php:282
+msgid "Buttons"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:969
+msgid "Choose first button"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:971
+msgid "Select the button that would appear first."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:979
+msgid "Choose second button"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:981
+msgid "Select the button that would appear second."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:989
+msgid "Force Full Width"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:990
+msgid "Make the dual button cover full container width."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:999 includes/class.btnsx.php:2895
+msgid ""
+"Makes the button centered. Very helpful when you want the button to be "
+"centered inside a big container."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1007 includes/class.btnsx.php:3191
+msgid "Divider"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1010 includes/class.btnsx.php:3013
+msgid "Main"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1017 includes/class.btnsx.social.php:918
+msgid "Enable"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1018
+msgid "Enable buttons divider."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1026
+msgid "Choose divider type"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1027
+msgid "Divider Type"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1028
+msgid "Select the type of divider for dual button."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1031 includes/class.btnsx.php:3009
+#: includes/class.btnsx.php:3020 includes/class.btnsx.php:3692
+#: includes/class.btnsx.php:3865
+msgid "Icon"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1040
+msgid "Divider Text"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1041
+msgid "Select the desired text."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1042 includes/class.btnsx.dual.php:1657
+msgid "OR"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1049
+msgid "Divider Icon"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1050
+msgid "Select the desired icon."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1057
+msgid "Choose divider style"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1058
+msgid "Divider Style"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1059
+msgid "Select the style of divider for dual button."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1061
+msgid "Custom"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1062
+msgid "Style 1"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1063
+msgid "Style 2"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1064
+msgid "Style 3"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1065
+msgid "Style 4"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1074
+msgid "Text/Icon Size"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1075
+msgid "Add text/icon size in pixels."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1089
+msgid "Divider Width"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1090 includes/class.btnsx.social.php:998
+msgid "Add width in pixels."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1098
+msgid "Divider Height"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1099 includes/class.btnsx.social.php:1007
+msgid "Add height in pixels."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1105
+msgid "Positioning"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1113
+msgid "Horizontal Position"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1114
+msgid "Position the divider from left in pixels. Negative values are allowed."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1122 includes/class.btnsx.php:3054
+msgid "Vertical Position"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1123
+msgid "Position the divider from top in pixels. Negative values are allowed."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1131
+msgid "Divider Text Position"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1135
+msgid "Position the text vertically."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1141 includes/class.btnsx.php:2661
+msgid "Border"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1150 includes/class.btnsx.php:2685
+msgid "Set border size in pixels."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1151 includes/class.btnsx.php:2686
+msgid "Set border style."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1152 includes/class.btnsx.php:2687
+msgid "Set border color."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1163
+msgid "Border Radius"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1171
+msgid "Set radius for all corners at once."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1172 includes/class.btnsx.php:2762
+msgid "Set top left border radius in pixels."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1173 includes/class.btnsx.php:2763
+msgid "Set top right border radius in pixels."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1174 includes/class.btnsx.php:2764
+msgid "Set bottom left border radius in pixels."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1175 includes/class.btnsx.php:2765
+msgid "Set bottom right border radius in pixels."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1187 includes/class.btnsx.form.php:1323
+#: includes/class.btnsx.form.php:1371 includes/class.btnsx.form.php:1429
+#: includes/class.btnsx.form.php:1494 includes/class.btnsx.form.php:1702
+#: includes/class.btnsx.php:2584 includes/class.btnsx.php:3061
+#: includes/class.btnsx.php:3324 includes/class.btnsx.php:3495
+msgid "Color"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1195
+msgid "Background Color."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1196
+msgid "Set divider background colour."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1205
+msgid "Text/Icon Color."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1206
+msgid "Set divider text/icon colour."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1226 includes/class.btnsx.dual.php:1402
+#: includes/class.btnsx.php:2362
+msgid "Choose type"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1227 includes/class.btnsx.dual.php:1403
+#: includes/class.btnsx.php:2140 includes/class.btnsx.php:2363
+msgid "Type"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1228 includes/class.btnsx.dual.php:1404
+#: includes/class.btnsx.php:2364
+msgid "Choose the type of link required for the button."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1261 includes/class.btnsx.dual.php:1437
+#: includes/class.btnsx.php:2372
+msgid "Choose target"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1262 includes/class.btnsx.dual.php:1438
+#: includes/class.btnsx.php:2373
+msgid "Target"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1263 includes/class.btnsx.dual.php:1439
+#: includes/class.btnsx.php:2374
+msgid "Where would you like to open the new link? New window or Same Window?"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1274 includes/class.btnsx.dual.php:1450
+#: includes/class.btnsx.php:2386
+msgid "Choose relationship"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1275 includes/class.btnsx.dual.php:1451
+#: includes/class.btnsx.php:2387
+msgid "Relationship"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1276 includes/class.btnsx.dual.php:1452
+#: includes/class.btnsx.php:2388
+msgid ""
+"It species the relationship between the current document and linked document/"
+"resource. Alternate - Links to an alternate version of the document. Author "
+"- Links to author of the document. Bookmark - Permanent URL used for "
+"bookmarking. Help - Links to a help doument. License - Links to copyright "
+"information for the document. Next - The next document in a selection. "
+"Nofollow - Links to an unendorsed document, like a paid link. No Referrer - "
+"Specifies that the browser should not send a HTTP referer header if the user "
+"follows the hyperlink. Prefetch - Specifies that the target document should "
+"be cached. Previous - The previous document in a selection. Search - Links "
+"to a search tool for the document. Tag - A tag (keyword) for the current "
+"document."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1298 includes/class.btnsx.dual.php:1474
+#: includes/class.btnsx.php:2410
+msgid "Choose post"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1300 includes/class.btnsx.dual.php:1476
+#: includes/class.btnsx.php:2412
+msgid "Select a post, page or custom post type."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1307 includes/class.btnsx.dual.php:1483
+#: includes/class.btnsx.php:2419
+msgid "Choose menu"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1309 includes/class.btnsx.dual.php:1485
+#: includes/class.btnsx.php:2421
+msgid "Select a menu. These are the menus created under Appearance -> Menu."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1316 includes/class.btnsx.dual.php:1492
+#: includes/class.btnsx.php:2428
+msgid "Choose When To Display"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1318 includes/class.btnsx.dual.php:1494
+#: includes/class.btnsx.php:2430
+msgid ""
+"Select whether to display menu <strong>on button click</strong> or "
+"<strong>on button hover</strong>."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1331 includes/class.btnsx.dual.php:1507
+#: includes/class.btnsx.php:2443
+msgid "Add a custom URL."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1338 includes/class.btnsx.dual.php:1514
+#: includes/class.btnsx.php:2450
+msgid "Choose download id"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1340 includes/class.btnsx.dual.php:1516
+#: includes/class.btnsx.php:2452
+msgid "Select Easy Digital Downloads download ID."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1347 includes/class.btnsx.dual.php:1523
+#: includes/class.btnsx.php:2459
+msgid "/my-page"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1349 includes/class.btnsx.dual.php:1525
+#: includes/class.btnsx.php:2461
+msgid ""
+"Only add the last part of the url where you would like to redirect user. If "
+"the full URL is http://wwww.example.com/my-page/ then only add /my-page/ in "
+"this field. The other part of the URL is computed automatically."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1356 includes/class.btnsx.dual.php:1532
+#: includes/class.btnsx.php:2468
+msgid "Choose product id"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1358 includes/class.btnsx.dual.php:1534
+#: includes/class.btnsx.php:2470
+msgid "Select a Woocommerce product ID."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1365 includes/class.btnsx.dual.php:1541
+#: includes/class.btnsx.php:2936 includes/class.btnsx.php:3240
+#: includes/class.btnsx.php:3384 includes/class.btnsx.php:3555
+#: includes/class.btnsx.php:3742 includes/class.btnsx.php:3915
+msgid "Padding"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1373 includes/class.btnsx.dual.php:1549
+#: includes/class.btnsx.php:2945 includes/class.btnsx.php:3248
+#: includes/class.btnsx.php:3392 includes/class.btnsx.php:3563
+#: includes/class.btnsx.php:3645 includes/class.btnsx.php:3677
+#: includes/class.btnsx.php:3727 includes/class.btnsx.php:3750
+#: includes/class.btnsx.php:3818 includes/class.btnsx.php:3850
+#: includes/class.btnsx.php:3900 includes/class.btnsx.php:3923
+msgid ""
+"Set padding for all sides. This field is not saved. It should be used to "
+"apply same padding value to all sides."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1374 includes/class.btnsx.dual.php:1550
+msgid "Set top padding for first button."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1375 includes/class.btnsx.dual.php:1551
+msgid "Set bottom padding for first button."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1376 includes/class.btnsx.dual.php:1552
+msgid "Set left padding for first button."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1377 includes/class.btnsx.dual.php:1553
+msgid "Set right padding for first button."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1656 includes/class.btnsx.dual.php:1658
+msgid "Placeholder"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1752 includes/class.btnsx.dual.php:1755
+msgid "Dual button updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: includes/class.btnsx.dual.php:1757
+#, php-format
+msgid "Dual button restored to revision from %s"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1758
+msgid "Dual button published."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1759
+msgid "Dual button saved."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1760
+msgid "Dual button submitted."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1762
+#, php-format
+msgid "Dual button scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1766
+msgid "Dual button draft updated."
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1860 includes/class.btnsx.php:1570
+msgid "Buttons X - Options Panel"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1868 includes/class.btnsx.php:1578
+msgid "Buttons X - Preview Settings"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1978 includes/class.btnsx.dual.php:1990
+#: includes/settings-page.php:134
+msgid "Dual Buttons"
+msgstr ""
+
+#: includes/class.btnsx.dual.php:1984 includes/class.btnsx.dual.php:1996
+msgid "Dual Button"
+msgstr ""
+
+#: includes/class.btnsx.form.design.php:136
+#: includes/class.btnsx.form.design.php:214 includes/class.btnsx.form.php:710
+msgid "On"
+msgstr ""
+
+#: includes/class.btnsx.form.design.php:137
+#: includes/class.btnsx.form.design.php:215 includes/class.btnsx.form.php:711
+msgid "Off"
+msgstr ""
+
+#: includes/class.btnsx.form.design.php:170
+#: includes/class.btnsx.form.design.php:185
+msgid "Add More"
+msgstr ""
+
+#: includes/class.btnsx.form.design.php:170
+msgid "Copy to"
+msgstr ""
+
+#: includes/class.btnsx.form.design.php:182 includes/class.btnsx.form.php:847
+#: includes/class.btnsx.form.php:1159 includes/class.btnsx.form.php:1558
+msgid "Copy to normal"
+msgstr ""
+
+#: includes/class.btnsx.form.design.php:182 includes/class.btnsx.form.php:848
+#: includes/class.btnsx.form.php:1160 includes/class.btnsx.form.php:1559
+msgid "Copy to hover"
+msgstr ""
+
+#: includes/class.btnsx.form.design.php:250
+msgid "Content"
+msgstr ""
+
+#: includes/class.btnsx.form.design.php:268 includes/class.btnsx.form.php:1701
+msgid "Style"
+msgstr ""
+
+#: includes/class.btnsx.form.design.php:286
+msgid "Advanced"
+msgstr ""
+
+#: includes/class.btnsx.form.design.php:304
+msgid "Expert"
+msgstr ""
+
+#: includes/class.btnsx.form.design.php:449
+msgid "Select an option"
+msgstr ""
+
+#: includes/class.btnsx.form.php:252
+msgid "FONT AWESOME ICONS"
+msgstr ""
+
+#: includes/class.btnsx.form.php:253
+msgid "Web Application Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:255
+msgid "Hand Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:257
+msgid "Transportation Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:259
+msgid "Gender Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:261
+msgid "File Type Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:263
+msgid "Spinner Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:265
+msgid "Form Control Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:267
+msgid "Payment Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:269
+msgid "Chart Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:271
+msgid "Currency Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:273
+msgid "Text Editor Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:275
+msgid "Directional Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:277
+msgid "Video Player Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:279
+msgid "Brand Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:281
+msgid "Medical Icons"
+msgstr ""
+
+#: includes/class.btnsx.form.php:313
+msgid "Attention Seekers"
+msgstr ""
+
+#: includes/class.btnsx.form.php:314
+msgid "Bounce"
+msgstr ""
+
+#: includes/class.btnsx.form.php:315
+msgid "Flash"
+msgstr ""
+
+#: includes/class.btnsx.form.php:316 includes/class.btnsx.form.php:438
+msgid "Pulse"
+msgstr ""
+
+#: includes/class.btnsx.form.php:317
+msgid "Shake"
+msgstr ""
+
+#: includes/class.btnsx.form.php:318
+msgid "Tada"
+msgstr ""
+
+#: includes/class.btnsx.form.php:319
+msgid "Swing"
+msgstr ""
+
+#: includes/class.btnsx.form.php:320
+msgid "Wobble"
+msgstr ""
+
+#: includes/class.btnsx.form.php:322
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: includes/class.btnsx.form.php:323
+msgid "BounceIn"
+msgstr ""
+
+#: includes/class.btnsx.form.php:324
+msgid "BounceInDown"
+msgstr ""
+
+#: includes/class.btnsx.form.php:325
+msgid "BounceInLeft"
+msgstr ""
+
+#: includes/class.btnsx.form.php:326
+msgid "BounceInRight"
+msgstr ""
+
+#: includes/class.btnsx.form.php:327
+msgid "BounceInUp"
+msgstr ""
+
+#: includes/class.btnsx.form.php:329
+msgid "Bouncing Exits"
+msgstr ""
+
+#: includes/class.btnsx.form.php:330
+msgid "BounceOut"
+msgstr ""
+
+#: includes/class.btnsx.form.php:331
+msgid "BounceOutDown"
+msgstr ""
+
+#: includes/class.btnsx.form.php:332
+msgid "BounceOutLeft"
+msgstr ""
+
+#: includes/class.btnsx.form.php:333
+msgid "BounceOutRight"
+msgstr ""
+
+#: includes/class.btnsx.form.php:334
+msgid "BounceOutUp"
+msgstr ""
+
+#: includes/class.btnsx.form.php:336
+msgid "Fading Entrances"
+msgstr ""
+
+#: includes/class.btnsx.form.php:337
+msgid "FadeIn"
+msgstr ""
+
+#: includes/class.btnsx.form.php:338
+msgid "FadeInDown"
+msgstr ""
+
+#: includes/class.btnsx.form.php:339
+msgid "FadeInDownBig"
+msgstr ""
+
+#: includes/class.btnsx.form.php:340
+msgid "FadeInLeft"
+msgstr ""
+
+#: includes/class.btnsx.form.php:341
+msgid "FadeInLeftBig"
+msgstr ""
+
+#: includes/class.btnsx.form.php:342
+msgid "FadeInRight"
+msgstr ""
+
+#: includes/class.btnsx.form.php:343
+msgid "FadeInRightBig"
+msgstr ""
+
+#: includes/class.btnsx.form.php:344
+msgid "FadeInUp"
+msgstr ""
+
+#: includes/class.btnsx.form.php:345
+msgid "FadeInUpBig"
+msgstr ""
+
+#: includes/class.btnsx.form.php:347
+msgid "Fading Exits"
+msgstr ""
+
+#: includes/class.btnsx.form.php:348
+msgid "FadeOut"
+msgstr ""
+
+#: includes/class.btnsx.form.php:349
+msgid "FadeOutDown"
+msgstr ""
+
+#: includes/class.btnsx.form.php:350
+msgid "FadeOutDownBig"
+msgstr ""
+
+#: includes/class.btnsx.form.php:351
+msgid "FadeOutLeft"
+msgstr ""
+
+#: includes/class.btnsx.form.php:352
+msgid "FadeOutLeftBig"
+msgstr ""
+
+#: includes/class.btnsx.form.php:353
+msgid "FadeOutRight"
+msgstr ""
+
+#: includes/class.btnsx.form.php:354
+msgid "FadeOutRightBig"
+msgstr ""
+
+#: includes/class.btnsx.form.php:355
+msgid "FadeOutUp"
+msgstr ""
+
+#: includes/class.btnsx.form.php:356
+msgid "FadeOutUpBig"
+msgstr ""
+
+#: includes/class.btnsx.form.php:358
+msgid "Flippers"
+msgstr ""
+
+#: includes/class.btnsx.form.php:359
+msgid "Flip"
+msgstr ""
+
+#: includes/class.btnsx.form.php:360
+msgid "FlipInX"
+msgstr ""
+
+#: includes/class.btnsx.form.php:361
+msgid "FlipInY"
+msgstr ""
+
+#: includes/class.btnsx.form.php:362
+msgid "FlipOutX"
+msgstr ""
+
+#: includes/class.btnsx.form.php:363
+msgid "FlipOutY"
+msgstr ""
+
+#: includes/class.btnsx.form.php:365
+msgid "Lightspeed"
+msgstr ""
+
+#: includes/class.btnsx.form.php:366
+msgid "LightSpeedIn"
+msgstr ""
+
+#: includes/class.btnsx.form.php:367
+msgid "LightSpeedOut"
+msgstr ""
+
+#: includes/class.btnsx.form.php:369
+msgid "Rotating Entrances"
+msgstr ""
+
+#: includes/class.btnsx.form.php:370
+msgid "RotateIn"
+msgstr ""
+
+#: includes/class.btnsx.form.php:371
+msgid "RotateInDownLeft"
+msgstr ""
+
+#: includes/class.btnsx.form.php:372
+msgid "RotateInDownRight"
+msgstr ""
+
+#: includes/class.btnsx.form.php:373
+msgid "RotateInUpLeft"
+msgstr ""
+
+#: includes/class.btnsx.form.php:374
+msgid "RotateInUpRight"
+msgstr ""
+
+#: includes/class.btnsx.form.php:376
+msgid "Rotating Exits"
+msgstr ""
+
+#: includes/class.btnsx.form.php:377
+msgid "RotateOut"
+msgstr ""
+
+#: includes/class.btnsx.form.php:378
+msgid "RotateOutDownLeft"
+msgstr ""
+
+#: includes/class.btnsx.form.php:379
+msgid "RotateOutDownRight"
+msgstr ""
+
+#: includes/class.btnsx.form.php:380
+msgid "RotateOutUpLeft"
+msgstr ""
+
+#: includes/class.btnsx.form.php:381
+msgid "RotateOutUpRight"
+msgstr ""
+
+#: includes/class.btnsx.form.php:383
+msgid "Specials"
+msgstr ""
+
+#: includes/class.btnsx.form.php:384
+msgid "hinge"
+msgstr ""
+
+#: includes/class.btnsx.form.php:385
+msgid "rollIn"
+msgstr ""
+
+#: includes/class.btnsx.form.php:386
+msgid "rollOut"
+msgstr ""
+
+#: includes/class.btnsx.form.php:388
+msgid "Zoom Entrances"
+msgstr ""
+
+#: includes/class.btnsx.form.php:389
+msgid "ZoomIn"
+msgstr ""
+
+#: includes/class.btnsx.form.php:390
+msgid "ZoomInDown"
+msgstr ""
+
+#: includes/class.btnsx.form.php:391
+msgid "ZoomInLeft"
+msgstr ""
+
+#: includes/class.btnsx.form.php:392
+msgid "ZoomInRight"
+msgstr ""
+
+#: includes/class.btnsx.form.php:393
+msgid "ZoomInUp"
+msgstr ""
+
+#: includes/class.btnsx.form.php:395
+msgid "Zoom Exits"
+msgstr ""
+
+#: includes/class.btnsx.form.php:396
+msgid "ZoomOut"
+msgstr ""
+
+#: includes/class.btnsx.form.php:397
+msgid "ZoomOutDown"
+msgstr ""
+
+#: includes/class.btnsx.form.php:398
+msgid "ZoomOutLeft"
+msgstr ""
+
+#: includes/class.btnsx.form.php:399
+msgid "ZoomOutRight"
+msgstr ""
+
+#: includes/class.btnsx.form.php:400
+msgid "ZoomOutUp"
+msgstr ""
+
+#: includes/class.btnsx.form.php:427
+msgid "HOVER.CSS"
+msgstr ""
+
+#: includes/class.btnsx.form.php:428
+msgid "2D Transitions"
+msgstr ""
+
+#: includes/class.btnsx.form.php:429
+msgid "Bob"
+msgstr ""
+
+#: includes/class.btnsx.form.php:430
+msgid "Bounce In"
+msgstr ""
+
+#: includes/class.btnsx.form.php:431
+msgid "Bounce Out"
+msgstr ""
+
+#: includes/class.btnsx.form.php:432
+msgid "Buzz"
+msgstr ""
+
+#: includes/class.btnsx.form.php:433
+msgid "Buzz Out"
+msgstr ""
+
+#: includes/class.btnsx.form.php:434
+msgid "Float"
+msgstr ""
+
+#: includes/class.btnsx.form.php:435
+msgid "Grow Rotate"
+msgstr ""
+
+#: includes/class.btnsx.form.php:436
+msgid "Hang"
+msgstr ""
+
+#: includes/class.btnsx.form.php:437
+msgid "Pop"
+msgstr ""
+
+#: includes/class.btnsx.form.php:439
+msgid "Pulse Grow"
+msgstr ""
+
+#: includes/class.btnsx.form.php:440
+msgid "Pulse Shrink"
+msgstr ""
+
+#: includes/class.btnsx.form.php:441
+msgid "Push"
+msgstr ""
+
+#: includes/class.btnsx.form.php:442
+msgid "Rotate"
+msgstr ""
+
+#: includes/class.btnsx.form.php:443
+msgid "Shrink"
+msgstr ""
+
+#: includes/class.btnsx.form.php:444
+msgid "Sink"
+msgstr ""
+
+#: includes/class.btnsx.form.php:445
+msgid "Skew"
+msgstr ""
+
+#: includes/class.btnsx.form.php:446
+msgid "Skew Backward"
+msgstr ""
+
+#: includes/class.btnsx.form.php:447
+msgid "Skew Forward"
+msgstr ""
+
+#: includes/class.btnsx.form.php:448
+msgid "Wobble Bottom"
+msgstr ""
+
+#: includes/class.btnsx.form.php:449
+msgid "Wobble Horizontal"
+msgstr ""
+
+#: includes/class.btnsx.form.php:450
+msgid "Wobble Skew"
+msgstr ""
+
+#: includes/class.btnsx.form.php:451
+msgid "Wobble To Bottom Right"
+msgstr ""
+
+#: includes/class.btnsx.form.php:452
+msgid "Wobble To Top Right"
+msgstr ""
+
+#: includes/class.btnsx.form.php:453
+msgid "Wobble Top"
+msgstr ""
+
+#: includes/class.btnsx.form.php:454
+msgid "Wobble Vertical"
+msgstr ""
+
+#: includes/class.btnsx.form.php:455
+msgid "Grow"
+msgstr ""
+
+#: includes/class.btnsx.form.php:457
+msgid "Background Transitions"
+msgstr ""
+
+#: includes/class.btnsx.form.php:459
+msgid "Bounce To Bottom"
+msgstr ""
+
+#: includes/class.btnsx.form.php:460
+msgid "Bounce To Left"
+msgstr ""
+
+#: includes/class.btnsx.form.php:461
+msgid "Bounce To Right"
+msgstr ""
+
+#: includes/class.btnsx.form.php:462
+msgid "Bounce To Top"
+msgstr ""
+
+#: includes/class.btnsx.form.php:464
+msgid "Radial In"
+msgstr ""
+
+#: includes/class.btnsx.form.php:465
+msgid "Radial Out"
+msgstr ""
+
+#: includes/class.btnsx.form.php:466
+msgid "Rectangle In"
+msgstr ""
+
+#: includes/class.btnsx.form.php:467
+msgid "Rectangle Out"
+msgstr ""
+
+#: includes/class.btnsx.form.php:468
+msgid "Shutter In Horizontal"
+msgstr ""
+
+#: includes/class.btnsx.form.php:469
+msgid "Shutter In Vertical"
+msgstr ""
+
+#: includes/class.btnsx.form.php:470
+msgid "Shutter Out Horizontal"
+msgstr ""
+
+#: includes/class.btnsx.form.php:471
+msgid "Shutter Out Vertical"
+msgstr ""
+
+#: includes/class.btnsx.form.php:472
+msgid "Sweep To Bottom"
+msgstr ""
+
+#: includes/class.btnsx.form.php:473
+msgid "Sweep To Left"
+msgstr ""
+
+#: includes/class.btnsx.form.php:474
+msgid "Sweep To Right"
+msgstr ""
+
+#: includes/class.btnsx.form.php:475
+msgid "Sweep To Top"
+msgstr ""
+
+#: includes/class.btnsx.form.php:506
+msgid "Border Transitions"
+msgstr ""
+
+#: includes/class.btnsx.form.php:511
+msgid "Overline From Center"
+msgstr ""
+
+#: includes/class.btnsx.form.php:512
+msgid "Overline From Left"
+msgstr ""
+
+#: includes/class.btnsx.form.php:513
+msgid "Overline From Right"
+msgstr ""
+
+#: includes/class.btnsx.form.php:514
+msgid "Overline Reveal"
+msgstr ""
+
+#: includes/class.btnsx.form.php:519
+msgid "Trim"
+msgstr ""
+
+#: includes/class.btnsx.form.php:520
+msgid "Underline From Center"
+msgstr ""
+
+#: includes/class.btnsx.form.php:521
+msgid "Underline From Left"
+msgstr ""
+
+#: includes/class.btnsx.form.php:522
+msgid "Underline From Right"
+msgstr ""
+
+#: includes/class.btnsx.form.php:523
+msgid "Underline Reveal"
+msgstr ""
+
+#: includes/class.btnsx.form.php:544
+msgid "Curls"
+msgstr ""
+
+#: includes/class.btnsx.form.php:545
+msgid "Curl Bottom Left"
+msgstr ""
+
+#: includes/class.btnsx.form.php:546
+msgid "Curl Bottom Right"
+msgstr ""
+
+#: includes/class.btnsx.form.php:547
+msgid "Curl Top Left"
+msgstr ""
+
+#: includes/class.btnsx.form.php:548
+msgid "Curl Top Right"
+msgstr ""
+
+#: includes/class.btnsx.form.php:606
+msgid "Available Downloads"
+msgstr ""
+
+#: includes/class.btnsx.form.php:619 includes/class.btnsx.form.php:659
+msgid "No result found."
+msgstr ""
+
+#: includes/class.btnsx.form.php:646
+msgid "Available Products"
+msgstr ""
+
+#: includes/class.btnsx.form.php:826 includes/class.btnsx.form.php:882
+#: includes/class.btnsx.form.php:1621 includes/class.btnsx.form.php:1649
+msgid "Choose your option"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1061 includes/class.btnsx.form.php:1466
+msgid "All Sides"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1062 includes/class.btnsx.form.php:1760
+#: includes/class.btnsx.social.php:1333
+msgid "Top"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1063 includes/class.btnsx.form.php:1761
+msgid "Bottom"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1064 includes/class.btnsx.form.php:1762
+#: includes/class.btnsx.php:3042 includes/class.btnsx.php:3463
+msgid "Left"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1065 includes/class.btnsx.form.php:1763
+#: includes/class.btnsx.php:3044 includes/class.btnsx.php:3464
+#: includes/class.btnsx.social.php:1332
+msgid "Right"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1181 includes/class.btnsx.php:3634
+#: includes/class.btnsx.php:3666 includes/class.btnsx.php:3807
+#: includes/class.btnsx.php:3839
+msgid "Font Size"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1182
+msgid "Font Family"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1183
+msgid "Font Weight"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1184
+msgid "Font Style"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1209
+msgid "Choose font style"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1213 includes/class.btnsx.form.php:1233
+#: includes/class.btnsx.form.php:1284 includes/class.btnsx.php:2058
+#: includes/class.btnsx.php:2120 includes/class.btnsx.php:2147
+#: includes/class.btnsx.php:2276 includes/class.btnsx.php:2628
+#: includes/class.btnsx.php:2665 includes/class.btnsx.php:3105
+msgid "Normal"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1214
+msgid "Italic"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1215
+msgid "Oblique"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1216 includes/class.btnsx.form.php:1255
+#: includes/class.btnsx.form.php:1751 includes/class.btnsx.php:3294
+#: includes/class.btnsx.php:3438
+msgid "Inherit"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1229
+msgid "Choose font weight"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1234
+msgid "Bold"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1235
+msgid "Bolder"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1236
+msgid "Lighter"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1237
+msgid "100"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1238
+msgid "100 Italic"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1239
+msgid "200"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1240
+msgid "200 Italic"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1241
+msgid "300"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1242
+msgid "300 Italic"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1243
+msgid "400"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1244
+msgid "400 Italic"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1245
+msgid "500"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1246
+msgid "500 Italic"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1247 includes/class.btnsx.php:2486
+msgid "600"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1248
+msgid "600 Italic"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1249
+msgid "700"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1250
+msgid "700 Italic"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1251
+msgid "800"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1252
+msgid "800 Italic"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1253
+msgid "900"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1254
+msgid "900 Italic"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1268
+msgid "Choose font family"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1285 includes/class.btnsx.php:2110
+#: includes/class.btnsx.php:2129 includes/class.btnsx.php:2169
+#: includes/class.btnsx.php:2285 includes/class.btnsx.php:2643
+#: includes/class.btnsx.php:2706 includes/class.btnsx.php:3120
+msgid "Hover"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1322
+msgid "Location"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1366 includes/class.btnsx.form.php:1426
+#: includes/class.btnsx.social.php:1156
+msgid "Horizontal"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1367 includes/class.btnsx.form.php:1427
+#: includes/class.btnsx.social.php:1157
+msgid "Vertical"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1368 includes/class.btnsx.form.php:1428
+msgid "Blur"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1369
+msgid "Spread"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1370 includes/class.btnsx.form.php:1493
+#: includes/class.btnsx.php:3447
+msgid "Position"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1412 includes/class.btnsx.form.php:1750
+msgid "Outset"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1413 includes/class.btnsx.form.php:1749
+msgid "Inset"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1467
+msgid "Top Left"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1468
+msgid "Top Right"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1469
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1470
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1492 includes/class.btnsx.form.php:1700
+#: includes/class.btnsx.php:2843 includes/class.btnsx.php:3029
+#: includes/class.btnsx.php:3699 includes/class.btnsx.php:3872
+msgid "Size"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1570
+msgid "UPLOAD"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1742
+msgid "Hidden"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1743
+msgid "Dotted"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1744
+msgid "Dashed"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1745
+msgid "Solid"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1746
+msgid "Double"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1747
+msgid "Groove"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1748
+msgid "Ridge"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1770
+msgid "Sides"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1798
+msgid "Background Position"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1823
+msgid "Repeat"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1824
+msgid "Repeat X"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1825
+msgid "Repeat Y"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1826
+msgid "No Repeat"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1827 includes/class.btnsx.form.php:1851
+msgid "Initial"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1842
+msgid "Left Top"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1843
+msgid "Left Center"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1844
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1845
+msgid "Right Top"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1846
+msgid "Right Center"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1847
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1848
+msgid "Center Top"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1849
+msgid "Center Center"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1850
+msgid "Center Bottom"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1864 includes/class.btnsx.php:2825
+#: includes/class.btnsx.php:3613 includes/class.btnsx.php:3786
+#: includes/class.btnsx.social.php:997 includes/class.btnsx.social.php:1303
+msgid "Width"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1865 includes/class.btnsx.php:2834
+#: includes/class.btnsx.php:3622 includes/class.btnsx.php:3795
+#: includes/class.btnsx.social.php:1006
+msgid "Height"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1893
+msgid "Padding All Sides"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1894
+msgid "Padding Top"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1895
+msgid "Padding Bottom"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1896
+msgid "Padding Left"
+msgstr ""
+
+#: includes/class.btnsx.form.php:1897
+msgid "Padding Right"
+msgstr ""
+
+#: includes/class.btnsx.php:127
+msgid "Hide on Desktop"
+msgstr ""
+
+#: includes/class.btnsx.php:128
+msgid "Hides button on desktop."
+msgstr ""
+
+#: includes/class.btnsx.php:137
+msgid "Hide on Tablet"
+msgstr ""
+
+#: includes/class.btnsx.php:138
+msgid "Hides button on tablet."
+msgstr ""
+
+#: includes/class.btnsx.php:147
+msgid "Hide on Mobile"
+msgstr ""
+
+#: includes/class.btnsx.php:148
+msgid "Hides button on mobile."
+msgstr ""
+
+#: includes/class.btnsx.php:458
+#, php-format
+msgid "Welcome to Buttons X %1$s"
+msgstr ""
+
+#: includes/class.btnsx.php:460
+#, php-format
+msgid "Thank you for updating! Buttons X %1$s adds responsive options."
+msgstr ""
+
+#: includes/class.btnsx.php:472
+#, php-format
+msgid "Version %1$s"
+msgstr ""
+
+#: includes/class.btnsx.php:475
+msgid "What's New in v1.9.50"
+msgstr ""
+
+#: includes/class.btnsx.php:486
+msgid "Improvements"
+msgstr ""
+
+#: includes/class.btnsx.php:490
+msgid "Bug Fixes"
+msgstr ""
+
+#: includes/class.btnsx.php:500
+msgid "Helpful Links"
+msgstr ""
+
+#: includes/class.btnsx.php:503 includes/settings-page.php:1079
+msgid "Button Add-ons"
+msgstr ""
+
+#: includes/class.btnsx.php:506 includes/settings-page.php:1080
+msgid "Button Packs"
+msgstr ""
+
+#: includes/class.btnsx.php:509 includes/settings-page.php:1081
+msgid "Documentation"
+msgstr ""
+
+#: includes/class.btnsx.php:512 includes/settings-page.php:1082
+msgid "Support"
+msgstr ""
+
+#: includes/class.btnsx.php:515 includes/settings-page.php:1083
+msgid "Official Website"
+msgstr ""
+
+#: includes/class.btnsx.php:518 includes/class.btnsx.social.php:1086
+#: includes/settings-page.php:914 includes/settings-page.php:1084
+msgid "Twitter"
+msgstr ""
+
+#: includes/class.btnsx.php:523
+msgid "Plugin Updates"
+msgstr ""
+
+#: includes/class.btnsx.php:533
+msgid "indicates required"
+msgstr ""
+
+#: includes/class.btnsx.php:536
+msgid "Email Address"
+msgstr ""
+
+#: includes/class.btnsx.php:554
+msgid "Thank you for purchasing Buttons X."
+msgstr ""
+
+#: includes/class.btnsx.php:555
+msgid ""
+"I am working hard to make sure you have pleasant experience while using this "
+"plugin. In case you face any issues or get stuck somehwere then kindly let "
+"me know using "
+msgstr ""
+
+#: includes/class.btnsx.php:555
+msgid "official ticket system."
+msgstr ""
+
+#: includes/class.btnsx.php:555
+msgid "I will do my best to solve your issues as soon as possible."
+msgstr ""
+
+#: includes/class.btnsx.php:556
+msgid ""
+"This is a <b>PAID version</b> of Buttons X and so it includes all the "
+"goodies."
+msgstr ""
+
+#: includes/class.btnsx.php:560
+#, php-format
+msgid ""
+"If you face any issue, please do <a href=\"%1$s\">contact me</a>. I will be "
+"more than happy to help you!"
+msgstr ""
+
+#: includes/class.btnsx.php:564
+msgid "Warm Regards"
+msgstr ""
+
+#: includes/class.btnsx.php:567
+msgid "Files changed in"
+msgstr ""
+
+#: includes/class.btnsx.php:693
+msgid ""
+"This \"Buttons X\" version requires \"Analytics\" extension v1.2 and above. "
+"You can find the latest analytics extension in extensions folder. Kindly "
+"update now!"
+msgstr ""
+
+#: includes/class.btnsx.php:785
+msgid "Override Style for"
+msgstr ""
+
+#: includes/class.btnsx.php:786
+msgid ""
+"Select type of buttons to override their styles. You can select mulitple "
+"options."
+msgstr ""
+
+#: includes/class.btnsx.php:789
+msgid "WooCommerce Buttons"
+msgstr ""
+
+#: includes/class.btnsx.php:790
+msgid "WooCommerce Alternate Buttons"
+msgstr ""
+
+#: includes/class.btnsx.php:791
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/class.btnsx.php:792
+msgid "Ninja Forms"
+msgstr ""
+
+#: includes/class.btnsx.php:793
+msgid "Caldera Forms"
+msgstr ""
+
+#: includes/class.btnsx.php:803
+msgid "Custom Class(es)"
+msgstr ""
+
+#: includes/class.btnsx.php:804
+msgid "Add custom class(es) (comma separated)"
+msgstr ""
+
+#: includes/class.btnsx.php:1165
+msgid ""
+"Buttons X not able to create required directories. You won't be able to use "
+"external CSS. Kindly reactivate the plugin. If problem persists, kindly "
+"contact support."
+msgstr ""
+
+#: includes/class.btnsx.php:1187
+#, php-format
+msgid "Buttons X require minimum WordPress version to be %1$s."
+msgstr ""
+
+#: includes/class.btnsx.php:1396
+msgctxt "admin menu"
+msgid "Buttons"
+msgstr ""
+
+#: includes/class.btnsx.php:1402
+msgctxt "post type singular name"
+msgid "Button"
+msgstr ""
+
+#: includes/class.btnsx.php:1408
+msgctxt "post type general name"
+msgid "Buttons"
+msgstr ""
+
+#: includes/class.btnsx.php:1414
+msgctxt "add new on admin bar"
+msgid "Button"
+msgstr ""
+
+#: includes/class.btnsx.php:1462 includes/class.btnsx.php:1465
+msgid "Button updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: includes/class.btnsx.php:1467
+#, php-format
+msgid "Button restored to revision from %s"
+msgstr ""
+
+#: includes/class.btnsx.php:1468
+msgid "Button published."
+msgstr ""
+
+#: includes/class.btnsx.php:1469
+msgid "Button saved."
+msgstr ""
+
+#: includes/class.btnsx.php:1470
+msgid "Button submitted."
+msgstr ""
+
+#: includes/class.btnsx.php:1472
+#, php-format
+msgid "Button scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/class.btnsx.php:1476
+msgid "Button draft updated."
+msgstr ""
+
+#: includes/class.btnsx.php:1586
+msgid "Buttons X - Override Style"
+msgstr ""
+
+#: includes/class.btnsx.php:1602
+msgid "Buttons X - Hide Buttons"
+msgstr ""
+
+#: includes/class.btnsx.php:1611
+msgid "Buttons X - Gravity Forms"
+msgstr ""
+
+#: includes/class.btnsx.php:1649
+msgid "Replace form button for"
+msgstr ""
+
+#: includes/class.btnsx.php:1650
+msgid "Select a form to override submit button."
+msgstr ""
+
+#: includes/class.btnsx.php:1793
+msgid "Desktop"
+msgstr ""
+
+#: includes/class.btnsx.php:1794 includes/class.btnsx.php:3593
+#: includes/class.btnsx.php:3769
+msgid "Tablet"
+msgstr ""
+
+#: includes/class.btnsx.php:1795 includes/class.btnsx.php:3595
+#: includes/class.btnsx.php:3767
+msgid "Mobile"
+msgstr ""
+
+#: includes/class.btnsx.php:1876
+msgid "Set gradient stop color."
+msgstr ""
+
+#: includes/class.btnsx.php:1877
+msgid "Set gradient stop location. Must be between 0 and 100."
+msgstr ""
+
+#: includes/class.btnsx.php:1931
+msgid "Set horizontal shadow in pixels."
+msgstr ""
+
+#: includes/class.btnsx.php:1932
+msgid "Set vertical shadow in pixels."
+msgstr ""
+
+#: includes/class.btnsx.php:1933
+msgid "Set blur radius in pixels."
+msgstr ""
+
+#: includes/class.btnsx.php:1934
+msgid "Set shadow spread in pixels."
+msgstr ""
+
+#: includes/class.btnsx.php:1935
+msgid "Select shadow postion."
+msgstr ""
+
+#: includes/class.btnsx.php:1936
+msgid "Set shadow color."
+msgstr ""
+
+#: includes/class.btnsx.php:2113 includes/class.btnsx.php:2269
+#: includes/settings-page.php:122
+msgid "CSS"
+msgstr ""
+
+#: includes/class.btnsx.php:2121
+msgid "Set custom box shadow CSS."
+msgstr ""
+
+#: includes/class.btnsx.php:2130
+msgid "Set custom box shadow CSS for when button is hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:2148
+msgid "Select gradient type."
+msgstr ""
+
+#: includes/class.btnsx.php:2150 includes/class.btnsx.php:2172
+msgid "Vertical ↓"
+msgstr ""
+
+#: includes/class.btnsx.php:2151 includes/class.btnsx.php:2173
+msgid "Horizontal →"
+msgstr ""
+
+#: includes/class.btnsx.php:2152 includes/class.btnsx.php:2174
+msgid "Diagonal ↘"
+msgstr ""
+
+#: includes/class.btnsx.php:2153 includes/class.btnsx.php:2175
+msgid "Diagonal ↗"
+msgstr ""
+
+#: includes/class.btnsx.php:2154 includes/class.btnsx.php:2176
+msgid "Radial ○"
+msgstr ""
+
+#: includes/class.btnsx.php:2170
+msgid "Select gradient type for when button will be hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:2226
+msgid "Stop (Normal)"
+msgstr ""
+
+#: includes/class.btnsx.php:2248 includes/class.btnsx.php:2265
+msgid "Stop (Hover)"
+msgstr ""
+
+#: includes/class.btnsx.php:2277
+msgid "Add custom gradient CSS."
+msgstr ""
+
+#: includes/class.btnsx.php:2286
+msgid "Add custom gradient CSS for when button will be hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:2307
+msgid "Buffer Share"
+msgstr ""
+
+#: includes/class.btnsx.php:2308
+msgid "Delicious Share"
+msgstr ""
+
+#: includes/class.btnsx.php:2309
+msgid "Digg Share"
+msgstr ""
+
+#: includes/class.btnsx.php:2312
+msgid "Evernote Share"
+msgstr ""
+
+#: includes/class.btnsx.php:2314
+msgid "Google+ Share"
+msgstr ""
+
+#: includes/class.btnsx.php:2315
+msgid "Google Bookmarks Share"
+msgstr ""
+
+#: includes/class.btnsx.php:2317
+msgid "LinkedIn Share"
+msgstr ""
+
+#: includes/class.btnsx.php:2330
+msgid "Mail To"
+msgstr ""
+
+#: includes/class.btnsx.php:2332
+msgid "Newsvine Share"
+msgstr ""
+
+#: includes/class.btnsx.php:2336
+msgid "Print"
+msgstr ""
+
+#: includes/class.btnsx.php:2337
+msgid "Reddit Share"
+msgstr ""
+
+#: includes/class.btnsx.php:2340
+msgid "Skype Call"
+msgstr ""
+
+#: includes/class.btnsx.php:2341
+msgid "Skype Chat"
+msgstr ""
+
+#: includes/class.btnsx.php:2342
+msgid "Skype Video Call"
+msgstr ""
+
+#: includes/class.btnsx.php:2343
+msgid "SMS"
+msgstr ""
+
+#: includes/class.btnsx.php:2344
+msgid "StumbleUpon Share"
+msgstr ""
+
+#: includes/class.btnsx.php:2345
+msgid "Telephone"
+msgstr ""
+
+#: includes/class.btnsx.php:2346
+msgid "Tumblr Share"
+msgstr ""
+
+#: includes/class.btnsx.php:2349
+msgid "Whatsapp Share"
+msgstr ""
+
+#: includes/class.btnsx.php:2477
+msgid "1100"
+msgstr ""
+
+#: includes/class.btnsx.php:2478
+msgid "Iframe Width"
+msgstr ""
+
+#: includes/class.btnsx.php:2479
+msgid "Define iframe width in pixels."
+msgstr ""
+
+#: includes/class.btnsx.php:2487
+msgid "Iframe Height"
+msgstr ""
+
+#: includes/class.btnsx.php:2488
+msgid "Define iframe height in pixels."
+msgstr ""
+
+#: includes/class.btnsx.php:2496
+msgid "Email"
+msgstr ""
+
+#: includes/class.btnsx.php:2497
+msgid "Add email address where the user should send email."
+msgstr ""
+
+#: includes/class.btnsx.php:2505
+msgid "Email Subject"
+msgstr ""
+
+#: includes/class.btnsx.php:2506
+msgid "Add subject for the email."
+msgstr ""
+
+#: includes/class.btnsx.php:2514
+msgid "Skype ID"
+msgstr ""
+
+#: includes/class.btnsx.php:2515
+msgid "Add your Skype ID."
+msgstr ""
+
+#: includes/class.btnsx.php:2523
+msgid "Telephone Number"
+msgstr ""
+
+#: includes/class.btnsx.php:2524
+msgid "Add telephone number to be used for call or sms."
+msgstr ""
+
+#: includes/class.btnsx.php:2532
+msgid "SMS Content"
+msgstr ""
+
+#: includes/class.btnsx.php:2533
+msgid "Add content to be used for SMS."
+msgstr ""
+
+#: includes/class.btnsx.php:2545
+msgid "Animations"
+msgstr ""
+
+#: includes/class.btnsx.php:2549
+msgid "Reveal Animations"
+msgstr ""
+
+#: includes/class.btnsx.php:2555 includes/class.btnsx.php:2569
+#: includes/class.btnsx.php:3212 includes/class.btnsx.php:3219
+msgid "Animation"
+msgstr ""
+
+#: includes/class.btnsx.php:2556
+msgid "Select button reveal animation type."
+msgstr ""
+
+#: includes/class.btnsx.php:2563
+msgid "Hover Animations"
+msgstr ""
+
+#: includes/class.btnsx.php:2570
+msgid "Select button hover animation type."
+msgstr ""
+
+#: includes/class.btnsx.php:2580
+msgid "Background"
+msgstr ""
+
+#: includes/class.btnsx.php:2593
+msgid "Set button background color."
+msgstr ""
+
+#: includes/class.btnsx.php:2594
+msgid "Set button background color for when the button will be hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:2621 includes/class.btnsx.php:3098
+msgid "Image"
+msgstr ""
+
+#: includes/class.btnsx.php:2629
+msgid "Select or upload button background image."
+msgstr ""
+
+#: includes/class.btnsx.php:2644
+msgid ""
+"Select or upload button background image for when the button will be hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:2688 includes/class.btnsx.php:2729
+msgid "Enable/Disable top border."
+msgstr ""
+
+#: includes/class.btnsx.php:2689 includes/class.btnsx.php:2730
+msgid "Enable/Disable bottom border."
+msgstr ""
+
+#: includes/class.btnsx.php:2690 includes/class.btnsx.php:2731
+msgid "Enable/Disable left border."
+msgstr ""
+
+#: includes/class.btnsx.php:2691 includes/class.btnsx.php:2732
+msgid "Enable/Disable right border."
+msgstr ""
+
+#: includes/class.btnsx.php:2726
+msgid "Set border size in pixels for when button is hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:2727
+msgid "Set border style for when button is hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:2728
+msgid "Set border colour for when button is hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:2747
+msgid "Radius (Normal) "
+msgstr ""
+
+#: includes/class.btnsx.php:2777
+msgid "Radius (Hover) "
+msgstr ""
+
+#: includes/class.btnsx.php:2792
+msgid "Set top left border radius in pixels for when button is hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:2793
+msgid "Set top right border radius in pixels for when button is hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:2794
+msgid "Set bottom left border radius in pixels for when button is hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:2795
+msgid "Set bottom right border radius in pixels for when button is hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:2826 includes/class.btnsx.php:3614
+#: includes/class.btnsx.php:3787
+msgid ""
+"Add button width in pixels. This gives the button a fixed width. Clearing "
+"the field removes fixed width."
+msgstr ""
+
+#: includes/class.btnsx.php:2835 includes/class.btnsx.php:3623
+#: includes/class.btnsx.php:3796
+msgid ""
+"Add button height in pixels. This gives the button a fixed height. Clearing "
+"the field removes fixed height."
+msgstr ""
+
+#: includes/class.btnsx.php:2842
+msgid "Choose size"
+msgstr ""
+
+#: includes/class.btnsx.php:2844
+msgid ""
+"These are some preset button sizes. Changing the size value automatically "
+"adjusts the font size and padding values of primary text."
+msgstr ""
+
+#: includes/class.btnsx.php:2846
+msgid "Huge"
+msgstr ""
+
+#: includes/class.btnsx.php:2847 includes/class.btnsx.social.php:1266
+msgid "Large"
+msgstr ""
+
+#: includes/class.btnsx.php:2848
+msgid "Wide"
+msgstr ""
+
+#: includes/class.btnsx.php:2849 includes/class.btnsx.social.php:1226
+#: includes/class.btnsx.social.php:1264
+msgid "Small"
+msgstr ""
+
+#: includes/class.btnsx.php:2850
+msgid "Mini"
+msgstr ""
+
+#: includes/class.btnsx.php:2858
+msgid "Disabled"
+msgstr ""
+
+#: includes/class.btnsx.php:2859
+msgid ""
+"Make the button disabled by checking this field. Clicking the button won't "
+"be possible once disabled."
+msgstr ""
+
+#: includes/class.btnsx.php:2867
+msgid "Embossed"
+msgstr ""
+
+#: includes/class.btnsx.php:2868
+msgid "Checking this field gives an embossed effect to button."
+msgstr ""
+
+#: includes/class.btnsx.php:2877
+msgid "Make the button cover the entire width of the container."
+msgstr ""
+
+#: includes/class.btnsx.php:2885
+msgid "Container"
+msgstr ""
+
+#: includes/class.btnsx.php:2886
+msgid "Add a container div to button."
+msgstr ""
+
+#: includes/class.btnsx.php:2909
+msgid "Margin"
+msgstr ""
+
+#: includes/class.btnsx.php:2918 includes/settings-page.php:250
+#: includes/settings-page.php:314
+msgid ""
+"Set margin for all sides. This field is not saved. It should be used to "
+"apply same margin value to all sides."
+msgstr ""
+
+#: includes/class.btnsx.php:2919 includes/settings-page.php:251
+#: includes/settings-page.php:315
+msgid "Set top margin for button."
+msgstr ""
+
+#: includes/class.btnsx.php:2920 includes/settings-page.php:252
+#: includes/settings-page.php:316
+msgid "Set bottom margin for button."
+msgstr ""
+
+#: includes/class.btnsx.php:2921 includes/settings-page.php:253
+#: includes/settings-page.php:317
+msgid "Set left margin for button."
+msgstr ""
+
+#: includes/class.btnsx.php:2922 includes/settings-page.php:254
+#: includes/settings-page.php:318
+msgid "Set right margin for button."
+msgstr ""
+
+#: includes/class.btnsx.php:2946
+msgid "Set top padding for button."
+msgstr ""
+
+#: includes/class.btnsx.php:2947
+msgid "Set bottom padding for button."
+msgstr ""
+
+#: includes/class.btnsx.php:2948
+msgid "Set left padding for button."
+msgstr ""
+
+#: includes/class.btnsx.php:2949
+msgid "Set right padding for button."
+msgstr ""
+
+#: includes/class.btnsx.php:2970
+msgid "Custom Class"
+msgstr ""
+
+#: includes/class.btnsx.php:2971
+msgid "Add custom class to button."
+msgstr ""
+
+#: includes/class.btnsx.php:2980
+msgid "Add custom CSS."
+msgstr ""
+
+#: includes/class.btnsx.php:2987 includes/class.btnsx.php:2995
+msgid "Custom JS"
+msgstr ""
+
+#: includes/class.btnsx.php:2996
+msgid "Add custom JS. DO NOT include <code>script</code> tag."
+msgstr ""
+
+#: includes/class.btnsx.php:3003 includes/import-page.php:60
+msgid "Gradient"
+msgstr ""
+
+#: includes/class.btnsx.php:3021
+msgid ""
+"Select the desired icon. Icon will be placed to the left of primary text if "
+"it is not already aligned."
+msgstr ""
+
+#: includes/class.btnsx.php:3030 includes/class.btnsx.php:3700
+#: includes/class.btnsx.php:3873
+msgid ""
+"Add font size in pixels. This will make the icon bigger or smaller depending "
+"up on the value. Best is to keep the icon size similar to primary text size."
+msgstr ""
+
+#: includes/class.btnsx.php:3037 includes/class.btnsx.php:3459
+msgid "Choose alignment"
+msgstr ""
+
+#: includes/class.btnsx.php:3038 includes/class.btnsx.php:3460
+msgid "Alignment"
+msgstr ""
+
+#: includes/class.btnsx.php:3039
+msgid ""
+"Align the icon as required. Left moves the icon to the left of button and "
+"right moves the icon right of the button."
+msgstr ""
+
+#: includes/class.btnsx.php:3043
+msgid "Extreme Left"
+msgstr ""
+
+#: includes/class.btnsx.php:3045
+msgid "Extreme Right"
+msgstr ""
+
+#: includes/class.btnsx.php:3055
+msgid ""
+"Position the icon vertically. More the value more the icon will move "
+"vertically downwards. You can also specify negative values to move icon "
+"upwards."
+msgstr ""
+
+#: includes/class.btnsx.php:3070
+msgid "Select icon color."
+msgstr ""
+
+#: includes/class.btnsx.php:3071
+msgid "Select icon color for when button is hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:3106
+msgid "Select or upload icon image."
+msgstr ""
+
+#: includes/class.btnsx.php:3121
+msgid "Select or upload icon image for when the button is hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:3135
+msgid "Position Freely"
+msgstr ""
+
+#: includes/class.btnsx.php:3136
+msgid ""
+"Enabling this will display image position tab which can be used to position "
+"the icon image precisely."
+msgstr ""
+
+#: includes/class.btnsx.php:3143
+msgid "Image Position"
+msgstr ""
+
+#: includes/class.btnsx.php:3152
+msgid ""
+"Set position for all sides. This field is not saved. It should be used to "
+"apply same position values to all sides."
+msgstr ""
+
+#: includes/class.btnsx.php:3153
+msgid "Set position from top."
+msgstr ""
+
+#: includes/class.btnsx.php:3154
+msgid "Set position from bottom."
+msgstr ""
+
+#: includes/class.btnsx.php:3155
+msgid "Set position from left."
+msgstr ""
+
+#: includes/class.btnsx.php:3156
+msgid "Set position from right."
+msgstr ""
+
+#: includes/class.btnsx.php:3168 includes/class.btnsx.php:3361
+#: includes/class.btnsx.php:3532 includes/class.btnsx.php:3583
+msgid "Shadow"
+msgstr ""
+
+#: includes/class.btnsx.php:3176
+msgid ""
+"Add position of the horizontal shadow in pixels. Adds horizontal shadow to "
+"icon."
+msgstr ""
+
+#: includes/class.btnsx.php:3177
+msgid ""
+"Add position of the vertical shadow in pixels. Adds vertical shadow to icon."
+msgstr ""
+
+#: includes/class.btnsx.php:3178
+msgid "Add blur radius in pixels. Makes icon shadow blurry."
+msgstr ""
+
+#: includes/class.btnsx.php:3179
+msgid "Pick icon shadow color."
+msgstr ""
+
+#: includes/class.btnsx.php:3199
+msgid "Select divider position. Position the divider to left or right of icon."
+msgstr ""
+
+#: includes/class.btnsx.php:3200 includes/class.btnsx.php:3709
+#: includes/class.btnsx.php:3882
+msgid ""
+"Add divider size in pixels. This will make the divider bigger or smaller "
+"depending up on the value. Best is to keep the divider size little smaller "
+"or equal to icon size."
+msgstr ""
+
+#: includes/class.btnsx.php:3201
+msgid "Select divider color."
+msgstr ""
+
+#: includes/class.btnsx.php:3218
+msgid "Choose animation"
+msgstr ""
+
+#: includes/class.btnsx.php:3220
+msgid ""
+"Select when to animate the icon, on button click or when button is hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:3232
+msgid "Choose animation type"
+msgstr ""
+
+#: includes/class.btnsx.php:3233
+msgid "Animation Type"
+msgstr ""
+
+#: includes/class.btnsx.php:3234
+msgid "Select type of animation. Choose from many different types."
+msgstr ""
+
+#: includes/class.btnsx.php:3249
+msgid "Set top padding for icon."
+msgstr ""
+
+#: includes/class.btnsx.php:3250
+msgid "Set bottom padding for icon."
+msgstr ""
+
+#: includes/class.btnsx.php:3251
+msgid "Set left padding for icon."
+msgstr ""
+
+#: includes/class.btnsx.php:3252
+msgid "Set right padding for icon."
+msgstr ""
+
+#: includes/class.btnsx.php:3267 includes/class.btnsx.php:3628
+#: includes/class.btnsx.php:3801
+msgid "Primary Text"
+msgstr ""
+
+#: includes/class.btnsx.php:3279
+msgid "Add main button text."
+msgstr ""
+
+#: includes/class.btnsx.php:3286 includes/class.btnsx.php:3430
+msgid "Choose option"
+msgstr ""
+
+#: includes/class.btnsx.php:3287 includes/class.btnsx.php:3431
+msgid "Transform"
+msgstr ""
+
+#: includes/class.btnsx.php:3288 includes/class.btnsx.php:3432
+msgid "This field controls the capitalization of text."
+msgstr ""
+
+#: includes/class.btnsx.php:3291 includes/class.btnsx.php:3435
+msgid "Capitalize"
+msgstr ""
+
+#: includes/class.btnsx.php:3292 includes/class.btnsx.php:3436
+msgid "Uppercase"
+msgstr ""
+
+#: includes/class.btnsx.php:3293 includes/class.btnsx.php:3437
+msgid "Lowercase"
+msgstr ""
+
+#: includes/class.btnsx.php:3301 includes/class.btnsx.php:3472
+msgid "Font"
+msgstr ""
+
+#: includes/class.btnsx.php:3309
+msgid ""
+"Add font size in pixels. This will make your primary text bigger or smaller "
+"depending up on the value specified."
+msgstr ""
+
+#: includes/class.btnsx.php:3310
+msgid ""
+"Select font style. This will style your primary text. Normal means as it is, "
+"italic means the text will appear slanted, oblique makes the text slanted + "
+"bold and inherit will get the style from parent element."
+msgstr ""
+
+#: includes/class.btnsx.php:3311 includes/class.btnsx.php:3482
+msgid ""
+"Select font weight. This adds weight to text like bold makes the text "
+"stronger. 100 is lightest and 900 is boldest."
+msgstr ""
+
+#: includes/class.btnsx.php:3312 includes/class.btnsx.php:3483
+msgid ""
+"Select font family. Choose from among 100's of Google Web Fonts to style "
+"primary text."
+msgstr ""
+
+#: includes/class.btnsx.php:3333 includes/class.btnsx.php:3504
+msgid "Select text color."
+msgstr ""
+
+#: includes/class.btnsx.php:3334 includes/class.btnsx.php:3505
+msgid "Select text color for when button is hovered."
+msgstr ""
+
+#: includes/class.btnsx.php:3369 includes/class.btnsx.php:3540
+msgid "Add position of the horizontal shadow in pixels."
+msgstr ""
+
+#: includes/class.btnsx.php:3370 includes/class.btnsx.php:3541
+msgid "Add position of the vertical shadow in pixels."
+msgstr ""
+
+#: includes/class.btnsx.php:3371 includes/class.btnsx.php:3542
+msgid "Add blur radius in pixels."
+msgstr ""
+
+#: includes/class.btnsx.php:3372 includes/class.btnsx.php:3543
+msgid "Select shadow color."
+msgstr ""
+
+#: includes/class.btnsx.php:3393 includes/class.btnsx.php:3646
+#: includes/class.btnsx.php:3678 includes/class.btnsx.php:3728
+#: includes/class.btnsx.php:3751 includes/class.btnsx.php:3819
+#: includes/class.btnsx.php:3851 includes/class.btnsx.php:3901
+#: includes/class.btnsx.php:3924
+msgid "Set top padding for primary text."
+msgstr ""
+
+#: includes/class.btnsx.php:3394 includes/class.btnsx.php:3647
+#: includes/class.btnsx.php:3679 includes/class.btnsx.php:3729
+#: includes/class.btnsx.php:3752 includes/class.btnsx.php:3820
+#: includes/class.btnsx.php:3852 includes/class.btnsx.php:3902
+#: includes/class.btnsx.php:3925
+msgid "Set bottom padding for primary text."
+msgstr ""
+
+#: includes/class.btnsx.php:3395 includes/class.btnsx.php:3648
+#: includes/class.btnsx.php:3680 includes/class.btnsx.php:3730
+#: includes/class.btnsx.php:3753 includes/class.btnsx.php:3821
+#: includes/class.btnsx.php:3853 includes/class.btnsx.php:3903
+#: includes/class.btnsx.php:3926
+msgid "Set left padding for primary text."
+msgstr ""
+
+#: includes/class.btnsx.php:3396 includes/class.btnsx.php:3649
+#: includes/class.btnsx.php:3681 includes/class.btnsx.php:3731
+#: includes/class.btnsx.php:3754 includes/class.btnsx.php:3822
+#: includes/class.btnsx.php:3854 includes/class.btnsx.php:3904
+#: includes/class.btnsx.php:3927
+msgid "Set right padding for primary text."
+msgstr ""
+
+#: includes/class.btnsx.php:3411 includes/class.btnsx.php:3660
+#: includes/class.btnsx.php:3833
+msgid "Secondary Text"
+msgstr ""
+
+#: includes/class.btnsx.php:3422
+msgid "Add additional text for button."
+msgstr ""
+
+#: includes/class.btnsx.php:3446
+msgid "Choose position"
+msgstr ""
+
+#: includes/class.btnsx.php:3448
+msgid ""
+"Select additonal text position. Put the text on the same line as primary "
+"text or move it to a new line."
+msgstr ""
+
+#: includes/class.btnsx.php:3450
+msgid "Same Line"
+msgstr ""
+
+#: includes/class.btnsx.php:3451
+msgid "New Line"
+msgstr ""
+
+#: includes/class.btnsx.php:3461
+msgid "Align the additional text as required."
+msgstr ""
+
+#: includes/class.btnsx.php:3465
+msgid "Center"
+msgstr ""
+
+#: includes/class.btnsx.php:3480
+msgid ""
+"Add font size in pixels. This will make your additional text bigger or "
+"smaller depending up on the value specified."
+msgstr ""
+
+#: includes/class.btnsx.php:3481
+msgid ""
+"Select font style. This will style your additional text. Normal means as it "
+"is, italic means the text will appear slanted, oblique makes the text "
+"slanted + bold and inherit will get the style from parent element."
+msgstr ""
+
+#: includes/class.btnsx.php:3564
+msgid "Set top padding for secondary text."
+msgstr ""
+
+#: includes/class.btnsx.php:3565
+msgid "Set bottom padding for secondary text."
+msgstr ""
+
+#: includes/class.btnsx.php:3566
+msgid "Set left padding for secondary text."
+msgstr ""
+
+#: includes/class.btnsx.php:3567
+msgid "Set right padding for secondary text."
+msgstr ""
+
+#: includes/class.btnsx.php:3589 includes/settings-page.php:174
+msgid "Responsive"
+msgstr ""
+
+#: includes/class.btnsx.php:3635
+msgid "Primary text font size for tablet view."
+msgstr ""
+
+#: includes/class.btnsx.php:3667
+msgid "Secondary text font size for tablet view."
+msgstr ""
+
+#: includes/class.btnsx.php:3708 includes/class.btnsx.php:3881
+msgid "Divider Size"
+msgstr ""
+
+#: includes/class.btnsx.php:3717 includes/class.btnsx.php:3890
+msgid "Divider Position"
+msgstr ""
+
+#: includes/class.btnsx.php:3718 includes/class.btnsx.php:3891
+msgid ""
+"Select divider position. Position the divider to left or right of icon. "
+"Negative values are accepted."
+msgstr ""
+
+#: includes/class.btnsx.php:3808
+msgid "Primary text font size for mobile view."
+msgstr ""
+
+#: includes/class.btnsx.php:3840
+msgid "Secondary text font size for mobile view."
+msgstr ""
+
+#: includes/class.btnsx.social.php:218
+msgid "Display before Content"
+msgstr ""
+
+#: includes/class.btnsx.social.php:232
+msgid "Display after Content"
+msgstr ""
+
+#: includes/class.btnsx.social.php:806 includes/class.btnsx.social.php:809
+msgid "Social button updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: includes/class.btnsx.social.php:811
+#, php-format
+msgid "Social button restored to revision from %s"
+msgstr ""
+
+#: includes/class.btnsx.social.php:812
+msgid "Social button published."
+msgstr ""
+
+#: includes/class.btnsx.social.php:813
+msgid "Social button saved."
+msgstr ""
+
+#: includes/class.btnsx.social.php:814
+msgid "Social button submitted."
+msgstr ""
+
+#: includes/class.btnsx.social.php:816
+#, php-format
+msgid "Social button scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: includes/class.btnsx.social.php:820
+msgid "Social button draft updated."
+msgstr ""
+
+#: includes/class.btnsx.social.php:958
+msgid "Enable LinkedIn Button"
+msgstr ""
+
+#: includes/class.btnsx.social.php:959
+msgid "Enables LinkedIn button."
+msgstr ""
+
+#: includes/class.btnsx.social.php:967 includes/settings-page.php:512
+msgid "Facebook"
+msgstr ""
+
+#: includes/class.btnsx.social.php:973 includes/class.btnsx.social.php:1092
+#: includes/class.btnsx.social.php:1199 includes/class.btnsx.social.php:1327
+msgid "Choose button type"
+msgstr ""
+
+#: includes/class.btnsx.social.php:974 includes/class.btnsx.social.php:1093
+#: includes/class.btnsx.social.php:1200 includes/class.btnsx.social.php:1328
+msgid "Button Type"
+msgstr ""
+
+#: includes/class.btnsx.social.php:975
+msgid "Select the type of Facebook button you require."
+msgstr ""
+
+#: includes/class.btnsx.social.php:977 includes/class.btnsx.social.php:1037
+msgid "Like"
+msgstr ""
+
+#: includes/class.btnsx.social.php:978 includes/class.btnsx.social.php:1097
+#: includes/class.btnsx.social.php:1204
+msgid "Follow"
+msgstr ""
+
+#: includes/class.btnsx.social.php:979 includes/class.btnsx.social.php:1205
+msgid "Share"
+msgstr ""
+
+#: includes/class.btnsx.social.php:980
+msgid "Send"
+msgstr ""
+
+#: includes/class.btnsx.social.php:989
+msgid ""
+"Insert the URL which your site visitors should like for like button, Profile "
+"URL for follow button and Page URL for share button."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#: includes/class.btnsx.social.php:990
+msgid "https://www.button.sx"
+msgstr ""
+
+#: includes/class.btnsx.social.php:999
+msgid "The pixel width"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1008
+msgid "The pixel height"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1015
+msgid "Choose layout"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1017
+msgid "Select the button layout type."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1019
+msgid "Standard (Not For Share Button)"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1020
+msgid "Box Count"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1021
+msgid "Button Count"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1023
+msgid "Icon Link (For Share Button Only)"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1024
+msgid "Icon (For Share Button Only)"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1025
+msgid "Link (For Share Button Only)"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1033
+msgid "Choose action type"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1034
+msgid "Action Type"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1035
+msgid "Select the type of action button performs."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1038 includes/class.btnsx.social.php:1134
+msgid "Recommend"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1046
+msgid "Choose color scheme"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1047
+msgid "Color Scheme"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1048
+msgid ""
+"The color scheme used by the plugin for any text outside of the button "
+"itself. Can be light or dark."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1050
+msgid "Light"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1051
+msgid "Dark"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1059
+msgid "Show Friends' Faces"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1060
+msgid "Show profile photos when 2 or more friends like this."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1068
+msgid "Include Share Button"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1069
+msgid "Includes a share button beside the like button."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1077
+msgid "Kid Directed Site"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1078
+msgid ""
+"If your web site or online service, or a portion of your service, is "
+"directed to children under 13 you must enable this."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1094 includes/class.btnsx.social.php:1201
+msgid "Select the type of Twitter button you require."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1096 includes/class.btnsx.social.php:1431
+msgid "Tweet"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1098 includes/class.btnsx.social.php:1143
+msgid "Hashtag"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1099
+msgid "Mention"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1108
+msgid ""
+"URL included with the Tweet. If left empty then current page URL will be "
+"added as URL."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1109
+msgid "https://www.twitter.com"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1117
+msgid ""
+"Pre-populated text highlighted in the Tweet composer. If left empty then "
+"current page title will be added as text."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1118
+msgid "Custom share text"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1125 includes/settings-page.php:1033
+msgid "Username"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1126
+msgid "Attribute the source of a Tweet to a Twitter username."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1135
+msgid ""
+"A comma-separated list of accounts related to the content of the shared URI."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1144
+msgid ""
+"A comma-separated list of hashtags to be appended to default Tweet text. "
+"When using hashtag as button type then add only ONE hashtag if you want to "
+"see hashtag on button."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1152
+msgid "Count Style"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1153
+msgid "Choose button count type."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1166
+msgid "Large Button"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1167
+msgid "When enabled, displays a larger version of the button."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1175
+msgid "Opt-out of tailoring Twitter"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1176
+msgid ""
+"When enabled, the Tweet and its embedded page do not influence Twitter "
+"targeting including suggested accounts."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1184
+msgid "Display Username"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1185
+msgid "When enabled, shows the username on button."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1193 includes/settings-page.php:594
+msgid "Google+"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1203
+msgid "+1"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1214
+msgid "URL to +1 / Share."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1215
+msgid "http://googleplus.com"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1222
+msgid "Choose +1 button size"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1223
+msgid "+1 Button Size"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1224 includes/class.btnsx.social.php:1262
+msgid "Select the size of button you require."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1227 includes/class.btnsx.social.php:1265
+msgid "Medium"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1228
+msgid "Standard"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1229
+msgid "Tall"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1237 includes/class.btnsx.social.php:1274
+#: includes/class.btnsx.social.php:1288
+msgid "Choose button layout"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1238
+msgid "+1 Button Layout"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1239 includes/class.btnsx.social.php:1276
+#: includes/class.btnsx.social.php:1290
+msgid "Select the style of button you require."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1241 includes/class.btnsx.social.php:1292
+msgid "Inline"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1242
+msgid "Bubble"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1251
+msgid "Google+ User"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1252
+msgid "Google plus user page or profile URL."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1253
+msgid "Page, profile or community URL"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1260
+msgid "Choose button size"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1261
+msgid "Button Size"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1275
+msgid "Follow Button Layout"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1278 includes/class.btnsx.social.php:1293
+msgid "Bubble (horizontal)"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1279 includes/class.btnsx.social.php:1294
+msgid "Bubble (vertical)"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1289
+msgid "Share Button Layout"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1304
+msgid "Inline button and text width."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1312 includes/settings-page.php:653
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1319
+msgid "If left blank current page URL will be shared."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1320
+msgid "URL to to be shared (optional)"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1329
+msgid "Select the type of LinkedIn share button you require."
+msgstr ""
+
+#: includes/class.btnsx.social.php:1477
+msgid "Buttons X - Social Buttons"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1564 includes/class.btnsx.social.php:1576
+#: includes/settings-page.php:144
+msgid "Social Buttons"
+msgstr ""
+
+#: includes/class.btnsx.social.php:1570 includes/class.btnsx.social.php:1582
+msgid "Social Button"
+msgstr ""
+
+#: includes/class.bulk.actions.php:136
+msgid "There's no callback defined for this bulk action!"
+msgstr ""
+
+#: includes/class.bulk.actions.php:175 includes/class.bulk.actions.php:185
+#: includes/class.bulk.actions.php:195 includes/class.bulk.actions.php:205
+#: includes/class.portation.php:85 includes/class.portation.php:88
+#: includes/class.portation.php:91 includes/class.portation.php:94
+msgid "Export"
+msgstr ""
+
+#: includes/class.bulk.actions.php:176 includes/class.bulk.actions.php:196
+#: includes/class.bulk.actions.php:206
+msgid "Buttons Imported successfully!"
+msgstr ""
+
+#: includes/class.bulk.actions.php:186
+msgid "Social Buttons Imported successfully!"
+msgstr ""
+
+#: includes/class.clone.php:51 includes/class.clone.php:54
+#: includes/class.clone.php:57 includes/class.clone.php:60
+msgid "Clone"
+msgstr ""
+
+#: includes/class.clone.php:97
+msgid "Copy creation failed, could not find original:"
+msgstr ""
+
+#: includes/class.external.plugins.php:69
+#: includes/class.external.plugins.php:230
+msgid "Choose Popup"
+msgstr ""
+
+#: includes/class.external.plugins.php:70
+msgid "Popup Maker."
+msgstr ""
+
+#: includes/class.external.plugins.php:71
+msgid ""
+"Select a popup. These are the popup's created under Popup Maker -> All "
+"Popups."
+msgstr ""
+
+#: includes/class.external.plugins.php:113
+msgid "WP Video Lightbox"
+msgstr ""
+
+#: includes/class.external.plugins.php:123
+msgid "Choose Video Type"
+msgstr ""
+
+#: includes/class.external.plugins.php:124
+msgid "WP Video Lightbox - Type"
+msgstr ""
+
+#: includes/class.external.plugins.php:125
+msgid "Select video type."
+msgstr ""
+
+#: includes/class.external.plugins.php:127 includes/settings-page.php:950
+msgid "Vimeo"
+msgstr ""
+
+#: includes/class.external.plugins.php:128 includes/settings-page.php:1014
+msgid "Youtube"
+msgstr ""
+
+#: includes/class.external.plugins.php:137
+msgid "WP Video Lightbox - Video ID"
+msgstr ""
+
+#: includes/class.external.plugins.php:138
+msgid ""
+"Add video ID. <br><br><u>Vimeo Video ID</u>: If your Vimeo video url is "
+"\"https://vimeo.com/151048570\" then video id is <strong>151048570</strong>."
+"<br><br><strong>Youtube Video ID</strong>: If your Yotube video url is "
+"\"https://www.youtube.com/watch?v=vqiABPHh1sA\" or \"https://youtu.be/"
+"vqiABPHh1sA\" then video id is <strong>vqiABPHh1sA</strong>."
+msgstr ""
+
+#: includes/class.external.plugins.php:146
+msgid "WP Video Lightbox - Video Width"
+msgstr ""
+
+#: includes/class.external.plugins.php:147
+msgid ""
+"Add video width (in pixels). Eg: 640. If left empty default width set in WP "
+"Video Lightbox settings will be used."
+msgstr ""
+
+#: includes/class.external.plugins.php:155
+msgid "WP Video Lightbox - Video Height"
+msgstr ""
+
+#: includes/class.external.plugins.php:156
+msgid ""
+"Add video height (in pixels). Eg: 480. If left empty default height set in "
+"WP Video Lightbox settings will be used."
+msgstr ""
+
+#: includes/class.external.plugins.php:219
+msgid "PopupPress"
+msgstr ""
+
+#: includes/class.external.plugins.php:231
+msgid "PopupPress Popup."
+msgstr ""
+
+#: includes/class.external.plugins.php:232
+msgid ""
+"Select a popup. These are the popup's listed under PopupPress -> PopupPress."
+msgstr ""
+
+#: includes/class.external.plugins.php:268
+msgid "Ninja Popup"
+msgstr ""
+
+#: includes/class.external.plugins.php:279
+#: includes/class.external.plugins.php:339
+msgid "Select a popup"
+msgstr ""
+
+#: includes/class.external.plugins.php:280
+msgid "Ninja Popup."
+msgstr ""
+
+#: includes/class.external.plugins.php:281
+msgid ""
+"Select a popup. These are the popup's listed under Ninja Popups -> Popups."
+msgstr ""
+
+#: includes/class.external.plugins.php:323
+msgid "Layered Popup"
+msgstr ""
+
+#: includes/class.external.plugins.php:340
+msgid "Layered Popup."
+msgstr ""
+
+#: includes/class.external.plugins.php:341
+msgid ""
+"Select a popup. These are the popup's listed under Layered Popups -> Popups."
+msgstr ""
+
+#: includes/class.portation.php:442
+msgid "No Title"
+msgstr ""
+
+#: includes/class.portation.php:470
+#, php-format
+msgid "Error assigning packs for button %d."
+msgstr ""
+
+#: includes/class.portation.php:473
+#, php-format
+msgid "Error assigning tags for button %d."
+msgstr ""
+
+#: includes/class.portation.php:512
+#, php-format
+msgid "Button \"%s\" imported successfully."
+msgstr ""
+
+#: includes/class.portation.php:514
+#, php-format
+msgid "Button with same name \"%s\" already exists."
+msgstr ""
+
+#: includes/class.portation.php:519
+msgid "No button selected."
+msgstr ""
+
+#: includes/class.portation.php:584
+msgid "File empty or not found"
+msgstr ""
+
+#: includes/class.portation.php:589
+msgid "You do not have sufficient permissions."
+msgstr ""
+
+#: includes/class.portation.php:620 includes/class.portation.php:650
+#: includes/class.portation.php:710 includes/import-page.php:26
+#: includes/import-page.php:96
+msgid "Import"
+msgstr ""
+
+#: includes/class.portation.php:700
+msgid "Invalid file content."
+msgstr ""
+
+#: includes/class.portation.php:703
+msgid "File not supported."
+msgstr ""
+
+#: includes/class.portation.php:706
+msgid "File not found."
+msgstr ""
+
+#: includes/class.portation.php:727
+msgid "Unsupported file type!"
+msgstr ""
+
+#: includes/class.portation.php:733
+msgid "File is too big, it should be less than 1 MB."
+msgstr ""
+
+#: includes/class.portation.php:747
+msgid ""
+"Please upgrade your browser, because your current browser lacks HTML5 File "
+"API."
+msgstr ""
+
+#: includes/class.portation.php:800
+msgid ""
+"There was an error importing the buttons. File content should be in valid "
+"\"JSON\" format."
+msgstr ""
+
+#: includes/class.wapi.php:76
+msgid "Add-ons"
+msgstr ""
+
+#: includes/class.wapi.php:90 includes/class.wapi.php:177
+msgid "Download"
+msgstr ""
+
+#: includes/class.wapi.php:92 includes/class.wapi.php:179
+msgid "Buy Now"
+msgstr ""
+
+#: includes/class.wapi.php:98
+msgid "Installed"
+msgstr ""
+
+#: includes/class.wapi.php:140 includes/class.wapi.php:199
+msgid "Something went wrong! Please try again later."
+msgstr ""
+
+#: includes/class.wapi.php:186
+msgid "Pack Details"
+msgstr ""
+
+#: includes/class.widget.dual.php:25 includes/class.widget.php:25
+msgid "Beautiful buttons."
+msgstr ""
+
+#: includes/class.widget.dual.php:73 includes/class.widget.php:73
+#: includes/class.widget.social.counters.php:73
+#: includes/class.widget.social.php:73
+msgid "Title:"
+msgstr ""
+
+#: includes/class.widget.dual.php:77 includes/class.widget.php:77
+#: includes/class.widget.social.counters.php:77
+#: includes/class.widget.social.php:77
+msgid "Button:"
+msgstr ""
+
+#: includes/class.widget.dual.php:102 includes/class.widget.php:102
+msgid "No Buttons Found!"
+msgstr ""
+
+#: includes/class.widget.social.counters.php:24
+#: includes/class.widget.social.counters.php:63
+msgid "Buttons X Social Counters"
+msgstr ""
+
+#: includes/class.widget.social.counters.php:25
+msgid "Social counter buttons."
+msgstr ""
+
+#: includes/class.widget.social.counters.php:102
+#: includes/class.widget.social.php:102
+msgid "Button Not Found!"
+msgstr ""
+
+#: includes/class.widget.social.php:25
+msgid "Social buttons."
+msgstr ""
+
+#: includes/class.woo.php:100 includes/class.woo.php:109
+#: includes/class.woo.php:118
+msgid "( No Name )"
+msgstr ""
+
+#: includes/class.woo.php:124
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/class.woo.php:127
+msgid "Single Product Page"
+msgstr ""
+
+#: includes/class.woo.php:133
+msgid "After Single Product"
+msgstr ""
+
+#: includes/class.woo.php:134 includes/class.woo.php:143
+msgid "Add button on WooCommerce single product page after product summary"
+msgstr ""
+
+#: includes/class.woo.php:142
+msgid "After Single Product Summary"
+msgstr ""
+
+#: includes/class.woo.php:151
+msgid "Before Product"
+msgstr ""
+
+#: includes/class.woo.php:152
+msgid "Add button on WooCommerce single product page before product"
+msgstr ""
+
+#: includes/class.woo.php:160
+msgid "Before Product Summary"
+msgstr ""
+
+#: includes/class.woo.php:161
+msgid "Add button on WooCommerce single product page before product summary"
+msgstr ""
+
+#: includes/class.woo.php:169
+msgid "Sidebar"
+msgstr ""
+
+#: includes/class.woo.php:170
+msgid "Add button on WooCommerce single product page sidebar"
+msgstr ""
+
+#: includes/class.woo.php:177
+msgid "Checkout Page"
+msgstr ""
+
+#: includes/class.woo.php:187
+msgid "Order Button"
+msgstr ""
+
+#: includes/class.woo.php:188
+msgid "Replace checkout page button."
+msgstr ""
+
+#: includes/class.woo.php:195
+msgid "Pay Order Page"
+msgstr ""
+
+#: includes/class.woo.php:205
+msgid "Pay Order Button"
+msgstr ""
+
+#: includes/class.woo.php:206
+msgid "Replace pay for order page button."
+msgstr ""
+
+#: includes/class.woo.php:269
+msgid "Place Order"
+msgstr ""
+
+#: includes/import-page.php:18
+msgid "Select the predefined button styles to import"
+msgstr ""
+
+#: includes/import-page.php:36
+msgid "Demo Buttons"
+msgstr ""
+
+#: includes/import-page.php:46
+msgid "Classic"
+msgstr ""
+
+#: includes/import-page.php:53
+msgid "Flat"
+msgstr ""
+
+#: includes/import-page.php:67
+msgid "Outlined"
+msgstr ""
+
+#: includes/import-page.php:78
+msgid "Manual Import"
+msgstr ""
+
+#: includes/import-page.php:82
+msgid ""
+"Please make sure you import individual buttons used for creating a dual "
+"button before importing a dual button."
+msgstr ""
+
+#: includes/settings-page.php:104
+msgid "Automatic Updates"
+msgstr ""
+
+#: includes/settings-page.php:109
+msgid "Purchase Code"
+msgstr ""
+
+#: includes/settings-page.php:110
+msgid ""
+"Get your Purchase Code from the downloads page on Envato Market or from the "
+"email you received when you bought the plugin.<br> Check this image - <a "
+"target=\"_blank\" href=\"http://btn.sx/1TYvovf\">http://btn.sx/1TYvovf</a>."
+msgstr ""
+
+#: includes/settings-page.php:117
+msgid "General"
+msgstr ""
+
+#: includes/settings-page.php:123
+msgid "Select CSS to be displayed inline or through external file."
+msgstr ""
+
+#: includes/settings-page.php:135 includes/settings-page.php:145
+#: includes/settings-page.php:155 includes/settings-page.php:165
+msgid "ON"
+msgstr ""
+
+#: includes/settings-page.php:136 includes/settings-page.php:146
+#: includes/settings-page.php:156 includes/settings-page.php:166
+msgid "OFF"
+msgstr ""
+
+#: includes/settings-page.php:137
+msgid "Enable or disable dual buttons."
+msgstr ""
+
+#: includes/settings-page.php:147
+msgid "Enable or disable social buttons."
+msgstr ""
+
+#: includes/settings-page.php:157
+msgid "Enable or disable social counters."
+msgstr ""
+
+#: includes/settings-page.php:164
+msgid "Auto Responsive Style for Single Buttons"
+msgstr ""
+
+#: includes/settings-page.php:167
+msgid "Enable or disable automatic responsive styles for single buttons."
+msgstr ""
+
+#: includes/settings-page.php:180
+msgid "Tablet Width"
+msgstr ""
+
+#: includes/settings-page.php:181
+msgid ""
+"Set the tablet screen width in pixels. When the screen size is equal or "
+"below this tablet width then the responsive tablet settings will take over."
+msgstr ""
+
+#: includes/settings-page.php:188
+msgid "Mobile Width"
+msgstr ""
+
+#: includes/settings-page.php:189
+msgid ""
+"Set the mobile screen width in pixels. When the screen size is equal or "
+"below this mobile width then the responsive mobile settings will take over."
+msgstr ""
+
+#: includes/settings-page.php:198
+msgid "Content Filter"
+msgstr ""
+
+#: includes/settings-page.php:201
+msgid "After Content"
+msgstr ""
+
+#: includes/settings-page.php:208 includes/settings-page.php:272
+msgid "Post Types"
+msgstr ""
+
+#: includes/settings-page.php:209
+msgid ""
+"Select the post types on which you want buttons to be displayed after "
+"content."
+msgstr ""
+
+#: includes/settings-page.php:219 includes/settings-page.php:283
+msgid ""
+"Select the buttons you want to display after every post, page or custom post "
+"type selected above."
+msgstr ""
+
+#: includes/settings-page.php:227 includes/settings-page.php:291
+msgid "Priority"
+msgstr ""
+
+#: includes/settings-page.php:228
+msgid ""
+"The higher the priority value the later the button will appear. Helpful when "
+"some other plugins add custom content after post content."
+msgstr ""
+
+#: includes/settings-page.php:236 includes/settings-page.php:300
+msgid "Make the buttons appear centered."
+msgstr ""
+
+#: includes/settings-page.php:242 includes/settings-page.php:306
+msgid "Container Margin"
+msgstr ""
+
+#: includes/settings-page.php:266
+msgid "Before Content"
+msgstr ""
+
+#: includes/settings-page.php:273
+msgid ""
+"Select the post types on which you want buttons to be displayed before "
+"content."
+msgstr ""
+
+#: includes/settings-page.php:292
+msgid ""
+"The higher the priority value the earlier the button will appear. Helpful "
+"when some other plugins add custom content before post data."
+msgstr ""
+
+#: includes/settings-page.php:334
+msgid "Social"
+msgstr ""
+
+#: includes/settings-page.php:340
+msgid "Social Post Types"
+msgstr ""
+
+#: includes/settings-page.php:341
+msgid "Social buttons meta box will appear on these post types."
+msgstr ""
+
+#: includes/settings-page.php:350 includes/settings-page.php:353
+#: includes/settings-page.php:356 includes/settings-page.php:359
+#: includes/settings-page.php:362 includes/settings-page.php:365
+msgid "Authenticated"
+msgstr ""
+
+#: includes/settings-page.php:350 includes/settings-page.php:353
+#: includes/settings-page.php:356 includes/settings-page.php:359
+#: includes/settings-page.php:362 includes/settings-page.php:365
+msgid "Authenticate"
+msgstr ""
+
+#: includes/settings-page.php:381
+msgid "Cache Time"
+msgstr ""
+
+#: includes/settings-page.php:382
+msgid ""
+"Clears cache after the specified period of time (in hours). Default is 24 "
+"hours."
+msgstr ""
+
+#: includes/settings-page.php:388
+msgid "500px"
+msgstr ""
+
+#: includes/settings-page.php:395
+msgid "500px Consumer Key"
+msgstr ""
+
+#: includes/settings-page.php:396
+msgid ""
+"Please create an app through this link:<a target=\"_blank\" href="
+"\"https://500px.com/settings/applications\">https://500px.com/settings/"
+"applications</a> and get this information."
+msgstr ""
+
+#: includes/settings-page.php:404
+msgid "500px User ID"
+msgstr ""
+
+#: includes/settings-page.php:405 includes/settings-page.php:588
+#: includes/settings-page.php:742 includes/settings-page.php:756
+msgid "Add ID"
+msgstr ""
+
+#: includes/settings-page.php:411
+msgid "Behance"
+msgstr ""
+
+#: includes/settings-page.php:418
+msgid "Behance Client ID"
+msgstr ""
+
+#: includes/settings-page.php:419
+msgid ""
+"Please register an app on Behance through this link:<a target=\"_blank\" "
+"href=\"https://www.behance.net/dev/register\">https://www.behance.net/dev/"
+"register</a> and get the \"API KEY / CLIENT ID\"."
+msgstr ""
+
+#: includes/settings-page.php:427
+msgid "Behance User ID"
+msgstr ""
+
+#: includes/settings-page.php:428
+msgid ""
+"Please enter the user ID. For example:If your profile url is https://www."
+"behance.net/TommyRoussel then your user ID is TommyRoussel."
+msgstr ""
+
+#: includes/settings-page.php:434
+msgid "Delicious"
+msgstr ""
+
+#: includes/settings-page.php:441
+msgid "Delicious User ID"
+msgstr ""
+
+#: includes/settings-page.php:442
+msgid ""
+"Please enter the user ID. For example:If your profile url is <a target="
+"\"_blank\" href=\"https://delicious.com/jdevalk\">https://delicious.com/"
+"jdevalk</a> then your user ID is jdevalk."
+msgstr ""
+
+#: includes/settings-page.php:448
+msgid "Dribbble"
+msgstr ""
+
+#: includes/settings-page.php:455
+msgid "Dribbble Access Token"
+msgstr ""
+
+#: includes/settings-page.php:456
+msgid ""
+"Please create an app on Dribbble through this link: <a target=\"_blank\" "
+"href=\"https://dribbble.com/account/applications/new\">https://dribbble.com/"
+"account/applications/new</a> and get the access token."
+msgstr ""
+
+#: includes/settings-page.php:464
+msgid "Dribbble User ID"
+msgstr ""
+
+#: includes/settings-page.php:465
+msgid ""
+"Please enter the user ID.For example:If your page url is https://dribbble."
+"com/madebyradio/ then your user ID is madebyradio."
+msgstr ""
+
+#: includes/settings-page.php:471
+msgid "Envato"
+msgstr ""
+
+#: includes/settings-page.php:478
+msgid "Envato Personal Token"
+msgstr ""
+
+#: includes/settings-page.php:479
+msgid ""
+"Please create a personal token on Envato through this link: <a target="
+"\"_blank\" href=\"https://build.envato.com/create-token/ \">https://build."
+"envato.com/create-token/</a> and get the personal access token."
+msgstr ""
+
+#: includes/settings-page.php:487
+msgid "Envato User ID"
+msgstr ""
+
+#: includes/settings-page.php:488
+msgid ""
+"Please enter the user ID. For example:If your page url is http://codecanyon."
+"net/user/gautamthapar/ then your user ID is gautamthapar."
+msgstr ""
+
+#: includes/settings-page.php:496
+msgid "Envato Site"
+msgstr ""
+
+#: includes/settings-page.php:497
+msgid ""
+"Please select the Envato site where you want visitors to redirected on "
+"button click."
+msgstr ""
+
+#: includes/settings-page.php:499
+msgid "themeforest"
+msgstr ""
+
+#: includes/settings-page.php:500
+msgid "codecanyon"
+msgstr ""
+
+#: includes/settings-page.php:501
+msgid "videohive"
+msgstr ""
+
+#: includes/settings-page.php:502
+msgid "audiojungle"
+msgstr ""
+
+#: includes/settings-page.php:503
+msgid "graphicriver"
+msgstr ""
+
+#: includes/settings-page.php:504
+msgid "photodune"
+msgstr ""
+
+#: includes/settings-page.php:505
+msgid "3docean"
+msgstr ""
+
+#: includes/settings-page.php:519
+msgid "Facebook App ID"
+msgstr ""
+
+#: includes/settings-page.php:520
+msgid ""
+"Please create an app on Facebook through this link:<a target=\"_blank\" href="
+"\"https://developers.facebook.com/apps\">https://developers.facebook.com/"
+"apps</a> and get this information."
+msgstr ""
+
+#: includes/settings-page.php:528
+msgid "Facebook App Secret"
+msgstr ""
+
+#: includes/settings-page.php:529
+msgid ""
+"Please create an app on Facebook through this link:https://developers."
+"facebook.com/apps and get this information."
+msgstr ""
+
+#: includes/settings-page.php:537
+msgid "Facebook Page ID"
+msgstr ""
+
+#: includes/settings-page.php:538
+msgid ""
+"Please enter the page ID or page name.For example:If your page url is "
+"https://www.facebook.com/btnsx/ then your page ID is btnsx."
+msgstr ""
+
+#: includes/settings-page.php:548
+msgid "Github"
+msgstr ""
+
+#: includes/settings-page.php:555
+msgid "Github Personal Token"
+msgstr ""
+
+#: includes/settings-page.php:556
+msgid ""
+"Please create a personal token on Github through this link: <a href="
+"\"https://github.com/settings/tokens/new\">https://github.com/settings/"
+"tokens/new</a> and get the personal access token."
+msgstr ""
+
+#: includes/settings-page.php:564
+msgid "Github User ID"
+msgstr ""
+
+#: includes/settings-page.php:565
+msgid ""
+"Please enter the user ID. For example:If your page url is https://github.com/"
+"nacin then your channel ID is nacin."
+msgstr ""
+
+#: includes/settings-page.php:571
+msgid "Goodreads"
+msgstr ""
+
+#: includes/settings-page.php:578
+msgid "Goodreads API Key"
+msgstr ""
+
+#: includes/settings-page.php:579
+msgid ""
+"Please create an app on Goodreads through this link: <a href=\"https://www."
+"goodreads.com/api/keys\">https://www.goodreads.com/api/keys</a> and get the "
+"API key."
+msgstr ""
+
+#: includes/settings-page.php:587
+msgid "Goodreads User ID"
+msgstr ""
+
+#: includes/settings-page.php:601
+msgid "Google+ API Key"
+msgstr ""
+
+#: includes/settings-page.php:602
+msgid ""
+"Please create a project through this link: <a target=\"_blank\" href="
+"\"https://console.developers.google.com/\">https://console.developers.google."
+"com/</a> and get the API key."
+msgstr ""
+
+#: includes/settings-page.php:610
+msgid "Google+ Page ID"
+msgstr ""
+
+#: includes/settings-page.php:611
+msgid ""
+"Please enter the page ID or page name.For example:If your page url is "
+"https://plus.google.com/+Mashable/ then your page ID is +Mashable OR if your "
+"page url is https://plus.google.com/104009217652352075079/ then your page ID "
+"is 104009217652352075079."
+msgstr ""
+
+#: includes/settings-page.php:617
+msgid "Instagram"
+msgstr ""
+
+#: includes/settings-page.php:624
+msgid "Instagram Client ID"
+msgstr ""
+
+#: includes/settings-page.php:625
+msgid ""
+"Please register an app on Instagram through this link:<a target=\"_blank\" "
+"href=\"https://instagram.com/developer/clients/register/\">https://instagram."
+"com/developer/clients/register/</a> and get the \"CLIENT ID\"."
+msgstr ""
+
+#: includes/settings-page.php:633
+msgid "Instagram Redirect URI"
+msgstr ""
+
+#: includes/settings-page.php:634
+msgid "Please enter the Redirect URI."
+msgstr ""
+
+#: includes/settings-page.php:642
+msgid "Instagram User ID"
+msgstr ""
+
+#: includes/settings-page.php:643
+msgid ""
+"Please enter the user ID. For example:If your profile url is <a target="
+"\"_blank\" href=\"https://www.instagram.com/gautam_thapar/\">https://www."
+"instagram.com/gautam_thapar/</a> then your user ID is gautam_thapar."
+msgstr ""
+
+#: includes/settings-page.php:660
+msgid "LinkedIn Client ID"
+msgstr ""
+
+#: includes/settings-page.php:661
+msgid ""
+"Please register an app on LinkedIn through this link:<a target=\"_blank\" "
+"href=\"https://www.linkedin.com/secure/developer?newapp=\">https://www."
+"linkedin.com/secure/developer?newapp=</a> and get the \"Client ID\"."
+msgstr ""
+
+#: includes/settings-page.php:669
+msgid "LinkedIn Client Secret"
+msgstr ""
+
+#: includes/settings-page.php:670
+msgid ""
+"Please register an app on LinkedIn through this link:<a target=\"_blank\" "
+"href=\"https://www.linkedin.com/secure/developer?newapp=\">https://www."
+"linkedin.com/secure/developer?newapp=</a> and get the \"Client Secret\"."
+msgstr ""
+
+#: includes/settings-page.php:678
+msgid "LinkedIn Redirect URL"
+msgstr ""
+
+#: includes/settings-page.php:679
+msgid "Please enter the Redirect URL."
+msgstr ""
+
+#: includes/settings-page.php:687
+msgid "LinkedIn Profile URL"
+msgstr ""
+
+#: includes/settings-page.php:688
+msgid ""
+"Please enter profile URL. For example: https://in.linkedin.com/in/gautam-"
+"thapar-01406852 or https://www.linkedin.com/in/gautamthapar."
+msgstr ""
+
+#: includes/settings-page.php:698
+msgid "Mailchimp"
+msgstr ""
+
+#: includes/settings-page.php:705
+msgid "Mailchimp API Key"
+msgstr ""
+
+#: includes/settings-page.php:706 includes/settings-page.php:715
+msgid ""
+"Follow the instructions mentioned here - <a target=\"_blank\" href=\"https://"
+"gautamthapar.atlassian.net/wiki/display/BX/MailChimp\">https://gautamthapar."
+"atlassian.net/wiki/display/BX/MailChimp</a>. "
+msgstr ""
+
+#: includes/settings-page.php:714
+msgid "Mailchimp List ID"
+msgstr ""
+
+#: includes/settings-page.php:723
+msgid "Mailchimp Display Type"
+msgstr ""
+
+#: includes/settings-page.php:724
+msgid ""
+"Select whether to display all subscribers or just the subscribers subscribed "
+"to a single list."
+msgstr ""
+
+#: includes/settings-page.php:726
+msgid "Total Subscribers"
+msgstr ""
+
+#: includes/settings-page.php:727
+msgid "List Subscribers"
+msgstr ""
+
+#: includes/settings-page.php:734
+msgid "Mixcloud"
+msgstr ""
+
+#: includes/settings-page.php:741
+msgid "Mixcloud User ID"
+msgstr ""
+
+#: includes/settings-page.php:748
+msgid "Pinterest"
+msgstr ""
+
+#: includes/settings-page.php:755
+msgid "Pinterest User ID"
+msgstr ""
+
+#: includes/settings-page.php:769
+msgid "Subscribers Count"
+msgstr ""
+
+#: includes/settings-page.php:770
+msgid "Add subscribers count manually."
+msgstr ""
+
+#: includes/settings-page.php:778
+msgid "Feed URL"
+msgstr ""
+
+#: includes/settings-page.php:779
+msgid "RSS feed URL"
+msgstr ""
+
+#: includes/settings-page.php:785
+msgid "SoundCloud"
+msgstr ""
+
+#: includes/settings-page.php:792
+msgid "SoundCloud Client ID"
+msgstr ""
+
+#: includes/settings-page.php:793
+msgid ""
+"Please register an app on SoundCloud through this link:<a target=\"_blank\" "
+"href=\"http://soundcloud.com/you/apps/new\">http://soundcloud.com/you/apps/"
+"new</a> and get the client ID."
+msgstr ""
+
+#: includes/settings-page.php:801
+msgid "SoundCloud User ID"
+msgstr ""
+
+#: includes/settings-page.php:802
+msgid ""
+"Please enter the user ID. For example:If your profile url is https://"
+"soundcloud.com/gautam-thapar then your user ID is gautam-thapar."
+msgstr ""
+
+#: includes/settings-page.php:808
+msgid "Spotify"
+msgstr ""
+
+#: includes/settings-page.php:815
+msgid "Spotify Artist/User ID"
+msgstr ""
+
+#: includes/settings-page.php:816
+msgid ""
+"Please enter the user ID. For example: If your profile url is https://play."
+"spotify.com/user/david_guetta_ then your user ID is david_guetta_ OR If your "
+"profile url is https://play.spotify.com/artist/1Cs0zKBU1kc0i8ypK3B9ai then "
+"your user ID is 1Cs0zKBU1kc0i8ypK3B9ai."
+msgstr ""
+
+#: includes/settings-page.php:825
+msgid "Spotify User Type"
+msgstr ""
+
+#: includes/settings-page.php:826
+msgid ""
+"If your profile url is https://play.spotify.com/user/david_guetta_ then your "
+"user type is User. If your profile url is https://play.spotify.com/"
+"artist/1Cs0zKBU1kc0i8ypK3B9ai then your user type is Artist."
+msgstr ""
+
+#: includes/settings-page.php:828
+msgid "Artist"
+msgstr ""
+
+#: includes/settings-page.php:829 includes/settings-page.php:1006
+msgid "User"
+msgstr ""
+
+#: includes/settings-page.php:836
+msgid "Steam"
+msgstr ""
+
+#: includes/settings-page.php:843
+msgid "Steam Group ID"
+msgstr ""
+
+#: includes/settings-page.php:844
+msgid ""
+"Please enter the group ID. For example: If your group url is http://"
+"steamcommunity.com/groups/razorsharpgaming/ then your user ID is "
+"razorsharpgaming."
+msgstr ""
+
+#: includes/settings-page.php:850
+msgid "Tumblr"
+msgstr ""
+
+#: includes/settings-page.php:857
+msgid "Tumblr Consumer Key"
+msgstr ""
+
+#: includes/settings-page.php:858 includes/settings-page.php:867
+#: includes/settings-page.php:876 includes/settings-page.php:885
+msgid ""
+"Complete information available here - <a target=\"_blank\" href=\"https://"
+"gautamthapar.atlassian.net/wiki/display/BX/Tumblr\">https://gautamthapar."
+"atlassian.net/wiki/display/BX/Tumblr</a>."
+msgstr ""
+
+#: includes/settings-page.php:866
+msgid "Tumblr Consumer Secret"
+msgstr ""
+
+#: includes/settings-page.php:875
+msgid "Tumblr Token"
+msgstr ""
+
+#: includes/settings-page.php:884
+msgid "Tumblr Token Secret"
+msgstr ""
+
+#: includes/settings-page.php:893
+msgid "Tumblr Blog ID"
+msgstr ""
+
+#: includes/settings-page.php:894
+msgid ""
+"If your profile URL is \"http://lyricsandlife.tumblr.com/\" then your ID is "
+"lyricsandlife.tumblr.com."
+msgstr ""
+
+#: includes/settings-page.php:900
+msgid "Twitch"
+msgstr ""
+
+#: includes/settings-page.php:907
+msgid "Twitch Channel ID"
+msgstr ""
+
+#: includes/settings-page.php:908
+msgid ""
+"If your channel URL is \"http://www.twitch.tv/towelliee/\" then your channel "
+"ID is towelliee."
+msgstr ""
+
+#: includes/settings-page.php:921
+msgid "Twitter Consumer Key"
+msgstr ""
+
+#: includes/settings-page.php:922 includes/settings-page.php:931
+msgid ""
+"Complete information available here - <a target=\"_blank\" href=\"https://"
+"gautamthapar.atlassian.net/wiki/display/BX/Twitter\">https://gautamthapar."
+"atlassian.net/wiki/display/BX/Twitter</a>."
+msgstr ""
+
+#: includes/settings-page.php:930
+msgid "Twitter Consumer Secret"
+msgstr ""
+
+#: includes/settings-page.php:939
+msgid "Twitter Username"
+msgstr ""
+
+#: includes/settings-page.php:940
+msgid ""
+"Please enter the twitter username. For example: if your profile URL is "
+"\"https://twitter.com/Gautam_Thapar\" then your ID is Gautam_Thapar."
+msgstr ""
+
+#: includes/settings-page.php:957
+msgid "Vimeo Access Token"
+msgstr ""
+
+#: includes/settings-page.php:958
+msgid ""
+"Please create an app on Vimeo through this link: <a target=\"_blank\" href="
+"\"https://developer.vimeo.com/apps/new\">https://developer.vimeo.com/apps/"
+"new</a> and get this information."
+msgstr ""
+
+#: includes/settings-page.php:966
+msgid "Vimeo Channel ID"
+msgstr ""
+
+#: includes/settings-page.php:967
+msgid ""
+"Please enter the channel ID. For example:If your page url is https://vimeo."
+"com/channels/kidproof then your channel ID is kidproof."
+msgstr ""
+
+#: includes/settings-page.php:973
+msgid "Vine"
+msgstr ""
+
+#: includes/settings-page.php:980
+msgid "Vine User ID"
+msgstr ""
+
+#: includes/settings-page.php:981
+msgid ""
+"Please enter user ID. For example: If your profile url is https://vine.co/"
+"u/992596653741658112 then your user ID is 992596653741658112."
+msgstr ""
+
+#: includes/settings-page.php:987
+msgid "VK"
+msgstr ""
+
+#: includes/settings-page.php:994
+msgid "VK User/Group ID"
+msgstr ""
+
+#: includes/settings-page.php:995
+msgid ""
+"Please enter user/group ID. For example: If your profile url is https://vk."
+"com/durov then your user ID is durov."
+msgstr ""
+
+#: includes/settings-page.php:1003
+msgid "VK User Type"
+msgstr ""
+
+#: includes/settings-page.php:1004
+msgid "Select user type."
+msgstr ""
+
+#: includes/settings-page.php:1007
+msgid "Community / Group"
+msgstr ""
+
+#: includes/settings-page.php:1021
+msgid "Youtube API Key"
+msgstr ""
+
+#: includes/settings-page.php:1022
+msgid ""
+"To get your API Key, first create a project/app in <a target=\"_blank\" href="
+"\"https://console.developers.google.com/project\">https://console.developers."
+"google.com/project</a> and then turn on both Youtube Data and Analytics API "
+"from \"APIs & auth >APIs inside your project.Then again go to \"APIs & auth "
+"> APIs > Credentials > Public API access\" and then click \"CREATE A NEW KEY"
+"\" button, select the \"Browser key\" option and click in the \"CREATE\" "
+"button, and then copy your API key and paste in above field."
+msgstr ""
+
+#: includes/settings-page.php:1030
+msgid "Youtube ID Type"
+msgstr ""
+
+#: includes/settings-page.php:1031
+msgid "Select whether to show subscribers based on username or channel ID."
+msgstr ""
+
+#: includes/settings-page.php:1034
+msgid "Channel ID"
+msgstr ""
+
+#: includes/settings-page.php:1043
+msgid "Youtube Channel ID"
+msgstr ""
+
+#: includes/settings-page.php:1044
+msgid ""
+"Please enter the channel ID or channel name.For example:If your channel url "
+"is https://www.youtube.com/channel/UC6NaI3lbMp249PmtRMajVjA then your "
+"channel ID is UC6NaI3lbMp249PmtRMajVjA."
+msgstr ""
+
+#: includes/settings-page.php:1066
+msgid "Save & Regenerate CSS"
+msgstr ""
+
+#: includes/settings-page.php:1077
+msgid "Helpful Links:"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extremely powerful button builder for WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Gautam Thapar"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.thewebsitedev.com"
+msgstr ""
